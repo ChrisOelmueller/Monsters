@@ -83,13 +83,23 @@ def resist_dots(resist):
 
     resist = resist[7:].lower()
 
-    if resist in ('asphyx', 'hellfire', 'sticky_flame'):
+    if resist in ('asphyx', 'hellfire', 'sticky_flame', 'water'):
         maxlevel = 1
 
-    resist = resist[: 9 - maxlevel]
+    # Some names are easier to understand or abbreviate
+    resist = {
+        'asphyx':  'curare',
+        'water':   'drown',
+        'rotting': 'rot',
+        }.get(resist, resist)
 
-    return "%-6s %s%s%s" % (resist, dot * level, "." * (maxlevel - level),
-            ' ' * (3 - maxlevel - max(0, len(resist) - 6)))
+    resist = resist[:7-maxlevel]
+
+    return "%-4s %s%s%s" % (
+            resist,
+            dot * level,
+            "." * (maxlevel - level),
+            ' ' * (3 - maxlevel - max(0, len(resist) - 4)))
 
 
 class Energy(object):
