@@ -36,9 +36,9 @@ def mrd_convert(x):
     level = x.group(2)
     if int(level) == 1:
         level = ''
-    resists = x.group(1).split(' | ')
-    return ' | '.join("%s%s" % (res, level) for res in resists)
-data = re.sub('(?m)mrd\((MR_[A-Z_ |]+)+, (\d)\)', mrd_convert, data)
+    resists = x.group(1).split('|')
+    return ' | '.join("%s%s" % (res.strip(), level) for res in resists)
+data = re.sub('(?ms)mrd\((MR_[A-Z_\s|]+)+, (\d)\)', mrd_convert, data)
 
 # Replace energy:
 def energy(x):
@@ -312,15 +312,6 @@ class Monster(object):
 
 
 if __name__ == '__main__':
-    xdata = '''
-    mrd(MR_RES_POISON | MR_RES_ELEC, 1) | MR_RES_FIRE | MR_RES_COLD,
-    mrd(MR_RES_POISON | MR_RES_ELEC, 3) | MR_RES_HELLFIRE | MR_RES_COLD
-            | MR_VUL_WATER,
-    mrd(MR_RES_POISON, 3) | mrd(MR_RES_FIRE | MR_RES_COLD | MR_RES_ELEC, 2),
-    MR_VUL_POISON | mrd(MR_RES_FIRE, 3),
-    MR_RES_POISON | MR_RES_FIRE | MR_RES_COLD | MR_RES_ELEC,
-'''
-
     all_monsters = {}
     for m in mondata:
         mons = Monster(*m)
