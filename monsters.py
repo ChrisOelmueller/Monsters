@@ -74,17 +74,19 @@ mondata = eval(data)
 
 def resist_dots(resist):
     '''Formatting function for resistance lines.'''
-    dot = 'x' if 'VUL' in resist else '+'
+    dot = 'x' if resist.startswith('MR_VUL_') else '+'
+    resist = resist[7:].lower()
     level = 1
     maxlevel = 3
-    if resist[-1] in '1234':
+    if resist[-1] in '01234':
         level = min(maxlevel, int(resist[-1]))
         resist = resist[:-1]
 
-    resist = resist[7:].lower()
-
     if resist in ('asphyx', 'hellfire', 'sticky_flame', 'water'):
         maxlevel = 1
+
+    if level == 0:
+        maxlevel = 0
 
     # Some names are easier to understand or abbreviate
     resist = {
@@ -315,6 +317,12 @@ class Monster(object):
 
     @property
     def resists(self):
+        # Fill up the main resistances with empty lines for alignment
+        for res in ('FIRE', 'COLD', 'ACID', 'POISON', 'ELEC', 'NEG', 'HOLY'):
+            if not any(r.startswith('MR_RES_'+res) for r in self.resistances) \
+            and not any(r.startswith('MR_VUL_'+res) for r in self.resistances):
+                self.resistances = self.resistances + ('MR_RES_'+res+'0', )
+
         return '  '.join(sorted(resist_dots(r) for r in self.resistances))
 
     def __repr__(self):
