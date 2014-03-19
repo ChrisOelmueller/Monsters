@@ -13,9 +13,9 @@ from operator import attrgetter
 
 mon_data_path = os.path.join(os.path.expanduser('~'),
                              "crawl/crawl-ref/source/mon-data.h")
-# Settings
-indent = 4
+# Constants
 MAG_IMMUNE = 270
+BINARY_RESISTS = set(('curare', 'drown', 'hellfire', 'sticky'))
 
 # Read mon-data.h
 data = unicode(open(mon_data_path).read())
@@ -24,7 +24,7 @@ data = unicode(open(mon_data_path).read())
 data = re.sub("(?ms)static monsterentry mondata.*"
               "#define AXED_MON[^}]*}[^}]*}[^}]*},",
               "(", data)
-# 
+#
 data = re.sub("AXED_MON(.*)", "", data)
 
 # Strip out block comments
@@ -75,44 +75,70 @@ with open(output_path, "w") as f:
 # Eval it, storing it as a tuple
 mondata = eval(data)
 
-def resist_dots(resist):
-    '''Formatting function for resistance lines.'''
-    dot = 'x' if resist.startswith('MR_VUL_') else '+'
-    resist = resist[7:].lower()
-    level = 1
-    maxlevel = 3
-    if resist[-1] in '01234':
-        level = min(maxlevel, int(resist[-1]))
-        resist = resist[:-1]
 
-    if resist in ('asphyx', 'hellfire', 'sticky_flame', 'water'):
-        maxlevel = 1
+class Resistance(object):
+    '''Store the four main resistances to always display.
 
-    if level == 0:
-        maxlevel = 0
+    Additional resists are then added where necessary.
+    Convert vulnerability to negative resistance.
+    '''
+    def __init__(self, resists):
+        '''[maxlevel, level]'''
+        self.fire = 0
+        self.cold = 0
+        self.pois = 0
+        self.elec = 0
 
-    # Some names are easier to understand or abbreviate
-    resist = {
-        'asphyx':  'curare',
-        'water':   'drown',
-        'rotting': 'rot',
-        }.get(resist, resist)
+        for r in resists:
+            level = -1 if r.startswith('MR_VUL_') else 1
+            r = r[7:].lower()
+            if r[-1] in '01234':
+                level = level * min(3, int(r[-1]))
+                r = r[:-1]
+            # Some names that are easier to understand or abbreviate
+            r = {
+                'poison':       'pois',
+                'rotting':      'rot',
+                'asphyx':       'curare',
+                'water':        'drown',
+                'sticky_flame': 'sticky',
+                }.get(r, r)
+            setattr(self, r, level)
 
-    resist = resist[:7-maxlevel]
+        if getattr(self, 'hellfire', None):
+            self.fire = 3
 
-    return "%-4s %s%s%s" % (
-            resist,
-            dot * level,
-            "." * (maxlevel - level),
-            ' ' * (3 - maxlevel - max(0, len(resist) - 4)))
+    def __repr__(self):
+        s = ''
+        for resist in [
+                'fire', 'cold', 'pois', 'elec',
+                'neg', 'holy', 'rot', 'acid', 'steam',
+                'curare', 'drown ', 'sticky', 'hellfire']:
+            resist = resist.strip()
+            level = getattr(self, resist, None)
+            maxlevel = 1 if resist in BINARY_RESISTS else 3
+
+            if level is None:
+                # Optional and not present
+                continue
+            dot = 'x' if level < 0 else '+'
+            level = abs(level)
+            # Should only affect `hellfire`
+            resist = resist[:6]
+            s += "%-4s %s%s%s  " % (
+                resist,
+                dot * level,
+                '.' * (maxlevel - level),
+                ' ' * (3 - maxlevel - max(0, len(resist) - 4)))
+        return s.strip()
 
 
 class Energy(object):
     '''How quickly the energy granted by speed is used up.
-    
+
     Most monsters should just use DEFAULT_ENERGY, where all the different
     types of actions use 10 energy units.
-    
+
     #define MOVE_ENERGY(x)     { x,  x, 10, 10, 10, 10, 10, 100}
     #define ACTION_ENERGY(x)   {10, 10,  x,  x,  x,  x,  x, x * 10}
     #define ATTACK_ENERGY(x)   {10, 10,  x, 10, 10, 10, 10, 100}
@@ -158,13 +184,13 @@ class Energy(object):
 
     def attack_energy(self, attack):
         self.attack = attack
-        
+
     def missile_energy(self, missile):
         self.missile = missile
-        
+
     def spell_energy(self, spell):
         self.spell = spell
-        
+
     def swim_energy(self, swim):
         self.swim = swim
 
@@ -180,6 +206,30 @@ class Energy(object):
                 'mysteryB',
                 'mysteryC',
             ])
+
+
+class HP(object):
+    def __init__(self, hp_dice):
+        '''
+        example: the Iron Golem, hpdice={15,7,4,0}
+            15*7 < hp < 15*(7+4),
+            105 < hp < 165
+        hp will be around 135 each time.
+        '''
+        self.hp_dice = hp_dice
+        (self.hd, self.min_hp, self.rand_hp, self.add_hp) = hp_dice
+        self.min = self.add_hp + self.hd * self.min_hp
+        self.max = self.add_hp + self.hd * (self.min_hp + self.rand_hp)
+        self.avg = self.add_hp + self.hd * (self.min_hp + int(self.rand_hp / 2.))
+
+    @property
+    def fixed(self):
+        return self.min == self.max
+
+    def __repr__(self):
+        return "(%3s..[%3s]..%3s)   %2dd%-2d[%+d]%+4d" % (
+                self.min, self.avg, self.max,
+                self.hd, self.min_hp, self.rand_hp, self.add_hp)
 
 
 class Monster(object):
@@ -229,8 +279,8 @@ class Monster(object):
             self.resistances = resistances
         else:
             self.resistances = (resistances, )
-        if 'MR_RES_HELLFIRE' in self.resistances:
-            self.resistances = self.resistances + ('MR_RES_FIRE3', )
+
+        self.resists = Resistance(self.resistances)
 
         self.mass        = int(mass)
         self.xp_modifier = int(xp_modifier)
@@ -240,14 +290,16 @@ class Monster(object):
         self.holiness    = holiness
         #
         # monster::res_holy_energy via monster::undead_or_demonic
-        if self.holiness in ('MH_UNDEAD', 'MH_DEMONIC') or self.genus == 'MONS_DEMONSPAWN':
-            self.resistances = self.resistances + ('MR_VUL_HOLY2', )
+        if ((self.holiness in ('MH_UNDEAD', 'MH_DEMONIC')
+               and self.id != 'MONS_PROFANE_SERVITOR')
+            or self.genus == 'MONS_DEMONSPAWN'):
+            setattr(self.resists, 'holy', -2)
         # monster::res_holy_energy
-        if self.holiness == 'MH_HOLY' or self.id == 'MONS_PROFANE_SERVITOR':
-            self.resistances = self.resistances + ('MR_RES_HOLY', )
+        elif self.holiness == 'MH_HOLY' or self.id == 'MONS_PROFANE_SERVITOR':
+            setattr(self.resists, 'holy', 1)
         # monster::res_negative_energy
         if self.holiness != 'MH_NATURAL':
-            self.resistances = self.resistances + ('MR_RES_NEG3', )
+            setattr(self.resists, 'neg', 3)
         # Missing but feasible:
         # monster::res_torment
         # rPois for e.g. abominations and other undead
@@ -270,7 +322,8 @@ class Monster(object):
                 at_flavor = ''
             self.attacks.append((int(damage), at_type[3:], at_flavor))
 
-        self.hp_dice      = hp_dice
+        self.hp_dice      = map(int, hp_dice)
+        self.hp           = HP(self.hp_dice)
         self.ac           = int(ac)
         self.ev           = int(ev)
         self.spellbook    = spellbook
@@ -305,7 +358,7 @@ class Monster(object):
     @property
     def mr(self):
         '''monster.cc: monster::res_magic
-        
+
         int u = (get_monster_data(base_type))->resist_magic;
         // Negative values get multiplied with monster hit dice.
         if (u < 0)
@@ -319,17 +372,15 @@ class Monster(object):
             return self.mr_modifier
 
     @property
-    def resists(self):
-        # Fill up the main resistances with empty lines for alignment
-        for res in ('FIRE', 'COLD', 'ACID', 'POISON', 'ELEC', 'NEG', 'HOLY'):
-            if not any(r.startswith('MR_RES_'+res) for r in self.resistances) \
-            and not any(r.startswith('MR_VUL_'+res) for r in self.resistances):
-                self.resistances = self.resistances + ('MR_RES_'+res+'0', )
-
-        return '  '.join(sorted(resist_dots(r) for r in self.resistances))
+    def mr_immune(self):
+        return self.mr == MAG_IMMUNE
 
     def __repr__(self):
         return self.name
+
+
+def title(heading):
+    print '\n' + heading + '\n' + '-' * len(heading)
 
 
 def main():
@@ -339,38 +390,61 @@ def main():
         all_monsters[mons.id] = mons
     monsters = all_monsters.itervalues
 
-    for m in sorted(all_monsters.values(), key=lambda m: m.id):
-        print "%-22.22s  %s" % (m.name, m.resists)
+    def print_attacks():
+        title('Monster attacks')
+        for m in sorted(monsters(), key=attrgetter('id')):
+            s = ''
+            for (dam, at, af) in m.attacks:
+                s += '%d' % dam
+                if af:
+                    if af == 'crush' and at == 'CONSTRICT':
+                        af = 'hold' if dam == 0 else 'constrict'
+                    s += '(%s)' % af.replace('_', ' ')
+                s += ','
+            print " %-22.22s  %s" % (m, s.strip(','))
 
-    print
-    print 'Monsters by MR (270 == immune)'
-    print '------------------------------'
-    for m in sorted(all_monsters.values(), key = attrgetter('mr'), reverse=True):
-        print "% 5d  %s" % (m.mr, m)
+    def print_hp():
+        title('Monsters by Average HP, [*]: fixed')
+        for m in sorted(monsters(), key=attrgetter('hp.avg'), reverse=True):
+            if m.hp.fixed:
+                dot = '[*]'
+                mhp = ''
+            else:
+                dot = '   '
+                mhp = m.hp
+            print "%s%4d  %-22.22s  %s" % (dot, m.hp.avg, m, mhp)
 
-    print
-    print 'Monsters by move speed (player: usually 10)'
-    print '-------------------------------------------'
-    for m in sorted(all_monsters.values(), key = lambda m: m.energy.move, reverse=True):
-        print "% 5.4s  %s" % (m.energy.move, m)
+    def print_ac():
+        title('Monsters by AC')
+        for m in sorted(monsters(), key=attrgetter('ac'), reverse=True):
+            print "%4d  %s" % (m.ac, m)
 
-    print
+    def print_resists():
+        title('Monster resistances (not nearly complete!)')
+        for m in sorted(monsters(), key=attrgetter('id')):
+            print " %-22.22s %s" % (m, m.resists)
 
+    def print_mr():
+        title('Monsters by MR, [*]: immune')
+        for m in sorted(monsters(), key = attrgetter('mr'), reverse=True):
+            if m.mr_immune:
+                mr = '[*]'
+            else:
+                mr = '%3d' % m.mr
+            print "  %s  %s" % (mr, m)
 
-def whatever():
-    s = ""
-    field = attribute = None
-    if False:
-        pass
-    elif field == 'hd':
-        die = attribute
-        s += "%s" % die[0]
-        s += "\n"
-        s += "hp calc: %dd%d[%+d]%+d" % (int(die[0]), int(die[2])+1, int(die[1]), int(die[3])-int(die[0]))
-        s += "\n"
-        s += "average hp: %s" % (int(die[0])*(int(die[1])+(float(die[2])+2)/2)+int(die[3])-int(die[0]))
+    def print_speed():
+        title('Monsters by move speed (player: usually 10)')
+        for m in sorted(monsters(), key = lambda m: m.energy.move, reverse=True):
+            print "% 5.4s  %s" % (m.energy.move, m)
 
     fnmap = {
+        'ac': print_ac,
+        'attacks': print_attacks,
+        'hp': print_hp,
+        'mr': print_mr,
+        'resists': print_resists,
+        'speed': print_speed,
     }
 
     for (abbr, fn) in fnmap.iteritems():
