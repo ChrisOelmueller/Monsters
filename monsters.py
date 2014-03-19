@@ -438,9 +438,18 @@ def main():
         for m in sorted(monsters(), key = lambda m: m.energy.move, reverse=True):
             print "% 5.4s  %s" % (m.energy.move, m)
 
+    def print_everything():
+        print_mr()
+        print_hp()
+        print_attacks()
+        print_resists()
+        print_ac()
+        print_speed()
+
     fnmap = {
         'ac': print_ac,
         'attacks': print_attacks,
+        'everything': print_everything,
         'hp': print_hp,
         'mr': print_mr,
         'resists': print_resists,
