@@ -5,6 +5,7 @@
 
 import os
 import os.path
+import sys
 import re
 
 from operator import attrgetter
@@ -331,11 +332,12 @@ class Monster(object):
         return self.name
 
 
-if __name__ == '__main__':
+def main():
     all_monsters = {}
     for m in mondata:
         mons = Monster(*m)
         all_monsters[mons.id] = mons
+    monsters = all_monsters.itervalues
 
     for m in sorted(all_monsters.values(), key=lambda m: m.id):
         print "%-22.22s  %s" % (m.name, m.resists)
@@ -367,3 +369,14 @@ def whatever():
         s += "hp calc: %dd%d[%+d]%+d" % (int(die[0]), int(die[2])+1, int(die[1]), int(die[3])-int(die[0]))
         s += "\n"
         s += "average hp: %s" % (int(die[0])*(int(die[1])+(float(die[2])+2)/2)+int(die[3])-int(die[0]))
+
+    fnmap = {
+    }
+
+    for (abbr, fn) in fnmap.iteritems():
+        if abbr.startswith(sys.argv[1]):
+            fn()
+
+
+if __name__ == '__main__':
+    main()
