@@ -1,5 +1,7 @@
-# Remove some mon-data headers, test spawner, AXED_MON
-# neato -Tpng newlife.dot > newlife.png (or any other dot algorithm)
+# See bottom of file for a list of possible arguments.
+# As an example,
+#   monsters.py re
+# calls print_resists.
 
 import os
 import os.path
