@@ -388,11 +388,11 @@ def main():
     for m in mondata:
         mons = Monster(*m)
         all_monsters[mons.id] = mons
-    monsters = all_monsters.itervalues
+    monsters = sorted(all_monsters.itervalues(), key=attrgetter('id'))
 
     def print_attacks():
         title('Monster attacks')
-        for m in sorted(monsters(), key=attrgetter('id')):
+        for m in sorted(monsters, key=attrgetter('id')):
             s = ''
             for (dam, at, af) in m.attacks:
                 s += '%d' % dam
@@ -405,7 +405,7 @@ def main():
 
     def print_hp():
         title('Monsters by Average HP, [*]: fixed')
-        for m in sorted(monsters(), key=attrgetter('hp.avg'), reverse=True):
+        for m in sorted(monsters, key=attrgetter('hp.avg'), reverse=True):
             if m.hp.fixed:
                 dot = '[*]'
                 mhp = ''
@@ -416,17 +416,17 @@ def main():
 
     def print_ac():
         title('Monsters by AC')
-        for m in sorted(monsters(), key=attrgetter('ac'), reverse=True):
+        for m in sorted(monsters, key=attrgetter('ac'), reverse=True):
             print "%4d  %s" % (m.ac, m)
 
     def print_resists():
         title('Monster resistances (not nearly complete!)')
-        for m in sorted(monsters(), key=attrgetter('id')):
+        for m in sorted(monsters, key=attrgetter('id')):
             print " %-22.22s %s" % (m, m.resists)
 
     def print_mr():
         title('Monsters by MR, [*]: immune')
-        for m in sorted(monsters(), key = attrgetter('mr'), reverse=True):
+        for m in sorted(monsters, key = attrgetter('mr'), reverse=True):
             if m.mr_immune:
                 mr = '[*]'
             else:
@@ -435,7 +435,7 @@ def main():
 
     def print_speed():
         title('Monsters by move speed (player: usually 10)')
-        for m in sorted(monsters(), key = lambda m: m.energy.move, reverse=True):
+        for m in sorted(monsters, key = lambda m: m.energy.move, reverse=True):
             print "% 5.4s  %s" % (m.energy.move, m)
 
     def print_everything():
