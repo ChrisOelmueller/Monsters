@@ -1,0 +1,553 @@
+
+Monsters by AC and EV
+---------------------
+127|127  test spawner
+ 40|  3  Dispater
+ 15| 28  Mennas
+ 10| 30  Ereshkigal
+ 30| 10  Murray
+ 20| 20  orb of fire
+ 30| 10  Tiamat
+ 30|  8  Cerebov
+ 30|  7  Asmodeus
+ 10| 25  Mnoleg
+ 28|  4  Antaeus
+ 20| 12  emperor scorpion
+ 20| 12  the Serpent of Hell
+ 20| 10  ancient lich
+ 10| 20  angel
+ 10| 20  cherub
+ 10| 20  dancing weapon
+ 10| 20  Lom Lobon
+ 10| 20  profane servitor
+ 10| 20  seraph
+  1| 28  the Enchantress
+ 25|  3  curse skull
+ 25|  3  Hell Sentinel
+ 16| 12  the Serpent of Hell
+ 16| 12  the Serpent of Hell
+ 16| 12  the Serpent of Hell
+ 18| 10  soul eater
+ 10| 17  flying skull
+ 12| 15  silver star
+  8| 18  Aizul
+ 25|  1  curse toe
+ 16| 10  grey draconian
+ 20|  6  iron dragon
+ 13| 13  Orb Guardian
+  2| 24  Sonja
+ 22|  4  war gargoyle
+ 15| 10  ancient champion
+ 25|  0  animated tree
+  0| 25  butterfly
+ 10| 15  death cob
+  0| 25  deep elf blademaster
+  5| 20  electric golem
+ 10| 15  Executioner
+ 12| 13  flaming corpse
+ 20|  5  grand avatar
+ 10| 15  Ignacio
+  5| 20  insubstantial wisp
+ 10| 15  Jory
+ 10| 15  Killer Klown
+ 10| 15  pearl dragon
+ 10| 15  quicksilver dragon
+ 15| 10  reaper
+ 15| 10  shadow dragon
+ 15| 10  skeletal warrior
+  3| 22  spriggan defender
+ 14| 10  blue devil
+ 20|  4  bone dragon
+ 18|  6  gargoyle
+ 16|  8  iron devil
+ 20|  4  iron troll
+ 10| 14  Mara
+ 10| 14  rakshasa
+  2| 22  Sojobo
+ 12| 12  tormentor
+  6| 18  Vashnia
+ 10| 13  daeva
+ 13| 10  hellephant
+  5| 18  Ilsuiw
+ 13| 10  Nellie
+  9| 14  pale draconian
+  1| 22  spriggan air mage
+ 13| 10  storm dragon
+ 12| 10  Boris
+ 20|  2  boulder beetle
+ 22|  0  crystal guardian
+ 12| 10  deep troll earth mage
+ 12| 10  eidolon
+ 12| 10  freezing wraith
+ 15|  7  golden dragon
+ 12| 10  ice devil
+ 20|  2  iron elemental
+ 10| 12  lorocyproca
+ 12| 10  phantasmal warrior
+  5| 17  quasit
+  2| 20  sixfirhy
+  2| 20  spriggan enchanter
+ 10| 12  sun demon
+ 15|  7  Xtahua
+ 15|  6  Brimstone Fiend
+ 11| 10  cacodemon
+ 10| 11  draconian
+ 15|  6  Geryon
+ 15|  6  Ice Fiend
+ 14|  7  molten gargoyle
+ 20|  1  orange crystal statue
+  7| 14  red wasp
+ 15|  6  Shadow Fiend
+ 16|  5  snapping turtle
+  0| 20  Agnes
+  2| 18  air elemental
+ 19|  1  alligator snapping turtle
+  4| 16  anaconda
+ 10| 10  blizzard demon
+  6| 14  death drake
+  2| 18  felid
+  5| 15  giant leech
+ 10| 10  Gloorx Vloq
+  0| 20  golden eye
+  6| 14  guardian serpent
+ 18|  2  the iron giant
+ 10| 10  jiangshi
+  2| 18  killer bee
+ 20|  0  kraken
+ 10| 10  lich
+  9| 11  Nergalle
+ 10| 10  ophan
+ 10| 10  queen bee
+  7| 13  red devil
+  8| 12  revenant
+ 20|  0  Roxanne
+  5| 15  salamander firebrand
+  5| 15  silent spectre
+ 10| 10  spellforged servitor
+  2| 18  spriggan berserker
+ 10| 10  vampire
+ 10| 10  vampire knight
+ 10| 10  vampire mage
+ 10| 10  wraith
+ 10| 10  wretched star
+  9| 10  black draconian
+  4| 15  black mamba
+  7| 12  chaos spawn
+  1| 18  giant firefly
+  9| 10  green draconian
+  6| 13  hell hound
+  2| 17  lava snake
+  9| 10  mottled draconian
+  1| 18  octopode crusher
+  9| 10  red draconian
+  7| 12  shadow demon
+  1| 18  spriggan
+  1| 18  spriggan druid
+  1| 18  spriggan rider
+  2| 17  tengu conjurer
+  2| 17  tengu reaver
+  2| 17  tengu warrior
+  9| 10  white draconian
+  4| 15  wolf
+  9| 10  yellow draconian
+  5| 14  yellow wasp
+ 10|  8  dragon
+  6| 12  dryad
+ 14|  4  earth elemental
+ 14|  4  elemental
+  3| 15  elf
+ 10|  8  fire dragon
+  6| 12  gelid demonspawn
+  8| 10  ghost moth
+  8| 10  hellwing
+ 10|  8  ice dragon
+  6| 12  infernal demonspawn
+ 15|  3  iron golem
+  6| 12  jumping spider
+  0| 18  merfolk impaler
+  8| 10  purple draconian
+  4| 14  raiju
+  8| 10  soldier ant
+  9|  9  thorn hunter
+ 11|  6  apocalypse crab
+  5| 12  balrug
+ 13|  4  boring beetle
+  3| 14  crimson imp
+  0| 17  hungry ghost
+  2| 15  Jorgrun
+  3| 14  mana viper
+  7| 10  orange rat
+  5| 12  orc sorcerer
+ 14|  3  queen ant
+  2| 15  sea snake
+  7| 10  shadow
+  2| 15  shock serpent
+  3| 14  tarantella
+  2| 15  ufetubus
+  2| 15  vampire mosquito
+  2| 15  water moccasin
+  4| 13  water nymph
+  1| 15  adder
+  3| 13  black sun
+  0| 16  blink frog
+ 14|  2  Chuck
+  3| 13  deep elf high priest
+  6| 10  deep troll
+  6| 10  deep troll shaman
+ 10|  6  demonic crawler
+  3| 13  demonspawn
+  1| 15  electric eel
+  4| 12  fire elemental
+ 10|  6  greater mummy
+  6| 10  greater naga
+  5| 11  green rat
+  3| 13  human
+ 10|  6  Khufu
+ 13|  3  lightning spire
+  4| 12  merfolk
+  4| 12  mermaid
+  6| 10  naga
+  6| 10  naga mage
+  6| 10  naga ritualist
+  6| 10  naga sharpshooter
+  6| 10  naga warrior
+  4| 12  neqoxec
+  3| 13  phantom
+  4| 12  Pikel
+  3| 13  shadow
+  0| 16  Prince Ribbit
+  3| 13  putrid demonspawn
+ 13|  3  shambling mangrove
+ 15|  1  silver statue
+  4| 12  siren
+  3| 13  sky beast
+  1| 15  snake
+  3| 13  torturous demonspawn
+  4| 12  warg
+ 12|  4  worldbinder
+ 10|  5  Azrael
+  5| 10  azure jelly
+  3| 12  basilisk
+  1| 14  bat
+  3| 12  big kobold
+ 15|  0  block of ice
+ 15|  0  bush
+  0| 15  deep elf knight
+  0| 15  deep elf master archer
+ 13|  2  dire elephant
+ 10|  5  efreet
+  1| 14  fire bat
+  9|  6  fire crab
+  3| 12  fire drake
+  1| 14  giant gecko
+  0| 15  giant lizard
+  0| 15  giant newt
+  6|  9  guardian mummy
+  5| 10  hellion
+  2| 13  hound
+  5| 10  ice beast
+  2| 13  kobold demonologist
+  7|  8  komodo dragon
+  5| 10  mottled dragon
+  8|  7  mummy priest
+  2| 13  orc knight
+  7|  8  polar bear
+  2| 13  quokka
+  5| 10  scorpion
+ 10|  5  large simulacrum
+  5| 10  spectral weapon
+  6|  9  spiny frog
+  5| 10  steam dragon
+  3| 12  swamp worm
+  5| 10  thrashing horror
+  5| 10  unseen horror
+  2| 13  Urug
+  1| 14  vampire bat
+  3| 12  wind drake
+  5| 10  wyvern
+  5|  9  alligator
+  9|  5  apis
+  4| 10  crocodile
+  9|  5  death yak
+  2| 12  deep dwarf
+  2| 12  deep dwarf death knight
+  2| 12  demigod
+  3| 11  drake
+  2| 12  dwarf
+  0| 14  flayed ghost
+  4| 10  ghoul
+  3| 11  Grinder
+  2| 12  halfling
+  5|  9  iguana
+  2| 12  Ijyb
+  6|  8  iron imp
+  2| 12  jackal
+  2| 12  kobold
+  8|  6  lindwurm
+  1| 13  Maurice
+  0| 14  merfolk javelineer
+  2| 12  Natasha
+  2| 12  porcupine
+  2| 12  redback
+  2| 12  satyr
+  3| 11  shadow imp
+  7|  7  shadow wraith
+  9|  5  shark
+ 10|  4  simulacrum
+ 10|  4  small simulacrum
+  2| 12  slave
+  5|  9  smoke demon
+ 12|  2  stone giant
+  7|  7  swamp dragon
+  3| 11  swamp drake
+  2| 12  tengu
+  1| 13  vault guard
+  1| 13  vault sentinel
+  1| 13  vault warden
+  4| 10  very ugly thing
+  2| 12  vine stalker
+  4| 10  white imp
+  4| 10  wight
+  4| 10  worker ant
+  3| 10  Arachne
+  5|  8  bear
+  1| 12  big fish
+  8|  5  chimera
+  0| 13  Cloud Mage
+  0| 13  deep elf annihilator
+  0| 13  deep elf conjurer
+  0| 13  deep elf death mage
+  0| 13  deep elf demonologist
+  0| 13  deep elf fighter
+  0| 13  deep elf mage
+  0| 13  deep elf priest
+  0| 13  deep elf sorcerer
+  0| 13  deep elf summoner
+ 12|  1  diamond obelisk
+  3| 10  Donald
+  0| 13  Dowan
+  0| 13  drowned soul
+ 13|  0  eldritch tentacle
+ 13|  0  eldritch tentacle segment
+  9|  4  ettin
+  0| 13  Eustachio
+ 12|  1  eye of devastation
+  0| 13  Fannar
+  3| 10  formicid
+  3| 10  giant cockroach
+ 10|  3  goliath beetle
+ 10|  3  great orb of eyes
+  5|  8  grizzly bear
+  0| 13  Hellbinder
+ 12|  1  ice statue
+  3| 10  monstrous demonspawn
+  0| 13  necromancer
+  3| 10  orb spider
+  1| 12  orc high priest
+  3| 10  orc warlord
+  0| 13  orc warrior
+  1| 12  orc wizard
+ 10|  3  Polyphemus
+  1| 12  Purgy
+  3| 10  Saint Roka
+  8|  5  spectral thing
+  3| 10  spider
+ 12|  1  statue
+ 10|  3  titan
+  8|  5  toenail golem
+  3| 10  trapdoor spider
+  3| 10  troll
+  3| 10  ugly thing
+  0| 13  wizard
+  3| 10  wolf spider
+  3| 10  ynoxinul
+  8|  5  large zombie
+  6|  6  ancient zyme
+  5|  7  Asterion
+  1| 11  baby alligator
+  0| 12  boggart
+ 10|  2  catoblepas
+  4|  8  centaur warrior
+  2| 10  faun
+  8|  4  fire giant
+  9|  3  frost giant
+  0| 12  giant frog
+  5|  7  giant goldfish
+  0| 12  goblin
+  7|  5  golem
+  5|  7  green death
+ 10|  2  guardian golem
+  2| 10  harpy
+  2| 10  hobgoblin
+  5|  7  tentacle
+  5|  7  tentacle segment
+  5|  7  manticore
+  0| 12  merfolk aquamancer
+  5|  7  minotaur
+  2| 10  necrophage
+  4|  8  Nessos
+  2| 10  phoenix
+  5|  7  plague shambler
+  0| 12  Psyche
+  8|  4  the royal jelly
+  5|  7  salamander
+  5|  7  salamander mystic
+  2| 10  shedu
+  2| 10  unborn
+  0| 11  ball python
+ 10|  1  brown ooze
+  2|  9  Crazy Yiuf
+ 10|  1  Dissolution
+  2|  9  Duvessa
+  0| 11  Erica
+  2|  9  gnoll
+  2|  9  gnoll sergeant
+  2|  9  gnoll shaman
+  2|  9  Grum
+  2|  9  hell hog
+  2|  9  hog
+  2|  9  holy swine
+  1| 10  lava worm
+  1| 10  orc priest
+  1| 10  rat
+  1| 10  raven
+  0| 11  Sigmund
+  4|  7  snaplasher vine
+  4|  7  water elemental
+  1| 10  Wiglaf
+  4|  7  yak
+  0| 10  ball lightning
+  2|  8  black bear
+  1|  9  bog body
+ 10|  0  briar patch
+ 10|  0  burning bush
+  3|  7  centaur
+  0| 10  Edmund
+  8|  2  elephant
+  3|  7  Erolcha
+  0| 10  Frances
+  0| 10  Frederick
+  0| 10  giant spore
+  0| 10  glowing shapeshifter
+  4|  6  griffon
+  0| 10  hell knight
+  0| 10  ironbrand convoker
+  0| 10  ironheart preserver
+  0| 10  Jessica
+  0| 10  Joseph
+  0| 10  Josephine
+  0| 10  Kirke
+  0| 10  lava orc
+  0| 10  lost soul
+  0| 10  Louise
+  0| 10  lurking horror
+  0| 10  Margery
+  0| 10  Maud
+  0| 10  moth
+  0| 10  moth of wrath
+  1|  9  Nikola
+  1|  9  Norris
+ 10|  0  oklob plant
+ 10|  0  oklob sapling
+  3|  7  orange demon
+  0| 10  orb of destruction
+  0| 10  orc
+ 10|  0  plant
+  0| 10  player
+  0| 10  Rupert
+  0| 10  shapeshifter
+  0| 10  Snorg
+  5|  5  sphinx
+ 10|  0  starcursed mass
+  8|  2  starspawn tentacle
+  8|  2  starspawn tentacle segment
+  5|  5  tentacled monstrosity
+  5|  5  tentacled starspawn
+  0| 10  Terence
+  5|  5  yaktaur captain
+  0|  9  Blork the orc
+  2|  7  hippogriff
+  3|  6  Menkaure
+  3|  6  mummy
+  2|  7  sheep
+  5|  3  cyclops
+  1|  7  giant mite
+  0|  8  Harold
+  1|  7  ogre mage
+  2|  6  pulsating lump
+  4|  4  yaktaur
+ -3| 10  draconian monk
+  3|  4  giant
+  3|  4  hill giant
+  1|  6  ogre
+  1|  5  brain worm
+  2|  4  death ooze
+  5|  1  feature mimic
+  2|  4  giant orange brain
+  5|  1  inept feature mimic
+  5|  1  inept item mimic
+  5|  1  item mimic
+  1|  5  octopode
+  5|  1  ravenous feature mimic
+  5|  1  ravenous item mimic
+  6|  0  snaplasher vine segment
+  1|  5  worm
+  0|  5  battlesphere
+  5|  0  deathcap
+  3|  2  draconian knight
+ -1|  6  draconian shifter
+  0|  5  fire vortex
+  0|  5  hydra
+  0|  5  the Lernaean hydra
+  1|  4  merged slime creature
+  1|  4  slime creature
+  0|  5  spatial maelstrom
+  0|  5  spatial vortex
+  0|  5  twister
+  1|  4  two-headed ogre
+  5|  0  wandering mushroom
+  1|  3  acid blob
+  3|  1  eye of draining
+  1|  3  ooze
+  3|  1  shining eye
+  0|  4  zombie
+  0|  4  small zombie
+  3|  0  draconian zealot
+  2|  1  elephant slug
+  3|  0  fulminant prism
+  2|  1  Gastronok
+  1|  2  hell lord
+  1|  2  pandemonium lord
+  1|  2  player ghost
+  1|  2  player illusion
+  0|  2  giant slug
+  0|  2  jelly
+  0|  2  warmonger
+  1|  0  ballistomycete
+  1|  0  crawling corpse
+ -1|  2  draconian scorcher
+  1|  0  fungus
+  0|  1  giant eyeball
+  1|  0  hyperactive ballistomycete
+  1|  0  macabre mass
+  1|  0  pillar of salt
+  1|  0  toadstool
+  0|  0  large abomination
+  0|  0  small abomination
+  0|  0  blood saint
+  0|  0  chaos champion
+  0|  0  corrupter
+  0|  0  draconian caller
+  0|  0  ghost
+  0|  0  hell beast
+  0|  0  sensed monster
+  0|  0  easy sensed monster
+  0|  0  friendly sensed monster
+  0|  0  nasty sensed monster
+  0|  0  tough sensed monster
+  0|  0  trivial sensed monster
+  0|  0  skeleton
+  0|  0  large skeleton
+  0|  0  small skeleton
+  0|  0  training dummy
+ -1|  0  draconian annihilator

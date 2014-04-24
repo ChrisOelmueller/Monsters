@@ -1,0 +1,553 @@
+
+Monster attacks
+---------------
+ large abomination       40
+ small abomination       23
+ acid blob               42(acid)
+ adder                   5(poison)
+ Agnes                   30
+ air elemental           15
+ Aizul                   25
+ alligator               30,15
+ alligator snapping tur  50(reach)
+ anaconda                6(constrict),20
+ ancient champion        32
+ ancient lich            20(drain xp)
+ ancient zyme            16(drain str),16(drain dex)
+ angel                   25,10
+ animated tree           30(crush)
+ Antaeus                 75(cold),30(cold)
+ apis                    40(holy)
+ apocalypse crab         15(chaos),15(chaos)
+ Arachne                 30
+ Asmodeus                50
+ Asterion                40,20
+ Azrael                  17
+ azure jelly             12(cold),12(cold),12,12
+ baby alligator          20
+ ballistomycete          
+ ball lightning          5
+ ball python             2,1(constrict)
+ balrug                  25(fire)
+ basilisk                20
+ bat                     1
+ battlesphere            
+ bear                    12,8,8
+ big fish                8
+ big kobold              7
+ black bear              9,5,5
+ black draconian         20
+ black mamba             20(poison)
+ black sun               25
+ blink frog              20(blink)
+ blizzard demon          20,20
+ block of ice            
+ blood saint             15
+ Blork the orc           7
+ blue devil              21
+ boggart                 5
+ bog body                25,4(cold)
+ bone dragon             30,20,20
+ boring beetle           35
+ Boris                   25,15(drain xp)
+ boulder beetle          45
+ brain worm              6
+ briar patch             
+ Brimstone Fiend         25,15,15
+ brown ooze              25(acid)
+ burning bush            
+ bush                    
+ butterfly               
+ cacodemon               22,22
+ catoblepas              36
+ centaur                 10
+ centaur warrior         16
+ Cerebov                 60
+ chaos champion          25
+ chaos spawn             21(chaos)
+ cherub                  15,8
+ chimera                 
+ Chuck                   45
+ Cloud Mage              6
+ corrupter               20
+ crawling corpse         
+ Crazy Yiuf              9
+ crimson imp             4
+ crocodile               20
+ crystal guardian        35
+ curse skull             
+ curse toe               
+ cyclops                 35
+ daeva                   25,10
+ dancing weapon          30
+ deathcap                33(confuse)
+ death cob               20
+ death drake             12
+ death ooze              32(rot),32
+ death yak               30
+ deep dwarf              10
+ deep dwarf death knigh  28
+ deep elf annihilator    12
+ deep elf blademaster    25,25
+ deep elf conjurer       5
+ deep elf death mage     12
+ deep elf demonologist   12
+ deep elf fighter        9
+ deep elf high priest    14
+ deep elf knight         14
+ deep elf mage           5
+ deep elf master archer  5
+ deep elf priest         9
+ deep elf sorcerer       12
+ deep elf summoner       5
+ deep troll              27,20,20
+ deep troll earth mage   27,20,20
+ deep troll shaman       27,20,20
+ demigod                 10
+ demonic crawler         13,13,13
+ demonspawn              10
+ diamond obelisk         
+ dire elephant           40,15
+ Dispater                50
+ Dissolution             50(acid),30(acid)
+ Donald                  26
+ Dowan                   5
+ draconian               15
+ draconian annihilator   15
+ draconian caller        20
+ draconian knight        27
+ draconian monk          35,20,15
+ draconian scorcher      15
+ draconian shifter       15
+ draconian zealot        15
+ dragon                  20,13,13
+ drake                   14
+ drowned soul            0(drown)
+ dryad                   10
+ Duvessa                 10
+ dwarf                   10
+ earth elemental         40
+ Edmund                  6
+ efreet                  17
+ eidolon                 27(drain speed),17(drain stat)
+ eldritch tentacle       30(chaos),40(chaos)
+ eldritch tentacle segm  
+ electric eel            
+ electric golem          15(elec),15(elec),15,15
+ elemental               40
+ elephant                20,5
+ elephant slug           40
+ elf                     10
+ emperor scorpion        30(poison),15,15
+ Ereshkigal              40(drain xp)
+ Erica                   10
+ Erolcha                 20
+ ettin                   45,45
+ Eustachio               6
+ Executioner             30,10,10
+ eye of devastation      
+ eye of draining         
+ Fannar                  8
+ faun                    23
+ feature mimic           12,12(poison),0(hold)
+ felid                   10
+ giant firefly           17
+ fire bat                6(fire)
+ fire crab               15(fire),15(fire)
+ fire dragon             20,13,13
+ fire drake              8
+ fire elemental          0(pure fire)
+ fire giant              30
+ fire vortex             0(pure fire)
+ flaming corpse          20(napalm)
+ flayed ghost            30
+ flying skull            14
+ formicid                15
+ Frances                 29
+ Frederick               27
+ freezing wraith         16(cold),13(drain speed)
+ frost giant             35
+ fulminant prism         
+ fungus                  
+ gargoyle                20
+ Gastronok               40
+ gelid demonspawn        20
+ Geryon                  35(reach)
+ ghost                   
+ ghost moth              18(drain stat),18(drain stat),12(poison strong)
+ ghoul                   30(rot),30
+ giant                   30
+ giant cockroach         2
+ giant eyeball           
+ giant frog              9
+ giant gecko             5
+ giant goldfish          15
+ giant leech             35(vampiric)
+ giant lizard            3
+ giant mite              5(poison)
+ giant newt              3
+ giant orange brain      
+ giant slug              23
+ giant spore             1
+ Gloorx Vloq             45
+ glowing shapeshifter    15
+ gnoll                   9
+ gnoll sergeant          11
+ gnoll shaman            10
+ goblin                  4
+ golden dragon           40,20,20
+ golden eye              
+ golem                   11,11
+ goliath beetle          30
+ grand avatar            30(reach)
+ greater mummy           35
+ greater naga            27,7(constrict)
+ great orb of eyes       20
+ green death             32
+ green draconian         20,15(poison)
+ green rat               10
+ grey draconian          25,15
+ griffon                 18,10,10
+ Grinder                 11(pain)
+ grizzly bear            12,8,8
+ Grum                    20
+ guardian golem          
+ guardian mummy          30
+ guardian serpent        26
+ halfling                6
+ Harold                  12
+ harpy                   19,14
+ Hellbinder              6
+ hellephant              45,20,15
+ hellion                 10
+ hellwing                17,10
+ hell beast              28,20
+ hell hog                20
+ hell hound              13
+ hell knight             26
+ hell lord               5
+ Hell Sentinel           40,25
+ hill giant              30
+ hippogriff              10,8,8
+ hobgoblin               5
+ hog                     14
+ holy swine              20(holy)
+ hound                   6
+ human                   10
+ hungry ghost            5(hunger)
+ hydra                   18
+ hyperactive ballistomy  
+ ice beast               5(cold)
+ ice devil               16(cold)
+ ice dragon              17,17,17
+ Ice Fiend               25(cold),25(cold)
+ ice statue              
+ Ignacio                 20,10,10,5
+ iguana                  15
+ Ijyb                    4
+ Ilsuiw                  10
+ inept feature mimic     6,0(hold)
+ inept item mimic        6,0(hold)
+ infernal demonspawn     20(fire)
+ insubstantial wisp      12(blink)
+ ironbrand convoker      20
+ ironheart preserver     25
+ iron devil              14,14
+ iron dragon             25,25,25
+ iron elemental          40
+ the iron giant          60
+ iron golem              35
+ iron imp                12
+ iron troll              35,25,25
+ item mimic              12,12(poison),0(hold)
+ jackal                  3
+ jelly                   3(acid)
+ Jessica                 5
+ jiangshi                27(vampiric),27(vampiric)
+ Jorgrun                 20
+ Jory                    40,15(vampiric)
+ Joseph                  15
+ Josephine               11
+ jumping spider          20(ensnare),5(poison)
+ Khufu                   35
+ killer bee              10(poison)
+ Killer Klown            30(klown)
+ Kirke                   18
+ kobold                  4
+ kobold demonologist     4
+ komodo dragon           34
+ kraken                  50
+ tentacle                29
+ tentacle segment        
+ lava orc                5
+ lava snake              7(fire)
+ lava worm               15(fire)
+ the Lernaean hydra      18
+ lich                    15(drain xp)
+ lightning spire         
+ lindwurm                20,10,10
+ Lom Lobon               40(antimagic)
+ lorocyproca             40(antimagic)
+ lost soul               
+ Louise                  17
+ lurking horror          1
+ macabre mass            
+ mana viper              23(antimagic)
+ manticore               26,14,14
+ Mara                    30
+ Margery                 30
+ Maud                    32
+ Maurice                 9(steal)
+ Menkaure                25
+ Mennas                  30,20
+ merfolk                 22
+ merfolk aquamancer      15
+ merfolk impaler         25
+ merfolk javelineer      17
+ merged slime creature   22
+ mermaid                 19
+ minotaur                35,20
+ Mnoleg                  35(mutate),23(blink)
+ molten gargoyle         20(fire)
+ monstrous demonspawn    20,15,15
+ moth                    25
+ moth of wrath           25(rage)
+ mottled draconian       20
+ mottled dragon          15,6
+ mummy                   20
+ mummy priest            30
+ Murray                  20,20
+ naga                    17,3(constrict)
+ naga mage               17,4(constrict)
+ naga ritualist          14,4(constrict)
+ naga sharpshooter       17,5(constrict)
+ naga warrior            28,6(constrict)
+ Natasha                 10
+ necromancer             6
+ necrophage              8(rot)
+ Nellie                  45,20,15
+ neqoxec                 15
+ Nergalle                6
+ Nessos                  16
+ Nikola                  20
+ Norris                  36
+ octopode                24,5(constrict)
+ octopode crusher        35,10(constrict)
+ ogre                    17
+ ogre mage               12
+ oklob plant             
+ oklob sapling           
+ ooze                    5
+ ophan                   
+ orange demon            10(weakness poison),8
+ orange rat              20(drain xp)
+ orange crystal statue   
+ Orb Guardian            45
+ orb of destruction      
+ orb of fire             
+ orb spider              5(poison)
+ orc                     5
+ orc high priest         7
+ orc knight              25
+ orc priest              6
+ orc sorcerer            7
+ orc warlord             32
+ orc warrior             20
+ orc wizard              5
+ pale draconian          20
+ pandemonium lord        5
+ pearl dragon            35(holy),20(holy)
+ phantasmal warrior      26(vuln)
+ phantom                 10(blink)
+ phoenix                 19(holy)
+ Pikel                   9
+ pillar of salt          
+ plague shambler         34(plague)
+ plant                   
+ player                  5
+ player ghost            5
+ player illusion         5
+ shadow                  0
+ polar bear              20,5,5
+ Polyphemus              50,35
+ porcupine               7
+ Prince Ribbit           20
+ profane servitor        25(vampiric),10(drain xp)
+ Psyche                  7
+ pulsating lump          13(mutate)
+ Purgy                   9,4,4
+ purple draconian        20
+ putrid demonspawn       20
+ quasit                  3(drain dex),2(drain dex),2(drain dex)
+ queen ant               20(poison strong)
+ queen bee               20(poison)
+ quicksilver dragon      25,20
+ quokka                  5
+ raiju                   11(elec)
+ rakshasa                20
+ rat                     3
+ raven                   14,11
+ ravenous feature mimic  16,16(poison),4(constrict)
+ ravenous item mimic     16,16(poison),4(constrict)
+ reaper                  45
+ redback                 18(poison strong)
+ red devil               19
+ red draconian           20
+ red wasp                23(paralyse)
+ revenant                26
+ Roxanne                 
+ the royal jelly         50(acid),30(acid)
+ Rupert                  21
+ Saint Roka              35
+ salamander              17(fire)
+ salamander firebrand    28(firebrand)
+ salamander mystic       10(fire)
+ satyr                   25
+ scorpion                10(poison)
+ sea snake               24(poison strong)
+ sensed monster          
+ easy sensed monster     
+ friendly sensed monste  
+ nasty sensed monster    
+ tough sensed monster    
+ trivial sensed monster  
+ seraph                  25,10
+ the Serpent of Hell     35,15,15
+ the Serpent of Hell     35,15,15
+ the Serpent of Hell     35,15,15
+ the Serpent of Hell     35,15,15
+ shadow                  14(shadowstab)
+ shadow demon            21
+ shadow dragon           20(drain xp),15,15
+ Shadow Fiend            25(pain),15(drain xp),15(drain xp)
+ shadow imp              6
+ shadow wraith           27(drain speed)
+ shambling mangrove      41
+ shapeshifter            5
+ shark                   18,9
+ shedu                   19(holy),23(holy)
+ sheep                   13
+ shining eye             
+ shock serpent           20(elec)
+ Sigmund                 5
+ silent spectre          15
+ silver star             
+ silver statue           
+ simulacrum              6
+ large simulacrum        14
+ small simulacrum        6
+ siren                   
+ sixfirhy                15(elec)
+ skeletal warrior        25
+ skeleton                
+ large skeleton          
+ small skeleton          
+ sky beast               5(elec)
+ slave                   10
+ slime creature          22
+ smoke demon             8,5,5
+ snake                   5(poison)
+ snaplasher vine         0(hold),14
+ snaplasher vine segmen  
+ snapping turtle         30(reach)
+ Snorg                   20,15,15
+ Sojobo                  28,14,14
+ soldier ant             14(poison)
+ Sonja                   9,5,5
+ soul eater              25(drain xp)
+ spatial maelstrom       20(distort),20(distort)
+ spatial vortex          30(distort)
+ spectral thing          20
+ spectral weapon         6
+ spellforged servitor    
+ sphinx                  25,12,12
+ spider                  10(poison)
+ spiny frog              26(poison)
+ spriggan                15
+ spriggan air mage       16
+ spriggan berserker      27
+ spriggan defender       30
+ spriggan druid          18
+ spriggan enchanter      24
+ spriggan rider          27
+ starcursed mass         16
+ starspawn tentacle      3(constrict)
+ starspawn tentacle seg  
+ statue                  20
+ steam dragon            12,6
+ stone giant             45
+ storm dragon            25,15,15
+ sun demon               30(fire)
+ swamp dragon            20,11,11
+ swamp drake             14
+ swamp worm              26
+ tarantella              19(confuse)
+ tengu                   10,5,5
+ tengu conjurer          10,5,5
+ tengu reaver            27,11,11
+ tengu warrior           16,8,8
+ tentacled monstrosity   22,17,13,9(constrict)
+ tentacled starspawn     40,25
+ Terence                 5
+ test spawner            
+ the Enchantress         26
+ thorn hunter            27,23
+ thrashing horror        17,9
+ Tiamat                  60,45
+ titan                   55
+ toadstool               
+ toenail golem           13
+ tormentor               8(pain),8(pain)
+ torturous demonspawn    20
+ training dummy          1
+ trapdoor spider         20(poison)
+ troll                   20,15,15
+ twister                 
+ two-headed ogre         17,13
+ ufetubus                5,5
+ ugly thing              12
+ unborn                  17
+ unseen horror           12
+ Urug                    25
+ vampire                 15,15(vampiric)
+ vampire bat             3(vampiric)
+ vampire knight          33,15(vampiric)
+ vampire mage            15,15(vampiric)
+ vampire mosquito        13(vampiric)
+ Vashnia                 25,7(constrict)
+ vault guard             20
+ vault sentinel          15
+ vault warden            36
+ very ugly thing         17
+ vine stalker            10,10(antimagic)
+ wandering mushroom      20(confuse)
+ warg                    18
+ warmonger               40
+ war gargoyle            30
+ water elemental         22(engulf)
+ water moccasin          10(poison)
+ water nymph             12(drown)
+ white draconian         20
+ white imp               4(cold)
+ wight                   8(drain xp)
+ Wiglaf                  30
+ wind drake              12
+ wizard                  6
+ wolf                    12
+ wolf spider             25,15(poison)
+ worker ant              8(poison)
+ worldbinder             8,8
+ worm                    12
+ wraith                  13(drain speed)
+ wretched star           
+ wyvern                  20
+ Xtahua                  35,17,20
+ yak                     18
+ yaktaur                 15
+ yaktaur captain         23
+ yellow draconian        20
+ yellow wasp             13(paralyse)
+ ynoxinul                12
+ zombie                  10
+ large zombie            23
+ small zombie            10
