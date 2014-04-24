@@ -414,6 +414,18 @@ def main():
                 mhp = m.hp
             print "%s%4d  %-22.22s  %s" % (dot, m.hp.avg, m, mhp)
 
+    def print_dragons():
+        title('Dragons by HD')
+        for m in sorted(monsters, key=attrgetter('hd'), reverse=True):
+            if 'DRAGON' not in m.genus or 'M_CANT_SPAWN' in m.flags:
+                continue
+            print "%2d  %s" % (m.hd, m)
+        title('Draconians by HD')
+        for m in sorted(monsters, key=attrgetter('hd'), reverse=True):
+            if 'DRACONIAN' not in m.genus or 'M_CANT_SPAWN' in m.flags:
+                continue
+            print "%2d  %s" % (m.hd, m)
+
     def print_ac():
         title('Monsters by AC')
         for m in sorted(monsters, key=attrgetter('ac'), reverse=True):
@@ -444,11 +456,13 @@ def main():
         print_attacks()
         print_resists()
         print_ac()
+        # dragons
         print_speed()
 
     fnmap = {
         'ac': print_ac,
         'attacks': print_attacks,
+        'dragons': print_dragons,
         'everything': print_everything,
         'hp': print_hp,
         'mr': print_mr,
