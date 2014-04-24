@@ -431,6 +431,11 @@ def main():
         for m in sorted(monsters, key=attrgetter('ac'), reverse=True):
             print "%4d  %s" % (m.ac, m)
 
+    def print_defenses():
+        title('Monsters by AC and EV')
+        for m in sorted(monsters, key=lambda m: m.ac + m.ev, reverse=True):
+            print "%3d|%3d  %s" % (m.ac, m.ev, m)
+
     def print_resists():
         title('Monster resistances (not nearly complete!)')
         for m in sorted(monsters, key=attrgetter('id')):
@@ -456,11 +461,13 @@ def main():
         print_attacks()
         print_resists()
         print_ac()
+        # defenses
         # dragons
         print_speed()
 
     fnmap = {
         'ac': print_ac,
+        'defenses': print_defenses,
         'attacks': print_attacks,
         'dragons': print_dragons,
         'everything': print_everything,
