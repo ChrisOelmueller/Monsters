@@ -261,7 +261,9 @@ class Monster(object):
         energy,
         item_use,
         eats,
-        size):
+        size,
+        shape=None,
+        *args, **kwargs):
 
         self.id          = id
         self.glyph       = glyph
@@ -350,6 +352,7 @@ class Monster(object):
         self.item_use     = item_use
         self.eats         = eats
         self.size         = size
+        self.shape        = shape
 
     @property
     def hd(self):
