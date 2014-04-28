@@ -13,67 +13,77 @@ from operator import attrgetter
 
 mon_data_path = os.path.join(os.path.expanduser('~'),
                              "crawl/crawl-ref/source/mon-data.h")
+old_data_path = os.path.join(os.path.expanduser('~'),
+                             "crawl/crawl-ref/source/old-mon-data.h")
 # Constants
 MAG_IMMUNE = 270
 BINARY_RESISTS = set(('curare', 'drown', 'hellfire', 'sticky'))
 
-# Read mon-data.h
-data = unicode(open(mon_data_path).read())
+def read_mon_data(h=mon_data_path, debug=False):
+    """Read mon-data.h"""
+    data = unicode(open(h).read())
 
+# Join preprocessor lines so they are stripped together later
+    data = re.sub(r"\\"+r"\n", "", data)
 # Strip out axed monsters
-data = re.sub("(?ms)static monsterentry mondata.*"
-              "#define AXED_MON[^}]*}[^}]*}[^}]*},",
-              "(", data)
+    data = re.sub("(?ms)static monsterentry mondata.*"
+                  "#define AXED_MON[^}]*}[^}]*}[^}]*},",
+                  "(", data)
 #
-data = re.sub("AXED_MON(.*)", "", data)
+    data = re.sub("AXED_MON(.*)", "", data)
 
 # Strip out block comments
-data = re.sub("(?ms)\/\*.*?\*\/", "", data)
+    data = re.sub("(?ms)\/\*.*?\*\/", "", data)
 
 # Strip other comments
-data = re.sub('//.*', '', data)
-data = re.sub('#.*', '', data)
+    data = re.sub('//.*', '', data)
+    data = re.sub('#.*', '', data)
 
 # mrd(MR_X | MR_Y, 2) => MR_X2 | MR_Y2
-def mrd_convert(x):
-    level = x.group(2)
-    if int(level) == 1:
-        level = ''
-    resists = x.group(1).split('|')
-    return ' | '.join("%s%s" % (res.strip(), level) for res in resists)
-data = re.sub('(?ms)mrd\((MR_[A-Z_\s|]+)+, (\d)\)', mrd_convert, data)
+    def mrd_convert(x):
+        level = x.group(2)
+        if int(level) == 1:
+            level = ''
+        resists = x.group(1).split('|')
+        return ' | '.join("%s%s" % (res.strip(), level) for res in resists)
+    data = re.sub('(?ms)mrd\((MR_[A-Z_\s|]+)+, (\d)\)', mrd_convert, data)
 
 # Replace energy:
-def energy(x):
-    return "(%s, %s)" % (x.group(1), x.group(2))
-data = re.sub('([A-Z0-9_-]*_ENERGY)\((.*?)\)', energy, data)
+    def energy(x):
+        return "(%s, %s)" % (x.group(1), x.group(2))
+    data = re.sub('([A-Z0-9_-]*_ENERGY)\((.*?)\)', energy, data)
 
 # Replace pipes by commas
-def pipes(x):
-    return "(%s)" % re.sub('(?ms)\s*\|\s*', ',', x.group(0))
-data = re.sub('(?m)(\(.*\)|<<.*>>|[A-Z0-9_-]*)'
-              '(\s*\|\s*(\(.*\)|<<.*>>|[A-Z0-9_-]*))+', pipes, data)
+    def pipes(x):
+        return "(%s)" % re.sub('(?ms)\s*\|\s*', ',', x.group(0))
+    data = re.sub('(?m)(\(.*\)|<<.*>>|[A-Z0-9_-]*)'
+                  '(\s*\|\s*(\(.*\)|<<.*>>|[A-Z0-9_-]*))+', pipes, data)
 
 # Stringify bare enums:
-def stringify(x):
-    return "'%s'" % x.group(1)
-data = re.sub("(?<!['\"])([A-Z0-9_-]{2,})", stringify, data)
+    def stringify(x):
+        return "'%s'" % x.group(1)
+    data = re.sub("(?<!['\"])([A-Z0-9_-]{2,})", stringify, data)
 
 # Replace placeholders
-data = re.sub('(<<|{{)', '(', data)
-data = re.sub('(>>|}})', ')', data)
+    data = re.sub('(<<|{{)', '(', data)
+    data = re.sub('(>>|}})', ')', data)
 
 # Replace }s by )s unless they're a monster glyph.
-data = re.sub("}(?!['\"]);*", ')', data)
-data = re.sub("{", '(', data)
+    data = re.sub("}(?!['\"]);*", ')', data)
+    data = re.sub("{", '(', data)
 
-# Write debug data right before trying to parse
-output_path = os.path.join(os.getcwd(), "data.py")
-with open(output_path, "w") as f:
-    f.write(data)
+    if debug:
+    # Write debug data right before trying to parse
+        output_path = os.path.join(os.getcwd(), "data.py")
+        with open(output_path, "w") as f:
+            f.write(data)
 
-# Eval it, storing it as a tuple
-mondata = eval(data)
+    # Eval it, storing it as a tuple
+    return eval(data)
+
+mondata = read_mon_data()
+olddata = mondata
+#olddata = read_mon_data(old_data_path)
 
 
 class Resistance(object):
@@ -382,15 +392,19 @@ class Monster(object):
         return self.name
 
 
-def title(heading):
-    print '\n' + heading + '\n' + '-' * len(heading)
+def title(heading, x='-'):
+    print '\n' + heading + '\n' + x * len(heading)
 
 
 def main():
     all_monsters = {}
+    old_monsters = {}
     for m in mondata:
         mons = Monster(*m)
         all_monsters[mons.id] = mons
+    for m in olddata:
+        mons = Monster(*m)
+        old_monsters[mons.id] = mons
     monsters = sorted(all_monsters.itervalues(), key=attrgetter('id'))
 
     def print_attacks():
@@ -444,14 +458,26 @@ def main():
         for m in sorted(monsters, key=attrgetter('id')):
             print " %-22.22s %s" % (m, m.resists)
 
-    def print_mr():
+    def print_mr(diff=False):
         title('Monsters by MR, [*]: immune')
         for m in sorted(monsters, key = attrgetter('mr'), reverse=True):
+            if diff:
+                try:
+                    old_mr = old_monsters[m.id].mr
+                except KeyError:
+                    continue  # Monster removed since
             if m.mr_immune:
                 mr = '[*]'
             else:
                 mr = '%3d' % m.mr
-            print "  %s  %s" % (mr, m)
+            if diff:
+                if old_mr == MAG_IMMUNE:
+                    old_mr = '[*]'
+                else:
+                    old_mr = '%3d' % old_mr
+                print "  %s  %s  %s" % (mr, old_mr, m)
+            else:
+                print "  %s  %s" % (mr, m)
 
     def print_speed():
         title('Monsters by move speed (player: usually 10)')
