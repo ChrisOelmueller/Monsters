@@ -31,6 +31,8 @@ def read_mon_data(h=mon_data_path, debug=False):
                   "(", data)
 #
     data = re.sub("AXED_MON(.*)", "", data)
+    data = re.sub(r"DUMMY\(.*\)", "", data) #help
+#TODO Convert dummies into actual monsters for newlife
 
 # Strip out block comments
     data = re.sub("(?ms)\/\*.*?\*\/", "", data)
@@ -443,6 +445,13 @@ def main():
                 continue
             print "%2d  %s" % (m.hd, m)
 
+    def print_hd():
+        title('Dragons and not-dragons by HD')
+        for m in sorted(monsters, key=attrgetter('hd'), reverse=True):
+            if 'M_CANT_SPAWN' in m.flags:
+                continue
+            print "%2d  %s" % (m.hd, m)
+
     def print_ac():
         title('Monsters by AC')
         for m in sorted(monsters, key=attrgetter('ac'), reverse=True):
@@ -500,6 +509,7 @@ def main():
         'attacks': print_attacks,
         'dragons': print_dragons,
         'everything': print_everything,
+        'hd': print_hd,
         'hp': print_hp,
         'mr': print_mr,
         'resists': print_resists,
