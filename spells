@@ -1,0 +1,464 @@
+
+SPTYP_TRANSLOCATION
+-------------------
+ L8 Disjunction
+ L7 Controlled Blink
+ L7 Malign Gateway
+ L7 Call Tide
+ L6 Dispersal
+ L6 Blink Allies Encircling
+ L6 Blink Allies Away
+ L5 Teleport Self
+ L5 Blinkbolt
+ L5 Phase Shift
+ L5 Warp Weapon
+ L5 Summon Forest
+ L4 Banishment
+ L4 Control Teleport
+ L4 Passage of Golubria
+ L4 Dimension Anchor
+ L3 Teleport Other
+ L3 Recall
+ L3 Portal Projectile
+ L3 Word of Recall
+ L2 Blink
+ L2 Blink Range
+ L2 Blink Away
+ L2 Blink Close
+ L2 Blink Other
+ L2 Blink Other Close
+ L2 Shroud of Golubria
+ L1 Apportation
+
+SPTYP_HEXES
+-----------
+ L8 Discord
+ L8 Rearrange the Pieces
+ L7 Darkness
+ L6 Invisibility
+ L6 Mass Confusion
+ L6 Haste Other
+ L6 Awaken Forest
+ L6 Ensnare
+ L6 Malmutate
+ L6 Awaken Vines
+ L6 Invisibility Other
+ L5 Metabolic Englaciation
+ L5 Silence
+ L5 Porkalator
+ L5 Sleep
+ L5 Mislead
+ L5 Mesmerise
+ L5 Sentinel's Mark
+ L5 Strip Resistance
+ L5 Sap Magic
+ L5 Summon Mana Viper
+ L5 Phantom Mirror
+ L5 Drain Magic
+ L4 Cause Fear
+ L4 Polymorph
+ L4 Enslavement
+ L4 Fulminant Prism
+ L4 Paralyse
+ L4 Leda's Liquefaction
+ L4 Dimension Anchor
+ L4 Virulence
+ L4 Grand Avatar
+ L4 Corrupt Body
+ L4 Summon Guardian Golem
+ L3 Confuse
+ L3 Tukima's Dance
+ L3 Inner Flame
+ L3 Dazzling Spray
+ L3 Spectral Weapon
+ L2 Slow
+ L2 Confusing Touch
+ L2 Sure Blade
+ L2 Ensorcelled Hibernation
+ L1 Corona
+
+SPTYP_NO_SCHOOL
+---------------
+ L1 Melee
+ L1 nonexistent spell
+
+SPTYP_NONE
+----------
+ L7 Holy Flames
+ L6 Major Healing
+ L6 Heal Other
+ L4 Smiting
+ L4 Injury Mirror
+ L4 Chaotic Mirror
+ L3 Trog's Hand
+ L2 Minor Healing
+ L1 Cantrip
+
+SPTYP_ICE
+---------
+ L9 Glaciate
+ L7 Ink Cloud
+ L7 Flash Freeze
+ L6 Bolt of Cold
+ L6 Freezing Cloud
+ L6 Ozocubu's Refrigeration
+ L6 Simulacrum
+ L6 Primal Wave
+ L6 Crystal Bolt
+ L5 Metabolic Englaciation
+ L5 Cold Breath
+ L4 Summon Ice Beast
+ L4 Ice Form
+ L4 Throw Icicle
+ L4 Condensation Shield
+ L4 Waterstrike
+ L3 Ozocubu's Armour
+ L2 Throw Frost
+ L2 Freezing Aura
+ L2 Ensorcelled Hibernation
+ L1 Freeze
+
+SPTYP_FIRE
+----------
+ L9 Fire Storm
+ L9 Hellfire Burst
+ L9 Hellfire
+ L8 Fire Summon
+ L7 Delayed Fireball
+ L7 Ring of Flames
+ L6 Bolt of Fire
+ L6 Explosive Bolt
+ L6 Crystal Bolt
+ L5 Fireball
+ L5 Bolt of Magma
+ L5 Ignite Poison
+ L5 Fire Breath
+ L4 Sticky Flame
+ L4 Steam Ball
+ L4 Sticky Flame Range
+ L4 Sticky Flame Splash
+ L4 Localized Ignite Poison
+ L3 Conjure Flame
+ L3 Inner Flame
+ L2 Throw Flame
+ L2 Fire Brand
+ L2 Evaporate
+ L1 Flame Tongue
+
+SPTYP_AIR
+---------
+ L9 Tornado
+ L9 Summon Twister
+ L8 Chain Lightning
+ L7 Orb of Electricity
+ L6 Freezing Cloud
+ L6 Poisonous Cloud
+ L6 Deflect Missiles
+ L6 Conjure Ball Lightning
+ L6 Control Winds
+ L6 Cloud Cone
+ L5 Lightning Bolt
+ L5 Blinkbolt
+ L5 Silence
+ L5 Noxious Cloud
+ L5 Petrifying Cloud
+ L4 Insulation
+ L4 Airstrike
+ L4 Summon Lightning Spire
+ L3 Mephitic Cloud
+ L3 Flight
+ L3 Static Discharge
+ L3 Wind Blast
+ L2 Repel Missiles
+ L2 Swiftness
+ L2 Thunderbolt
+ L1 Shock
+
+SPTYP_EARTH
+-----------
+ L9 Shatter
+ L8 Lehudib's Crystal Spear
+ L6 Iron Shot
+ L6 Statue Form
+ L5 Bolt of Magma
+ L5 Lee's Rapid Deconstruction
+ L5 Tomb of Doroklohe
+ L5 Petrifying Cloud
+ L5 Wall of Brambles
+ L4 Dig
+ L4 Petrify
+ L4 Leda's Liquefaction
+ L4 Volley of Thorns
+ L3 Stone Arrow
+ L3 Passwall
+ L2 Stoneskin
+ L1 Sandblast
+ L1 Shaft Self
+
+SPTYP_CHARMS
+------------
+ L8 Death's Door
+ L7 Ring of Flames
+ L7 Black Mark
+ L6 Haste
+ L6 Deflect Missiles
+ L6 Druid's Call
+ L6 Control Winds
+ L6 Haste Plants
+ L6 Invisibility Other
+ L6 Ephemeral Infusion
+ L5 Warp Weapon
+ L5 Excruciating Wounds
+ L5 Might Other
+ L5 Iskenderun's Battlesphere
+ L5 Injury Bond
+ L5 Phantom Mirror
+ L4 Insulation
+ L4 Control Teleport
+ L4 See Invisible
+ L4 Song of Shielding
+ L4 Grand Avatar
+ L3 Ozocubu's Armour
+ L3 Berserker Rage
+ L3 Frenzy
+ L3 Regeneration
+ L3 Flight
+ L3 Poison Weapon
+ L3 Might
+ L3 Spectral Weapon
+ L2 Repel Missiles
+ L2 Fire Brand
+ L2 Freezing Aura
+ L2 Lethal Infusion
+ L2 Swiftness
+ L2 Sure Blade
+ L2 Shroud of Golubria
+ L2 Song of Slaying
+ L1 Infusion
+
+SPTYP_TRANSMUTATION
+-------------------
+ L8 Necromutation
+ L7 Dragon Form
+ L6 Statue Form
+ L6 Malmutate
+ L5 Cigotuvi's Degeneration
+ L5 Blade Hands
+ L5 Ignite Poison
+ L5 Porkalator
+ L4 Polymorph
+ L4 Petrify
+ L4 Ice Form
+ L4 Alistair's Intoxication
+ L4 Localized Ignite Poison
+ L4 Corrupt Body
+ L3 Spider Form
+ L3 Passwall
+ L2 Sticks to Snakes
+ L2 Evaporate
+ L2 Stoneskin
+ L1 Fulsome Distillation
+ L1 Beastly Appendage
+
+SPTYP_RANDOM
+------------
+ L5 Chaos Breath
+
+SPTYP_SUMMONING
+---------------
+ L9 Summon Dragon
+ L9 Summon Twister
+ L9 Dragon's Call
+ L8 Summon Horrible Things
+ L8 Fire Summon
+ L8 Plane Rend
+ L7 Malign Gateway
+ L7 Haunt
+ L7 Summon Greater Demon
+ L7 Summon Undead
+ L7 Summon Hydra
+ L7 Spellforged Servitor
+ L7 Summon Emperor Scorpions
+ L6 Aura of Abjuration
+ L6 Demonic Horde
+ L6 Monstrous Menagerie
+ L6 Summon Drakes
+ L6 Brothers in Arms
+ L6 Forceful Dismissal
+ L5 Summon Swarm
+ L5 Summon Demon
+ L5 Shadow Creatures
+ L5 Summon Water Elementals
+ L5 Spawn Tentacles
+ L5 Summon Eyeballs
+ L5 Summon Earth Elementals
+ L5 Summon Air Elementals
+ L5 Summon Fire Elementals
+ L5 Summon Iron Elementals
+ L5 Mara Summon
+ L5 Summon Rakshasa
+ L5 Summon Illusion
+ L5 Call Lost Soul
+ L5 Summon Vermin
+ L5 Summon Forest
+ L5 Weave Shadows
+ L5 Summon Mana Viper
+ L4 Summon Scorpions
+ L4 Summon Elemental
+ L4 Summon Ice Beast
+ L4 Summon Ufetubus
+ L4 Summon Hell Beast
+ L4 Summon Mushrooms
+ L4 Forceful Invitation
+ L4 Summon Lightning Spire
+ L4 Summon Guardian Golem
+ L3 Abjuration
+ L3 Recall
+ L3 Call Canine Familiar
+ L3 Vampire Summon
+ L3 Rakshasa Summon
+ L3 Word of Recall
+ L2 Call Imp
+ L2 Summon Minor Demon
+ L1 Summon Small Mammal
+ L1 Summon Butterflies
+
+SPTYP_CONJURATION
+-----------------
+ L9 Fire Storm
+ L9 Hellfire Burst
+ L9 Hellfire
+ L9 Glaciate
+ L8 Lehudib's Crystal Spear
+ L8 Chain Lightning
+ L8 Draconian Breath
+ L8 Legendary Destruction
+ L8 Chain of Chaos
+ L7 Delayed Fireball
+ L7 Debugging Ray
+ L7 Orb of Destruction
+ L7 Ink Cloud
+ L7 Orb of Electricity
+ L7 Flash Freeze
+ L7 Major Destruction
+ L7 Spellforged Servitor
+ L6 Bolt of Fire
+ L6 Bolt of Cold
+ L6 Freezing Cloud
+ L6 Poisonous Cloud
+ L6 Poison Arrow
+ L6 Iron Shot
+ L6 Disintegrate
+ L6 Conjure Ball Lightning
+ L6 Miasma Breath
+ L6 Primal Wave
+ L6 Sunray
+ L6 Holy Light
+ L6 Ensnare
+ L6 Explosive Bolt
+ L6 Crystal Bolt
+ L6 Cloud Cone
+ L6 Corrosive Bolt
+ L5 Fireball
+ L5 Lightning Bolt
+ L5 Bolt of Magma
+ L5 Venom Bolt
+ L5 Bolt of Draining
+ L5 Noxious Cloud
+ L5 Quicksilver Bolt
+ L5 Metal Splinters
+ L5 Spit Acid
+ L5 Fire Breath
+ L5 Chaos Breath
+ L5 Cold Breath
+ L5 Holy Breath
+ L5 Petrifying Cloud
+ L5 Silver Blast
+ L5 Iskenderun's Battlesphere
+ L5 Force Lance
+ L5 Ghostly Flames
+ L5 Ghostly Fireball
+ L5 Wall of Brambles
+ L5 Shadow Shard
+ L5 Shadow Bolt
+ L5 Serpent of Hell Breath
+ L4 Iskenderun's Mystic Blast
+ L4 Sticky Flame
+ L4 Throw Icicle
+ L4 Fulminant Prism
+ L4 Steam Ball
+ L4 Energy Bolt
+ L4 Sticky Flame Range
+ L4 Sticky Flame Splash
+ L4 Volley of Thorns
+ L4 Grand Avatar
+ L4 Random Bolt
+ L3 Conjure Flame
+ L3 Mephitic Cloud
+ L3 Bolt of Inaccuracy
+ L3 Stone Arrow
+ L3 Static Discharge
+ L3 Dazzling Spray
+ L2 Throw Flame
+ L2 Throw Frost
+ L2 Thunderbolt
+ L2 Searing Ray
+ L1 Magic Dart
+ L1 Sting
+ L1 Shock
+ L1 Flame Tongue
+
+SPTYP_POISON
+------------
+ L7 Summon Emperor Scorpions
+ L6 Poisonous Cloud
+ L6 Poison Arrow
+ L5 Venom Bolt
+ L5 Noxious Cloud
+ L4 Olgreb's Toxic Radiance
+ L4 Summon Scorpions
+ L4 Alistair's Intoxication
+ L4 Virulence
+ L3 Mephitic Cloud
+ L3 Poison Weapon
+ L3 Spider Form
+ L2 Cure Poison
+ L2 Spit Poison
+ L1 Sting
+
+SPTYP_NECROMANCY
+----------------
+ L8 Death's Door
+ L8 Borgnjor's Revivification
+ L8 Necromutation
+ L7 Haunt
+ L7 Summon Undead
+ L7 Black Mark
+ L6 Death Channel
+ L6 Symbol of Torment
+ L6 Simulacrum
+ L6 Summon Drakes
+ L6 Drain Life
+ L6 Ephemeral Infusion
+ L5 Bolt of Draining
+ L5 Dispel Undead
+ L5 Twisted Resurrection
+ L5 Cigotuvi's Degeneration
+ L5 Agony
+ L5 Excruciating Wounds
+ L5 Ghostly Flames
+ L5 Ghostly Fireball
+ L5 Call Lost Soul
+ L5 Malign Offering
+ L4 Animate Dead
+ L4 Control Undead
+ L4 Summon Spectral Orcs
+ L3 Vampiric Draining
+ L3 Regeneration
+ L3 Brain Feed
+ L2 Sublimation of Blood
+ L2 Corpse Rot
+ L2 Lethal Infusion
+ L1 Pain
+ L1 Animate Skeleton
+ L1 Fulsome Distillation

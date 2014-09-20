@@ -1,0 +1,388 @@
+
+Lightning rod
+-------------
+ L2 Thunderbolt
+
+Rod of ignition
+---------------
+ L6 Explosive Bolt
+
+Rod of striking
+---------------
+ L1 Melee
+
+Rod of the swarm
+----------------
+ L5 Summon Swarm
+
+Rod of destruction
+------------------
+ L4 Random Bolt
+
+Rod of shadows
+--------------
+ L5 Weave Shadows
+
+Rod of clouds
+-------------
+ L6 Cloud Cone
+
+Rod of inaccuracy
+-----------------
+ L3 Bolt of Inaccuracy
+
+Book of Wizardry
+----------------
+ L5 Agony
+ L5 Force Lance
+ L6 Dispersal
+ L6 Haste
+ L6 Invisibility
+ L7 Spellforged Servitor
+
+Book of Unlife
+--------------
+ L3 Recall
+ L4 Animate Dead
+ L4 Control Undead
+ L5 Twisted Resurrection
+ L6 Death Channel
+ L6 Simulacrum
+
+Book of Enchantments
+--------------------
+ L3 Tukima's Dance
+ L4 Cause Fear
+ L5 Silence
+ L6 Deflect Missiles
+ L6 Haste
+ L8 Discord
+
+Book of Maledictions
+--------------------
+ L1 Corona
+ L2 Sure Blade
+ L2 Ensorcelled Hibernation
+ L3 Confuse
+ L3 Dazzling Spray
+ L4 Enslavement
+
+Book of Control
+---------------
+ L4 Control Teleport
+ L4 Control Undead
+ L4 Enslavement
+ L5 Metabolic Englaciation
+ L6 Mass Confusion
+
+Book of Summonings
+------------------
+ L3 Abjuration
+ L3 Recall
+ L5 Shadow Creatures
+ L5 Summon Demon
+ L5 Summon Forest
+ L6 Monstrous Menagerie
+
+Book of Hinderance
+------------------
+ L2 Confusing Touch
+ L3 Confuse
+ L4 Petrify
+ L4 Leda's Liquefaction
+ L5 Metabolic Englaciation
+ L5 Summon Mana Viper
+
+Book of Debilitation
+--------------------
+ L1 Corona
+ L2 Slow
+ L3 Inner Flame
+ L4 Enslavement
+ L4 Cause Fear
+ L4 Leda's Liquefaction
+
+Book of Fire
+------------
+ L5 Ignite Poison
+ L5 Fireball
+ L6 Bolt of Fire
+ L7 Delayed Fireball
+ L7 Ring of Flames
+
+Book of the Warp
+----------------
+ L4 Control Teleport
+ L5 Phase Shift
+ L5 Warp Weapon
+ L6 Dispersal
+ L7 Controlled Blink
+ L8 Disjunction
+
+Book of Beasts
+--------------
+ L1 Summon Butterflies
+ L3 Call Canine Familiar
+ L4 Summon Ice Beast
+ L5 Summon Mana Viper
+ L6 Monstrous Menagerie
+ L7 Summon Hydra
+
+Book of Geomancy
+----------------
+ L1 Sandblast
+ L2 Stoneskin
+ L3 Passwall
+ L3 Stone Arrow
+ L4 Petrify
+ L5 Lee's Rapid Deconstruction
+
+Book of Conjurations
+--------------------
+ L1 Magic Dart
+ L2 Searing Ray
+ L3 Dazzling Spray
+ L4 Fulminant Prism
+ L4 Iskenderun's Mystic Blast
+ L5 Iskenderun's Battlesphere
+
+Grand Grimoire
+--------------
+ L6 Aura of Abjuration
+ L6 Forceful Dismissal
+ L7 Summon Greater Demon
+ L7 Malign Gateway
+ L8 Summon Horrible Things
+
+Book of Alchemy
+---------------
+ L2 Sublimation of Blood
+ L4 Alistair's Intoxication
+ L4 Condensation Shield
+ L4 Petrify
+ L5 Ignite Poison
+
+Book of Death
+-------------
+ L2 Corpse Rot
+ L2 Sublimation of Blood
+ L5 Agony
+ L5 Dispel Undead
+ L5 Excruciating Wounds
+ L5 Bolt of Draining
+
+Book of Burglary
+----------------
+ L2 Swiftness
+ L3 Passwall
+ L4 Passage of Golubria
+ L5 Lee's Rapid Deconstruction
+ L6 Invisibility
+ L7 Darkness
+
+Book of Ice
+-----------
+ L5 Metabolic Englaciation
+ L6 Ozocubu's Refrigeration
+ L6 Bolt of Cold
+ L6 Freezing Cloud
+ L6 Simulacrum
+
+Book of Callings
+----------------
+ L1 Summon Small Mammal
+ L2 Call Imp
+ L3 Call Canine Familiar
+ L4 Summon Guardian Golem
+ L4 Summon Lightning Spire
+ L4 Summon Ice Beast
+
+Young Poisoner's Handbook
+-------------------------
+ L1 Sting
+ L2 Cure Poison
+ L3 Mephitic Cloud
+ L4 Olgreb's Toxic Radiance
+ L5 Venom Bolt
+
+Book of Battle
+--------------
+ L1 Infusion
+ L2 Shroud of Golubria
+ L2 Song of Slaying
+ L3 Spectral Weapon
+ L3 Regeneration
+
+Book of Cantrips
+----------------
+ L1 Corona
+ L1 Animate Skeleton
+ L1 Summon Small Mammal
+ L1 Apportation
+
+Book of Frost
+-------------
+ L1 Freeze
+ L2 Throw Frost
+ L3 Ozocubu's Armour
+ L4 Throw Icicle
+ L4 Summon Ice Beast
+ L4 Condensation Shield
+
+Book of the Dragon
+------------------
+ L3 Flight
+ L4 Cause Fear
+ L6 Bolt of Fire
+ L7 Dragon Form
+ L9 Dragon's Call
+
+Book of Battle (replacing Morphology)
+-------------------------------------
+ L1 Infusion
+ L2 Shroud of Golubria
+ L2 Song of Slaying
+ L3 Spectral Weapon
+ L3 Regeneration
+
+Book of Flames
+--------------
+ L1 Flame Tongue
+ L2 Throw Flame
+ L3 Conjure Flame
+ L3 Inner Flame
+ L4 Sticky Flame
+ L5 Fireball
+
+Book of Spatial Translocations
+------------------------------
+ L1 Apportation
+ L2 Blink
+ L2 Shroud of Golubria
+ L3 Portal Projectile
+ L3 Teleport Other
+ L4 Passage of Golubria
+
+Book of the Tempests
+--------------------
+ L3 Static Discharge
+ L5 Lightning Bolt
+ L5 Fireball
+ L9 Tornado
+ L9 Shatter
+
+Book of Transfigurations
+------------------------
+ L2 Stoneskin
+ L4 Ice Form
+ L6 Statue Form
+ L7 Dragon Form
+
+Book of Changes
+---------------
+ L1 Beastly Appendage
+ L2 Sticks to Snakes
+ L3 Spider Form
+ L4 Ice Form
+ L5 Blade Hands
+
+Book of Necromancy
+------------------
+ L1 Pain
+ L1 Animate Skeleton
+ L3 Vampiric Draining
+ L3 Regeneration
+ L4 Animate Dead
+ L4 Control Undead
+
+Book of Annihilations
+---------------------
+ L6 Poison Arrow
+ L8 Chain Lightning
+ L8 Lehudib's Crystal Spear
+ L9 Glaciate
+ L9 Fire Storm
+
+Book of Dreams
+--------------
+ L2 Ensorcelled Hibernation
+ L3 Flight
+ L5 Phase Shift
+ L5 Shadow Creatures
+ L6 Mass Confusion
+ L7 Darkness
+
+Book of Air
+-----------
+ L1 Shock
+ L2 Swiftness
+ L2 Repel Missiles
+ L3 Flight
+ L3 Static Discharge
+ L5 Lightning Bolt
+
+Book of Clouds
+--------------
+ L3 Mephitic Cloud
+ L3 Conjure Flame
+ L6 Poisonous Cloud
+ L6 Freezing Cloud
+ L7 Ring of Flames
+
+Necronomicon
+------------
+ L7 Haunt
+ L8 Borgnjor's Revivification
+ L8 Death's Door
+ L8 Necromutation
+
+Book of Power
+-------------
+ L4 Fulminant Prism
+ L4 Iskenderun's Mystic Blast
+ L5 Venom Bolt
+ L5 Bolt of Magma
+ L6 Iron Shot
+ L7 Orb of Destruction
+
+Book of the Sky
+---------------
+ L3 Flight
+ L4 Airstrike
+ L5 Silence
+ L6 Deflect Missiles
+ L6 Conjure Ball Lightning
+ L9 Tornado
+
+Book of Earth
+-------------
+ L4 Leda's Liquefaction
+ L5 Bolt of Magma
+ L6 Statue Form
+ L6 Iron Shot
+ L9 Shatter
+
+Book of Party Tricks
+--------------------
+ L1 Summon Butterflies
+ L1 Apportation
+ L2 Blink
+ L3 Tukima's Dance
+ L4 Alistair's Intoxication
+
+Book of Envenomations
+---------------------
+ L3 Spider Form
+ L4 Alistair's Intoxication
+ L4 Olgreb's Toxic Radiance
+ L6 Poisonous Cloud
+
+Book of Minor Magic
+-------------------
+ L1 Magic Dart
+ L2 Blink
+ L2 Call Imp
+ L2 Repel Missiles
+ L2 Slow
+ L3 Conjure Flame
+ L3 Mephitic Cloud
