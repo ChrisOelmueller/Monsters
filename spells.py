@@ -179,7 +179,7 @@ class Spell(object):
             self.flags     = flags
 
     def __repr__(self):
-        return ' L%s %s (%s)' % (self.level, self.name,
+        return 'L%s %s (%s)' % (self.level, self.name,
             '/'.join(SCHOOL_ABBREVIATIONS.get(s, s) for s in self.schools))
 
 
@@ -212,21 +212,31 @@ def main():
                     continue
                 title(name)
                 for s in spells:
+                    print '',
                     print all_spells[s]
 
-    def print_schools():
+    def print_schools(monster):
+        book_items = set(s for b in all_books.values() for s in b)
+        title('Spells by spell school, [M]: monster-only', '=')
         for school, spells in school_spells.items():
             title(school)
             for s in sorted(spells, key=attrgetter('level'), reverse=True):
+                if s.id not in book_items:
+                    if monster:
+                        print '[M]',
+                    else:
+                        continue
+                else:
+                    print '   ',
                 print s
 
     fnmap = {
-        'everything': print_schools,
-        'schools': print_schools,
-
+        'allspells': lambda: print_schools(True),
         'books': print_spellbooks,
-        'rods': print_spellbooks,
-    #   'spellbooks': print_spellbooks,
+    #   'monster': lambda: print_schools(True),
+        'player': lambda: print_schools(False),
+    #   'rods': print_spellbooks,
+    #   'schools': print_schools,
     }
 
     for (abbr, fn) in fnmap.iteritems():
