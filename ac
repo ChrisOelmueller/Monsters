@@ -3,13 +3,13 @@ Monsters by AC
 --------------
  127  test spawner
   40  Dispater
+  35  curse skull
   30  Asmodeus
   30  Cerebov
   30  Murray
+  30  the Serpent of Hell
   30  Tiamat
   28  Antaeus
-  25  animated tree
-  25  curse skull
   25  curse toe
   25  Hell Sentinel
   22  crystal guardian
@@ -23,7 +23,6 @@ Monsters by AC
   20  iron elemental
   20  iron troll
   20  kraken
-  20  orange crystal statue
   20  orb of fire
   20  Roxanne
   20  the Serpent of Hell
@@ -33,7 +32,6 @@ Monsters by AC
   18  soul eater
   16  grey draconian
   16  iron devil
-  16  the Serpent of Hell
   16  the Serpent of Hell
   16  the Serpent of Hell
   16  snapping turtle
@@ -49,13 +47,11 @@ Monsters by AC
   15  reaper
   15  shadow dragon
   15  Shadow Fiend
-  15  silver statue
   15  skeletal warrior
   15  Xtahua
   14  blue devil
   14  Chuck
   14  earth elemental
-  14  elemental
   14  molten gargoyle
   14  queen ant
   13  boring beetle
@@ -64,6 +60,8 @@ Monsters by AC
   13  eldritch tentacle segment
   13  hellephant
   13  lightning spire
+  13  Mnoleg's tentacle
+  13  Mnoleg's tentacle segment
   13  Nellie
   13  Orb Guardian
   13  shambling mangrove
@@ -73,12 +71,12 @@ Monsters by AC
   12  diamond obelisk
   12  eidolon
   12  eye of devastation
-  12  flaming corpse
   12  freezing wraith
   12  ice devil
   12  ice statue
+  12  orange crystal statue
   12  phantasmal warrior
-  12  silver star
+  12  silver statue
   12  statue
   12  stone giant
   12  tormentor
@@ -89,7 +87,6 @@ Monsters by AC
   10  Azrael
   10  blizzard demon
   10  briar patch
-  10  brown ooze
   10  burning bush
   10  catoblepas
   10  cherub
@@ -99,7 +96,6 @@ Monsters by AC
   10  demonic crawler
   10  Dissolution
   10  draconian
-  10  dragon
   10  efreet
   10  Ereshkigal
   10  Executioner
@@ -130,7 +126,6 @@ Monsters by AC
   10  profane servitor
   10  queen bee
   10  quicksilver dragon
-  10  rakshasa
   10  seraph
   10  simulacrum
   10  large simulacrum
@@ -150,17 +145,18 @@ Monsters by AC
    9  ettin
    9  fire crab
    9  frost giant
+   9  ghost crab
    9  green draconian
    9  mottled draconian
    9  Nergalle
    9  pale draconian
    9  red draconian
-   9  shark
    9  thorn hunter
    9  white draconian
    9  yellow draconian
    8  Aizul
    8  chimera
+   8  elemental wellspring
    8  elephant
    8  fire giant
    8  ghost moth
@@ -175,9 +171,9 @@ Monsters by AC
    8  starspawn tentacle
    8  starspawn tentacle segment
    8  toenail golem
+   8  torpor snail
    8  large zombie
    7  chaos spawn
-   7  golem
    7  komodo dragon
    7  orange rat
    7  polar bear
@@ -188,6 +184,7 @@ Monsters by AC
    7  shadow wraith
    7  swamp dragon
    6  ancient zyme
+   6  bennu
    6  death drake
    6  deep troll
    6  deep troll shaman
@@ -205,23 +202,22 @@ Monsters by AC
    6  naga ritualist
    6  naga sharpshooter
    6  naga warrior
+   6  rakshasa
    6  snaplasher vine segment
    6  spiny frog
    6  Vashnia
+   6  very ugly thing
    5  alligator
    5  Asterion
    5  azure jelly
    5  balrug
-   5  bear
    5  cyclops
    5  deathcap
    5  electric golem
    5  feature mimic
-   5  giant goldfish
    5  giant leech
    5  green death
    5  green rat
-   5  grizzly bear
    5  hellion
    5  ice beast
    5  iguana
@@ -236,7 +232,6 @@ Monsters by AC
    5  minotaur
    5  mottled dragon
    5  orc sorcerer
-   5  plague shambler
    5  quasit
    5  ravenous feature mimic
    5  ravenous item mimic
@@ -272,7 +267,7 @@ Monsters by AC
    4  raiju
    4  siren
    4  snaplasher vine
-   4  very ugly thing
+   4  ugly thing
    4  warg
    4  water elemental
    4  water nymph
@@ -293,14 +288,12 @@ Monsters by AC
    3  Donald
    3  draconian knight
    3  draconian zealot
-   3  drake
    3  elf
    3  Erolcha
    3  eye of draining
    3  fire drake
    3  formicid
    3  fulminant prism
-   3  giant
    3  giant cockroach
    3  Grinder
    3  hill giant
@@ -327,16 +320,15 @@ Monsters by AC
    3  torturous demonspawn
    3  trapdoor spider
    3  troll
-   3  ugly thing
    3  wind drake
    3  wolf spider
    3  ynoxinul
    2  air elemental
    2  black bear
    2  Crazy Yiuf
+   2  death knight
    2  death ooze
    2  deep dwarf
-   2  deep dwarf death knight
    2  demigod
    2  Duvessa
    2  dwarf
@@ -367,14 +359,11 @@ Monsters by AC
    2  Natasha
    2  necrophage
    2  orc knight
-   2  phoenix
    2  porcupine
-   2  pulsating lump
    2  quokka
    2  redback
    2  satyr
    2  sea snake
-   2  shedu
    2  sheep
    2  shock serpent
    2  sixfirhy
@@ -382,7 +371,6 @@ Monsters by AC
    2  Sojobo
    2  Sonja
    2  spriggan berserker
-   2  spriggan enchanter
    2  tengu
    2  tengu conjurer
    2  tengu reaver
@@ -398,22 +386,18 @@ Monsters by AC
    1  baby alligator
    1  ballistomycete
    1  bat
-   1  big fish
    1  bog body
    1  brain worm
    1  crawling corpse
    1  electric eel
-   1  giant firefly
    1  fire bat
    1  fungus
    1  giant gecko
    1  giant mite
    1  hell lord
    1  hyperactive ballistomycete
-   1  lava worm
    1  macabre mass
    1  Maurice
-   1  merged slime creature
    1  Nikola
    1  Norris
    1  octopode
@@ -432,7 +416,6 @@ Monsters by AC
    1  rat
    1  raven
    1  slime creature
-   1  snake
    1  spriggan
    1  spriggan air mage
    1  spriggan druid
@@ -486,9 +469,7 @@ Monsters by AC
    0  ghost
    0  giant eyeball
    0  giant frog
-   0  giant lizard
    0  giant newt
-   0  giant slug
    0  giant spore
    0  glowing shapeshifter
    0  goblin
@@ -516,13 +497,11 @@ Monsters by AC
    0  merfolk aquamancer
    0  merfolk impaler
    0  merfolk javelineer
-   0  moth
    0  moth of wrath
    0  necromancer
    0  orb of destruction
    0  orc
    0  orc warrior
-   0  player
    0  Prince Ribbit
    0  Psyche
    0  Rupert

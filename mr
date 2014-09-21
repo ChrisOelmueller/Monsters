@@ -3,7 +3,6 @@ Monsters by MR, [*]: immune
 ---------------------------
   [*]  air elemental
   [*]  ancient lich
-  [*]  animated tree
   [*]  Antaeus
   [*]  Asmodeus
   [*]  ballistomycete
@@ -26,7 +25,7 @@ Monsters by MR, [*]: immune
   [*]  eldritch tentacle
   [*]  eldritch tentacle segment
   [*]  electric golem
-  [*]  elemental
+  [*]  elemental wellspring
   [*]  Ereshkigal
   [*]  eye of devastation
   [*]  eye of draining
@@ -36,7 +35,6 @@ Monsters by MR, [*]: immune
   [*]  fungus
   [*]  Gloorx Vloq
   [*]  golden eye
-  [*]  golem
   [*]  grand avatar
   [*]  greater mummy
   [*]  greater naga
@@ -59,6 +57,8 @@ Monsters by MR, [*]: immune
   [*]  macabre mass
   [*]  mana viper
   [*]  Mnoleg
+  [*]  Mnoleg's tentacle
+  [*]  Mnoleg's tentacle segment
   [*]  mummy priest
   [*]  Murray
   [*]  ophan
@@ -74,7 +74,6 @@ Monsters by MR, [*]: immune
   [*]  Shadow Fiend
   [*]  shambling mangrove
   [*]  shining eye
-  [*]  silver star
   [*]  silver statue
   [*]  spatial maelstrom
   [*]  spatial vortex
@@ -114,6 +113,7 @@ Monsters by MR, [*]: immune
   156  cacodemon
   156  green death
   153  tentacled monstrosity
+  149  bennu
   149  daeva
   149  Ilsuiw
   149  purple draconian
@@ -158,7 +158,6 @@ Monsters by MR, [*]: immune
   112  deep elf sorcerer
   112  Dissolution
   112  spriggan berserker
-  112  spriggan enchanter
   106  apis
   106  bone dragon
   106  Cloud Mage
@@ -206,7 +205,7 @@ Monsters by MR, [*]: immune
    85  frost giant
    85  stone giant
    80  azure jelly
-   80  deep dwarf death knight
+   80  death knight
    80  elephant slug
    80  Fannar
    80  Gastronok
@@ -219,20 +218,18 @@ Monsters by MR, [*]: immune
    80  vampire mage
    74  dryad
    74  merfolk aquamancer
-   73  plague shambler
    72  deep elf conjurer
    72  deep elf summoner
    72  naga sharpshooter
    72  phantasmal warrior
    72  Saint Roka
+   72  very ugly thing
    69  drowned soul
    69  merfolk javelineer
    68  Arachne
    68  tengu reaver
    66  Josephine
    66  Nergalle
-   65  brown ooze
-   65  giant firefly
    65  hellion
    65  red devil
    65  spriggan
@@ -240,12 +237,12 @@ Monsters by MR, [*]: immune
    64  draconian caller
    64  draconian monk
    64  draconian zealot
-   64  dragon
    64  fire dragon
    64  guardian serpent
    64  iron devil
    64  kraken
    64  naga ritualist
+   64  octopode crusher
    64  orange demon
    64  Polyphemus
    64  Snorg
@@ -265,7 +262,6 @@ Monsters by MR, [*]: immune
    60  warmonger
    58  flayed ghost
    58  orc high priest
-   56  boggart
    56  chaos spawn
    56  deep elf priest
    56  emperor scorpion
@@ -273,7 +269,6 @@ Monsters by MR, [*]: immune
    56  hellwing
    56  molten gargoyle
    56  naga mage
-   56  octopode crusher
    56  shapeshifter
    56  sixfirhy
    56  smoke demon
@@ -287,9 +282,7 @@ Monsters by MR, [*]: immune
    53  wizard
    52  hydra
    52  minotaur
-   52  phoenix
    52  queen ant
-   52  shedu
    52  vault guard
    48  alligator
    48  deep elf fighter
@@ -298,6 +291,7 @@ Monsters by MR, [*]: immune
    48  deep troll shaman
    48  ettin
    48  gargoyle
+   48  ghost crab
    48  griffon
    48  ice dragon
    48  ironheart preserver
@@ -308,23 +302,19 @@ Monsters by MR, [*]: immune
    48  satyr
    48  snaplasher vine
    48  snaplasher vine segment
+   48  ugly thing
    48  Urug
    48  vampire
-   48  very ugly thing
    48  ynoxinul
    46  blue devil
    46  guardian mummy
-   46  Joseph
    44  anaconda
    44  Azrael
-   44  giant
    44  hell hog
    44  hill giant
    44  holy swine
-   44  merged slime creature
    44  slime creature
    42  fire crab
-   42  flaming corpse
    42  freezing wraith
    42  salamander
    42  silent spectre
@@ -333,31 +323,33 @@ Monsters by MR, [*]: immune
    40  small abomination
    40  blink frog
    40  bog body
+   40  centaur warrior
    40  death cob
    40  deep dwarf
    40  deep troll
    40  faun
    40  felid
    40  gelid demonspawn
-   40  giant slug
    40  hell knight
    40  infernal demonspawn
+   40  Joseph
    40  kobold demonologist
    40  merfolk
    40  monstrous demonspawn
    40  naga
    40  oklob plant
    40  Prince Ribbit
-   40  pulsating lump
    40  putrid demonspawn
    40  sea snake
    40  shadow
    40  shock serpent
    40  snapping turtle
    40  tengu warrior
+   40  torpor snail
    40  torturous demonspawn
    40  warg
    37  black draconian
+   37  boggart
    37  green draconian
    37  grey draconian
    37  hungry ghost
@@ -369,14 +361,12 @@ Monsters by MR, [*]: immune
    37  white draconian
    37  yellow draconian
    36  boulder beetle
-   36  centaur warrior
    36  crimson imp
    36  cyclops
    36  death drake
    36  ironbrand convoker
    36  lindwurm
    36  manticore
-   36  moth
    36  moth of wrath
    36  Nessos
    36  orc knight
@@ -394,25 +384,20 @@ Monsters by MR, [*]: immune
    32  komodo dragon
    32  red wasp
    32  two-headed ogre
-   32  ugly thing
    32  wandering mushroom
    32  wind drake
    32  yaktaur
    29  wolf spider
    28  baby alligator
-   28  bear
    28  black mamba
    28  efreet
    28  flying skull
-   28  giant goldfish
-   28  grizzly bear
    28  harpy
    28  hell beast
    28  hippogriff
    28  polar bear
    28  queen bee
    28  raiju
-   28  shark
    28  spiny frog
    28  tengu conjurer
    28  troll
@@ -421,7 +406,6 @@ Monsters by MR, [*]: immune
    26  demigod
    26  Eustachio
    26  Maurice
-   26  player
    26  player ghost
    26  player illusion
    26  Psyche
@@ -433,7 +417,6 @@ Monsters by MR, [*]: immune
    24  Grinder
    24  hog
    24  human
-   24  lava worm
    24  Natasha
    24  ooze
    24  Pikel
@@ -461,10 +444,8 @@ Monsters by MR, [*]: immune
    20  vampire mosquito
    20  water moccasin
    20  wyvern
-   16  big fish
    16  Blork the orc
    16  centaur
-   16  drake
    16  giant frog
    16  gnoll sergeant
    16  gnoll shaman
@@ -507,7 +488,6 @@ Monsters by MR, [*]: immune
     8  inept feature mimic
     8  inept item mimic
     8  shadow imp
-    8  snake
     8  Sonja
     8  Terence
     8  white imp
@@ -517,7 +497,6 @@ Monsters by MR, [*]: immune
     5  quasit
     4  butterfly
     4  giant gecko
-    4  giant lizard
     4  giant newt
     4  giant spore
     4  Jessica

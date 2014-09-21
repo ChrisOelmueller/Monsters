@@ -14,6 +14,10 @@ Monsters by Average HP, [*]: fixed
 [*] 350  Ereshkigal              
 [*] 350  Gloorx Vloq             
 [*] 350  Mnoleg                  
+[*] 320  the Serpent of Hell     
+[*] 320  the Serpent of Hell     
+[*] 320  the Serpent of Hell     
+[*] 320  the Serpent of Hell     
 [*] 300  Geryon                  
 [*] 250  Ignacio                 
 [*] 240  Khufu                   
@@ -30,17 +34,12 @@ Monsters by Average HP, [*]: fixed
     180  bone dragon             (120..[180]..240)   20d6 [+6]  +0
 [*] 180  Dissolution             
 [*] 180  Jory                    
-[*] 180  Murray                  
 [*] 180  Roxanne                 
     176  hell lord               (100..[176]..252)   19d0 [+8]+100
     176  pandemonium lord        (100..[176]..252)   19d0 [+8]+100
 [*] 164  Margery                 
     160  hellephant              (100..[160]..240)   20d5 [+7]  +0
-[*] 160  orange crystal statue   
-[*] 160  the Serpent of Hell     
-[*] 160  the Serpent of Hell     
-[*] 160  the Serpent of Hell     
-[*] 160  the Serpent of Hell     
+[*] 160  Murray                  
 [*] 160  Vashnia                 
 [*] 159  Frederick               
 [*] 154  Boris                   
@@ -53,8 +52,6 @@ Monsters by Average HP, [*]: fixed
 [*] 150  Mennas                  
 [*] 150  orb of fire             
 [*] 150  Polyphemus              
-[*] 150  silver star             
-[*] 150  silver statue           
 [*] 150  Sojobo                  
     144  alligator snapping tur  (112..[144]..176)   16d7 [+4]  +0
     144  profane servitor        (108..[144]..198)   18d6 [+5]  +0
@@ -83,6 +80,9 @@ Monsters by Average HP, [*]: fixed
     112  eldritch tentacle       ( 80..[112]..160)   16d5 [+5]  +0
     112  eldritch tentacle segm  ( 80..[112]..160)   16d5 [+5]  +0
     112  emperor scorpion        ( 84..[112]..154)   14d6 [+5]  +0
+    112  Mnoleg's tentacle       ( 80..[112]..160)   16d5 [+5]  +0
+    112  Mnoleg's tentacle segm  ( 80..[112]..160)   16d5 [+5]  +0
+    112  octopode crusher        ( 80..[112]..144)   16d5 [+4]  +0
 [*] 110  Kirke                   
     108  ancient lich            ( 54..[108]..162)   27d2 [+4]  +0
     108  golden dragon           ( 72..[108]..144)   18d4 [+4]  +0
@@ -92,10 +92,7 @@ Monsters by Average HP, [*]: fixed
 [*] 106  Louise                  
     105  dire elephant           ( 75..[105]..150)   15d5 [+5]  +0
     105  orc warlord             ( 60..[105]..165)   15d4 [+7]  +0
-    104  phoenix                 ( 78..[104]..143)   13d6 [+5]  +0
-    104  shedu                   ( 78..[104]..143)   13d6 [+5]  +0
 [*] 100  Agnes                   
-    100  animated tree           ( 60..[100]..160)   20d3 [+5]  +0
     100  bush                    ( 60..[100]..160)   20d3 [+5]  +0
 [*] 100  curse toe               
     100  monstrous demonspawn    ( 90..[100]..110)   10d9 [+2]  +0
@@ -106,7 +103,6 @@ Monsters by Average HP, [*]: fixed
      98  green draconian         ( 70..[ 98]..126)   14d5 [+4]  +0
      98  grey draconian          ( 70..[ 98]..126)   14d5 [+4]  +0
      98  mottled draconian       ( 70..[ 98]..126)   14d5 [+4]  +0
-     98  octopode crusher        ( 70..[ 98]..126)   14d5 [+4]  +0
      98  pale draconian          ( 70..[ 98]..126)   14d5 [+4]  +0
      98  purple draconian        ( 70..[ 98]..126)   14d5 [+4]  +0
      98  red draconian           ( 70..[ 98]..126)   14d5 [+4]  +0
@@ -128,14 +124,14 @@ Monsters by Average HP, [*]: fixed
      90  salamander firebrand    ( 60..[ 90]..135)   15d4 [+5]  +0
      90  Shadow Fiend            ( 54..[ 90]..144)   18d3 [+5]  +0
      90  thorn hunter            ( 60..[ 90]..135)   15d4 [+5]  +0
+     90  very ugly thing         ( 54..[ 90]..144)   18d3 [+5]  +0
 [*]  88  Azrael                  
      85  tengu reaver            ( 51..[ 85]..119)   17d3 [+4]  +0
 [*]  84  Donald                  
-     84  dragon                  ( 60..[ 84]..120)   12d5 [+5]  +0
      84  fire dragon             ( 60..[ 84]..120)   12d5 [+5]  +0
      84  hell beast              ( 63..[ 84]..105)    7d9 [+6]  +0
      84  ice dragon              ( 60..[ 84]..120)   12d5 [+5]  +0
-     80  deep dwarf death knigh  ( 50..[ 80]..110)   10d5 [+6]  +0
+     80  death knight            ( 50..[ 80]..110)   10d5 [+6]  +0
      80  draconian annihilator   ( 64..[ 80].. 96)   16d4 [+2]  +0
      80  draconian caller        ( 64..[ 80]..112)   16d4 [+3]  +0
      80  draconian scorcher      ( 64..[ 80].. 96)   16d4 [+2]  +0
@@ -151,11 +147,11 @@ Monsters by Average HP, [*]: fixed
      80  vault warden            ( 48..[ 80]..128)   16d3 [+5]  +0
      78  merfolk javelineer      ( 65..[ 78].. 91)   13d5 [+2]  +0
      78  siren                   ( 65..[ 78]..104)   13d5 [+3]  +0
-     77  plague shambler         ( 55..[ 77]..110)   11d5 [+5]  +0
      77  unborn                  ( 55..[ 77].. 99)   11d5 [+4]  +0
 [*]  76  Harold                  
      75  azure jelly             ( 45..[ 75]..120)   15d3 [+5]  +0
      75  deep elf master archer  ( 60..[ 75].. 90)   15d4 [+2]  +0
+     75  elemental wellspring    ( 60..[ 75].. 90)   15d4 [+2]  +0
      75  greater naga            ( 45..[ 75]..120)   15d3 [+5]  +0
      75  Orb Guardian            ( 45..[ 75]..120)   15d3 [+5]  +0
      72  alligator               ( 36..[ 72]..108)   12d3 [+6]  +0
@@ -169,11 +165,14 @@ Monsters by Average HP, [*]: fixed
      72  revenant                ( 54..[ 72]..108)   18d3 [+3]  +0
      70  ancient champion        ( 56..[ 70].. 84)   14d4 [+2]  +0
      70  balrug                  ( 42..[ 70]..112)   14d3 [+5]  +0
+     70  bennu                   ( 42..[ 70]..112)   14d3 [+5]  +0
      70  catoblepas              ( 42..[ 70]..112)   14d3 [+5]  +0
      70  death yak               ( 42..[ 70]..112)   14d3 [+5]  +0
 [*]  70  ice statue              
      70  lorocyproca             ( 42..[ 70]..112)   14d3 [+5]  +0
+[*]  70  orange crystal statue   
      70  reaper                  ( 42..[ 70]..112)   14d3 [+5]  +0
+[*]  70  silver statue           
      70  spatial maelstrom       ( 60..[ 70].. 90)   10d6 [+3]  +0
 [*]  70  statue                  
 [*]  70  wretched star           
@@ -193,7 +192,6 @@ Monsters by Average HP, [*]: fixed
      64  crystal guardian        ( 48..[ 64].. 80)   16d3 [+2]  +0
      64  draconian               ( 48..[ 64].. 80)    8d6 [+4]  +0
 [*]  64  Erica                   
-     64  golem                   ( 56..[ 64].. 80)    8d7 [+3]  +0
      64  salamander              ( 40..[ 64].. 88)    8d5 [+6]  +0
      63  elephant                ( 45..[ 63].. 90)    9d5 [+5]  +0
      63  orc knight              ( 36..[ 63].. 99)    9d4 [+7]  +0
@@ -205,7 +203,6 @@ Monsters by Average HP, [*]: fixed
      60  ettin                   ( 36..[ 60].. 96)   12d3 [+5]  +0
      60  Executioner             ( 36..[ 60].. 96)   12d3 [+5]  +0
      60  giant leech             ( 36..[ 60].. 84)   12d3 [+4]  +0
-     60  giant slug              ( 50..[ 60].. 80)   10d5 [+3]  +0
      60  great orb of eyes       ( 36..[ 60].. 96)   12d3 [+5]  +0
      60  griffon                 ( 36..[ 60].. 96)   12d3 [+5]  +0
      60  hell knight             ( 40..[ 60].. 90)   10d4 [+5]  +0
@@ -223,7 +220,8 @@ Monsters by Average HP, [*]: fixed
      60  snapping turtle         ( 30..[ 60].. 90)   10d3 [+6]  +0
      60  spriggan defender       ( 45..[ 60].. 90)   15d3 [+3]  +0
      60  tengu warrior           ( 40..[ 60].. 80)   10d4 [+4]  +0
-     60  very ugly thing         ( 36..[ 60].. 96)   12d3 [+5]  +0
+     60  torpor snail            ( 50..[ 60].. 70)   10d5 [+2]  +0
+     60  ugly thing              ( 36..[ 60].. 96)   12d3 [+5]  +0
      56  deep elf sorcerer       ( 42..[ 56].. 84)   14d3 [+3]  +0
      56  merfolk aquamancer      ( 42..[ 56].. 84)   14d3 [+3]  +0
      56  naga ritualist          ( 40..[ 56].. 80)    8d5 [+5]  +0
@@ -232,12 +230,10 @@ Monsters by Average HP, [*]: fixed
      55  anaconda                ( 33..[ 55].. 88)   11d3 [+5]  +0
 [*]  55  curse skull             
      55  flayed ghost            ( 33..[ 55].. 88)   11d3 [+5]  +0
-     55  giant                   ( 33..[ 55].. 88)   11d3 [+5]  +0
      55  hell hog                ( 33..[ 55].. 88)   11d3 [+5]  +0
      55  hill giant              ( 33..[ 55].. 88)   11d3 [+5]  +0
      55  holy swine              ( 33..[ 55].. 88)   11d3 [+5]  +0
      55  ice devil               ( 33..[ 55].. 88)   11d3 [+5]  +0
-     55  merged slime creature   ( 33..[ 55].. 88)   11d3 [+5]  +0
      55  orc high priest         ( 33..[ 55].. 77)   11d3 [+4]  +0
      55  slime creature          ( 33..[ 55].. 88)   11d3 [+5]  +0
      55  soul eater              ( 33..[ 55].. 88)   11d3 [+5]  +0
@@ -245,10 +241,12 @@ Monsters by Average HP, [*]: fixed
      55  wolf spider             ( 33..[ 55].. 77)   11d3 [+4]  +0
      54  demonic crawler         ( 36..[ 54].. 81)    9d4 [+5]  +0
 [*]  54  Erolcha                 
+     54  ghost crab              ( 36..[ 54].. 81)    9d4 [+5]  +0
      54  spatial vortex          ( 36..[ 54].. 72)    6d6 [+6]  +0
      54  toenail golem           ( 45..[ 54].. 72)    9d5 [+3]  +0
      52  deathcap                ( 26..[ 52].. 78)   13d2 [+4]  +0
      52  war gargoyle            ( 26..[ 52].. 78)   13d2 [+4]  +0
+     50  centaur warrior         ( 30..[ 50].. 80)   10d3 [+5]  +0
      50  deep troll              ( 30..[ 50].. 80)   10d3 [+5]  +0
      50  eye of devastation      ( 30..[ 50].. 80)   10d3 [+5]  +0
      50  faun                    ( 30..[ 50].. 70)   10d3 [+4]  +0
@@ -262,7 +260,6 @@ Monsters by Average HP, [*]: fixed
      50  ogre mage               ( 30..[ 50].. 80)   10d3 [+5]  +0
      50  oklob plant             ( 30..[ 50].. 80)   10d3 [+5]  +0
      50  plant                   ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  pulsating lump          ( 30..[ 50].. 80)   10d3 [+5]  +0
      50  putrid demonspawn       ( 30..[ 50].. 70)   10d3 [+4]  +0
      50  shadow demon            ( 30..[ 50].. 80)   10d3 [+5]  +0
      50  shadow wraith           ( 30..[ 50].. 80)   10d3 [+5]  +0
@@ -283,16 +280,13 @@ Monsters by Average HP, [*]: fixed
      48  tentacle segment        ( 36..[ 48].. 60)   12d3 [+2]  +0
      48  orange demon            ( 32..[ 48].. 72)    8d4 [+5]  +0
      48  spriggan berserker      ( 36..[ 48].. 72)   12d3 [+3]  +0
-     48  spriggan enchanter      ( 36..[ 48].. 72)   12d3 [+3]  +0
      48  vault sentinel          ( 32..[ 48].. 72)    8d4 [+5]  +0
-     45  centaur warrior         ( 27..[ 45].. 72)    9d3 [+5]  +0
      45  cyclops                 ( 27..[ 45].. 72)    9d3 [+5]  +0
      45  deep elf summoner       ( 36..[ 45].. 63)    9d4 [+3]  +0
      45  ironbrand convoker      ( 27..[ 45].. 72)    9d3 [+5]  +0
      45  lindwurm                ( 27..[ 45].. 72)    9d3 [+5]  +0
      45  mana viper              ( 27..[ 45].. 72)    9d3 [+5]  +0
      45  manticore               ( 27..[ 45].. 72)    9d3 [+5]  +0
-     45  moth                    ( 27..[ 45].. 72)    9d3 [+5]  +0
      45  moth of wrath           ( 27..[ 45].. 72)    9d3 [+5]  +0
      45  phantasmal warrior      ( 27..[ 45].. 72)    9d3 [+5]  +0
      45  thrashing horror        ( 27..[ 45].. 72)    9d3 [+5]  +0
@@ -302,11 +296,8 @@ Monsters by Average HP, [*]: fixed
      44  deep elf knight         ( 33..[ 44].. 66)   11d3 [+3]  +0
 [*]  44  Edmund                  
      44  spriggan druid          ( 33..[ 44].. 55)   11d3 [+2]  +0
-     42  bear                    ( 28..[ 42].. 56)    7d4 [+4]  +0
      42  earth elemental         ( 30..[ 42].. 60)    6d5 [+5]  +0
-     42  elemental               ( 30..[ 42].. 60)    6d5 [+5]  +0
      42  formicid                ( 24..[ 42].. 60)    6d4 [+6]  +0
-     42  grizzly bear            ( 28..[ 42].. 56)    7d4 [+4]  +0
      42  guardian mummy          ( 35..[ 42].. 56)    7d5 [+3]  +0
      42  hellwing                ( 28..[ 42].. 63)    7d4 [+5]  +0
      42  orb spider              ( 28..[ 42].. 56)    7d4 [+4]  +0
@@ -318,7 +309,6 @@ Monsters by Average HP, [*]: fixed
      40  chimera                 ( 24..[ 40].. 64)    8d3 [+5]  +0
 [*]  40  Eustachio               
      40  feature mimic           ( 24..[ 40].. 64)    8d3 [+5]  +0
-     40  flaming corpse          ( 24..[ 40].. 64)    8d3 [+5]  +0
      40  freezing wraith         ( 24..[ 40].. 64)    8d3 [+5]  +0
      40  fungus                  ( 24..[ 40].. 64)    8d3 [+5]  +0
 [*]  40  Grinder                 
@@ -335,7 +325,6 @@ Monsters by Average HP, [*]: fixed
      40  silent spectre          ( 24..[ 40].. 64)    8d3 [+5]  +0
      40  spectral thing          ( 24..[ 40].. 64)    8d3 [+5]  +0
      40  trapdoor spider         ( 24..[ 40].. 56)    8d3 [+4]  +0
-     40  ugly thing              ( 24..[ 40].. 64)    8d3 [+5]  +0
      40  wandering mushroom      ( 24..[ 40].. 64)    8d3 [+5]  +0
      40  wizard                  ( 20..[ 40].. 60)   10d2 [+4]  +0
      40  worldbinder             ( 24..[ 40].. 56)    8d3 [+4]  +0
@@ -350,12 +339,10 @@ Monsters by Average HP, [*]: fixed
      35  baby alligator          ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  black mamba             ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  blue devil              ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  brown ooze              ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  demigod                 ( 25..[ 35].. 50)    5d5 [+5]  +0
 [*]  35  Duvessa                 
      35  efreet                  ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  eye of draining         ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  giant goldfish          ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  harpy                   ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  hellion                 ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  hippogriff              ( 21..[ 35].. 56)    7d3 [+5]  +0
@@ -366,7 +353,6 @@ Monsters by Average HP, [*]: fixed
      35  queen bee               ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  raiju                   ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  shapeshifter            ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  shark                   ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  sixfirhy                ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  smoke demon             ( 21..[ 35].. 56)    7d3 [+5]  +0
      35  spiny frog              ( 21..[ 35].. 56)    7d3 [+5]  +0
@@ -380,7 +366,6 @@ Monsters by Average HP, [*]: fixed
      32  vine stalker            ( 24..[ 32].. 48)    8d3 [+3]  +0
      30  air elemental           ( 18..[ 30].. 48)    6d3 [+5]  +0
      30  blink frog              ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  boggart                 ( 18..[ 30].. 42)    6d3 [+4]  +0
      30  chaos spawn             ( 18..[ 30].. 48)    6d3 [+5]  +0
      30  demonspawn              ( 18..[ 30].. 48)    6d3 [+5]  +0
      30  fire drake              ( 18..[ 30].. 48)    6d3 [+5]  +0
@@ -388,7 +373,6 @@ Monsters by Average HP, [*]: fixed
      30  fire vortex             ( 20..[ 30].. 40)   10d2 [+2]  +0
      30  hog                     ( 18..[ 30].. 48)    6d3 [+5]  +0
      30  human                   ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  lava worm               ( 18..[ 30].. 48)    6d3 [+5]  +0
      30  neqoxec                 ( 18..[ 30].. 48)    6d3 [+5]  +0
      30  raven                   ( 24..[ 30].. 42)    6d4 [+3]  +0
 [*]  30  Sigmund                 
@@ -403,8 +387,6 @@ Monsters by Average HP, [*]: fixed
      30  ynoxinul                ( 18..[ 30].. 48)    6d3 [+5]  +0
      30  large zombie            ( 18..[ 30].. 48)    6d3 [+5]  +0
      28  deep elf priest         ( 21..[ 28].. 42)    7d3 [+3]  +0
-     28  drake                   ( 20..[ 28].. 40)    4d5 [+5]  +0
-     28  giant firefly           ( 21..[ 28].. 42)    7d3 [+3]  +0
 [*]  28  Ijyb                    
      28  molten gargoyle         ( 21..[ 28].. 42)    7d3 [+3]  +0
      28  orc warrior             ( 16..[ 28].. 40)    4d4 [+6]  +0
@@ -446,7 +428,7 @@ Monsters by Average HP, [*]: fixed
      24  tarantella              ( 16..[ 24].. 40)    8d2 [+3]  +0
      21  flying skull            ( 14..[ 21].. 28)    7d2 [+2]  +0
      21  spriggan                ( 14..[ 21].. 35)    7d2 [+3]  +0
-     20  big fish                ( 12..[ 20].. 32)    4d3 [+5]  +0
+     20  boggart                 ( 12..[ 20].. 28)    4d3 [+4]  +0
      20  brain worm              ( 15..[ 20].. 30)    5d3 [+3]  +0
      20  centaur                 ( 12..[ 20].. 32)    4d3 [+5]  +0
 [*]  20  Crazy Yiuf              
@@ -491,7 +473,6 @@ Monsters by Average HP, [*]: fixed
      12  gnoll                   (  8..[ 12].. 18)    2d4 [+5]  +0
      12  golden eye              (  6..[ 12].. 18)    6d1 [+2]  +0
      12  insubstantial wisp      (  6..[ 12].. 18)    6d1 [+2]  +0
-     12  player                  (  8..[ 12].. 20)    4d2 [+3]  +0
      12  player ghost            (  8..[ 12].. 20)    4d2 [+3]  +0
      12  player illusion         (  8..[ 12].. 20)    4d2 [+3]  +0
      10  adder                   (  6..[ 10].. 16)    2d3 [+5]  +0
@@ -504,7 +485,6 @@ Monsters by Average HP, [*]: fixed
      10  shadow imp              (  6..[ 10].. 16)    2d3 [+5]  +0
      10  simulacrum              (  6..[ 10].. 16)    2d3 [+5]  +0
      10  small simulacrum        (  6..[ 10].. 16)    2d3 [+5]  +0
-     10  snake                   (  6..[ 10].. 16)    2d3 [+5]  +0
      10  starspawn tentacle      ( 10..[ 10].. 32)   22d0 [+1] +10
      10  starspawn tentacle seg  ( 10..[ 10].. 32)   22d0 [+1] +10
      10  white imp               (  6..[ 10].. 16)    2d3 [+5]  +0
@@ -516,7 +496,6 @@ Monsters by Average HP, [*]: fixed
       7  zombie                  (  5..[  7].. 10)    1d5 [+5]  +0
       7  small zombie            (  5..[  7].. 10)    1d5 [+5]  +0
 [*]   6  training dummy          
-      5  butterfly               (  3..[  5]..  8)    1d3 [+5]  +0
       5  giant cockroach         (  3..[  5]..  7)    1d3 [+4]  +0
       5  giant gecko             (  3..[  5]..  8)    1d3 [+5]  +0
       5  hobgoblin               (  4..[  5]..  7)    1d4 [+3]  +0
@@ -528,10 +507,10 @@ Monsters by Average HP, [*]: fixed
       3  kobold                  (  2..[  3]..  5)    1d2 [+3]  +0
       3  macabre mass            (  2..[  3]..  4)    1d2 [+2]  +0
       3  toadstool               (  2..[  3]..  4)    1d2 [+2]  +0
-      2  giant lizard            (  1..[  2]..  3)    1d1 [+2]  +0
       2  giant newt              (  1..[  2]..  3)    1d1 [+2]  +0
       2  rat                     (  1..[  2]..  4)    1d1 [+3]  +0
 [*]   1  ball lightning          
+[*]   1  butterfly               
 [*]   1  crawling corpse         
 [*]   1  ghost                   
 [*]   1  giant spore             

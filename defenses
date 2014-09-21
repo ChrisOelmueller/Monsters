@@ -4,11 +4,13 @@ Monsters by AC and EV
 127|127  test spawner
  40|  3  Dispater
  15| 28  Mennas
+ 30| 12  the Serpent of Hell
  10| 30  Ereshkigal
  30| 10  Murray
  20| 20  orb of fire
  30| 10  Tiamat
  30|  8  Cerebov
+ 35|  3  curse skull
  30|  7  Asmodeus
  10| 25  Mnoleg
  28|  4  Antaeus
@@ -22,14 +24,11 @@ Monsters by AC and EV
  10| 20  profane servitor
  10| 20  seraph
   1| 28  the Enchantress
- 25|  3  curse skull
  25|  3  Hell Sentinel
- 16| 12  the Serpent of Hell
  16| 12  the Serpent of Hell
  16| 12  the Serpent of Hell
  18| 10  soul eater
  10| 17  flying skull
- 12| 15  silver star
   8| 18  Aizul
  25|  1  curse toe
  16| 10  grey draconian
@@ -38,13 +37,11 @@ Monsters by AC and EV
   2| 24  Sonja
  22|  4  war gargoyle
  15| 10  ancient champion
- 25|  0  animated tree
   0| 25  butterfly
  10| 15  death cob
   0| 25  deep elf blademaster
   5| 20  electric golem
  10| 15  Executioner
- 12| 13  flaming corpse
  20|  5  grand avatar
  10| 15  Ignacio
   5| 20  insubstantial wisp
@@ -62,7 +59,6 @@ Monsters by AC and EV
  16|  8  iron devil
  20|  4  iron troll
  10| 14  Mara
- 10| 14  rakshasa
   2| 22  Sojobo
  12| 12  tormentor
   6| 18  Vashnia
@@ -73,6 +69,7 @@ Monsters by AC and EV
   9| 14  pale draconian
   1| 22  spriggan air mage
  13| 10  storm dragon
+  6| 16  bennu
  12| 10  Boris
  20|  2  boulder beetle
  22|  0  crystal guardian
@@ -86,7 +83,6 @@ Monsters by AC and EV
  12| 10  phantasmal warrior
   5| 17  quasit
   2| 20  sixfirhy
-  2| 20  spriggan enchanter
  10| 12  sun demon
  15|  7  Xtahua
  15|  6  Brimstone Fiend
@@ -95,7 +91,6 @@ Monsters by AC and EV
  15|  6  Geryon
  15|  6  Ice Fiend
  14|  7  molten gargoyle
- 20|  1  orange crystal statue
   7| 14  red wasp
  15|  6  Shadow Fiend
  16|  5  snapping turtle
@@ -118,6 +113,7 @@ Monsters by AC and EV
   9| 11  Nergalle
  10| 10  ophan
  10| 10  queen bee
+  6| 14  rakshasa
   7| 13  red devil
   8| 12  revenant
  20|  0  Roxanne
@@ -133,7 +129,6 @@ Monsters by AC and EV
   9| 10  black draconian
   4| 15  black mamba
   7| 12  chaos spawn
-  1| 18  giant firefly
   9| 10  green draconian
   6| 13  hell hound
   2| 17  lava snake
@@ -151,10 +146,8 @@ Monsters by AC and EV
   4| 15  wolf
   9| 10  yellow draconian
   5| 14  yellow wasp
- 10|  8  dragon
   6| 12  dryad
  14|  4  earth elemental
- 14|  4  elemental
   3| 15  elf
  10|  8  fire dragon
   6| 12  gelid demonspawn
@@ -197,6 +190,7 @@ Monsters by AC and EV
  10|  6  demonic crawler
   3| 13  demonspawn
   1| 15  electric eel
+  8|  8  elemental wellspring
   4| 12  fire elemental
  10|  6  greater mummy
   6| 10  greater naga
@@ -218,11 +212,10 @@ Monsters by AC and EV
   0| 16  Prince Ribbit
   3| 13  putrid demonspawn
  13|  3  shambling mangrove
- 15|  1  silver statue
   4| 12  siren
   3| 13  sky beast
-  1| 15  snake
   3| 13  torturous demonspawn
+  6| 10  very ugly thing
   4| 12  warg
  12|  4  worldbinder
  10|  5  Azrael
@@ -239,8 +232,8 @@ Monsters by AC and EV
   1| 14  fire bat
   9|  6  fire crab
   3| 12  fire drake
+  9|  6  ghost crab
   1| 14  giant gecko
-  0| 15  giant lizard
   0| 15  giant newt
   6|  9  guardian mummy
   5| 10  hellion
@@ -268,11 +261,10 @@ Monsters by AC and EV
   5|  9  alligator
   9|  5  apis
   4| 10  crocodile
+  2| 12  death knight
   9|  5  death yak
   2| 12  deep dwarf
-  2| 12  deep dwarf death knight
   2| 12  demigod
-  3| 11  drake
   2| 12  dwarf
   0| 14  flayed ghost
   4| 10  ghoul
@@ -292,7 +284,6 @@ Monsters by AC and EV
   2| 12  satyr
   3| 11  shadow imp
   7|  7  shadow wraith
-  9|  5  shark
  10|  4  simulacrum
  10|  4  small simulacrum
   2| 12  slave
@@ -301,17 +292,15 @@ Monsters by AC and EV
   7|  7  swamp dragon
   3| 11  swamp drake
   2| 12  tengu
+  4| 10  ugly thing
   1| 13  vault guard
   1| 13  vault sentinel
   1| 13  vault warden
-  4| 10  very ugly thing
   2| 12  vine stalker
   4| 10  white imp
   4| 10  wight
   4| 10  worker ant
   3| 10  Arachne
-  5|  8  bear
-  1| 12  big fish
   8|  5  chimera
   0| 13  Cloud Mage
   0| 13  deep elf annihilator
@@ -337,11 +326,13 @@ Monsters by AC and EV
   3| 10  giant cockroach
  10|  3  goliath beetle
  10|  3  great orb of eyes
-  5|  8  grizzly bear
   0| 13  Hellbinder
  12|  1  ice statue
+ 13|  0  Mnoleg's tentacle
+ 13|  0  Mnoleg's tentacle segment
   3| 10  monstrous demonspawn
   0| 13  necromancer
+ 12|  1  orange crystal statue
   3| 10  orb spider
   1| 12  orc high priest
   3| 10  orc warlord
@@ -350,6 +341,7 @@ Monsters by AC and EV
  10|  3  Polyphemus
   1| 12  Purgy
   3| 10  Saint Roka
+ 12|  1  silver statue
   8|  5  spectral thing
   3| 10  spider
  12|  1  statue
@@ -357,7 +349,6 @@ Monsters by AC and EV
   8|  5  toenail golem
   3| 10  trapdoor spider
   3| 10  troll
-  3| 10  ugly thing
   0| 13  wizard
   3| 10  wolf spider
   3| 10  ynoxinul
@@ -372,9 +363,7 @@ Monsters by AC and EV
   8|  4  fire giant
   9|  3  frost giant
   0| 12  giant frog
-  5|  7  giant goldfish
   0| 12  goblin
-  7|  5  golem
   5|  7  green death
  10|  2  guardian golem
   2| 10  harpy
@@ -386,16 +375,12 @@ Monsters by AC and EV
   5|  7  minotaur
   2| 10  necrophage
   4|  8  Nessos
-  2| 10  phoenix
-  5|  7  plague shambler
   0| 12  Psyche
   8|  4  the royal jelly
   5|  7  salamander
   5|  7  salamander mystic
-  2| 10  shedu
   2| 10  unborn
   0| 11  ball python
- 10|  1  brown ooze
   2|  9  Crazy Yiuf
  10|  1  Dissolution
   2|  9  Duvessa
@@ -407,7 +392,6 @@ Monsters by AC and EV
   2|  9  hell hog
   2|  9  hog
   2|  9  holy swine
-  1| 10  lava worm
   1| 10  orc priest
   1| 10  rat
   1| 10  raven
@@ -443,7 +427,6 @@ Monsters by AC and EV
   0| 10  lurking horror
   0| 10  Margery
   0| 10  Maud
-  0| 10  moth
   0| 10  moth of wrath
   1|  9  Nikola
   1|  9  Norris
@@ -453,7 +436,6 @@ Monsters by AC and EV
   0| 10  orb of destruction
   0| 10  orc
  10|  0  plant
-  0| 10  player
   0| 10  Rupert
   0| 10  shapeshifter
   0| 10  Snorg
@@ -470,14 +452,13 @@ Monsters by AC and EV
   3|  6  Menkaure
   3|  6  mummy
   2|  7  sheep
+  8|  1  torpor snail
   5|  3  cyclops
   1|  7  giant mite
   0|  8  Harold
   1|  7  ogre mage
-  2|  6  pulsating lump
   4|  4  yaktaur
  -3| 10  draconian monk
-  3|  4  giant
   3|  4  hill giant
   1|  6  ogre
   1|  5  brain worm
@@ -499,7 +480,6 @@ Monsters by AC and EV
   0|  5  fire vortex
   0|  5  hydra
   0|  5  the Lernaean hydra
-  1|  4  merged slime creature
   1|  4  slime creature
   0|  5  spatial maelstrom
   0|  5  spatial vortex
@@ -520,7 +500,6 @@ Monsters by AC and EV
   1|  2  pandemonium lord
   1|  2  player ghost
   1|  2  player illusion
-  0|  2  giant slug
   0|  2  jelly
   0|  2  warmonger
   1|  0  ballistomycete
