@@ -18,6 +18,21 @@ spl_data_path = os.path.join(os.path.expanduser('~'),
                              "crawl/crawl-ref/source/spl-data.h")
 book_data_path = os.path.join(os.path.expanduser('~'),
                               "crawl/crawl-ref/source/book-data.h")
+# Constants
+SCHOOL_ABBREVIATIONS = {
+    'CONJURATION': 'Conj',
+    'HEXES': 'Hex',
+    'CHARMS': 'Ch',
+    'FIRE': 'Fire',
+    'ICE': 'Ice',
+    'TRANSMUTATION': 'Tmut',
+    'NECROMANCY': 'Nec',
+    'SUMMONING': 'Sum',
+    'TRANSLOCATION': 'Tloc',
+    'POISON': 'Pois',
+    'EARTH': 'Ea',
+    'AIR': 'Air',
+}
 
 def read_spl_data(h=spl_data_path, debug=False):
     """Read spl-data.h"""
@@ -140,15 +155,16 @@ class Spell(object):
         utility_spell,
         *args, **kwargs):
 
-        self.id          = id
-        self.name        = name
+        self.id            = id
+        self.name          = name
+        # len('SPTYP_') = 6
         if isinstance(schools, tuple):
-            self.schools   = schools
+            self.schools   = tuple(s[6:] for s in schools)
         elif schools == 0:
-            self.schools   = ('SPTYP_NO_SCHOOL', )
+            self.schools   = ('NO_SCHOOL', )
         else:
-            self.schools   = (schools, )
-        self.level       = level
+            self.schools   = (schools[6:], )
+        self.level         = level
         self.power_cap     = power_cap
         self.min_range     = min_range
         self.max_range     = max_range
@@ -163,7 +179,8 @@ class Spell(object):
             self.flags     = flags
 
     def __repr__(self):
-        return ' L%s %s' % (self.level, self.name)
+        return ' L%s %s (%s)' % (self.level, self.name,
+            '/'.join(SCHOOL_ABBREVIATIONS.get(s, s) for s in self.schools))
 
 
 def title(heading, x='-'):
@@ -197,18 +214,19 @@ def main():
                 for s in spells:
                     print all_spells[s]
 
-    def print_everything():
+    def print_schools():
         for school, spells in school_spells.items():
             title(school)
             for s in sorted(spells, key=attrgetter('level'), reverse=True):
                 print s
 
     fnmap = {
-        'everything': print_everything,
+        'everything': print_schools,
+        'schools': print_schools,
 
         'books': print_spellbooks,
         'rods': print_spellbooks,
-        'spellbooks': print_spellbooks,
+    #   'spellbooks': print_spellbooks,
     }
 
     for (abbr, fn) in fnmap.iteritems():
