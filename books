@@ -1,388 +1,388 @@
 
 Lightning rod
 -------------
- L2 Thunderbolt
+ L2 Thunderbolt (Conj/Air)
 
 Rod of ignition
 ---------------
- L6 Explosive Bolt
+ L6 Explosive Bolt (Conj/Fire)
 
 Rod of striking
 ---------------
- L1 Melee
+ L1 Melee (-)
 
 Rod of the swarm
 ----------------
- L5 Summon Swarm
+ L5 Summon Swarm (Sum)
 
 Rod of destruction
 ------------------
- L4 Random Bolt
+ L4 Random Bolt (Conj)
 
 Rod of shadows
 --------------
- L5 Weave Shadows
+ L5 Weave Shadows (Sum)
 
 Rod of clouds
 -------------
- L6 Cloud Cone
+ L6 Cloud Cone (Conj/Air)
 
 Rod of inaccuracy
 -----------------
- L3 Bolt of Inaccuracy
+ L3 Bolt of Inaccuracy (Conj)
 
 Book of Wizardry
 ----------------
- L5 Agony
- L5 Force Lance
- L6 Dispersal
- L6 Haste
- L6 Invisibility
- L7 Spellforged Servitor
+ L5 Agony (Nec)
+ L5 Force Lance (Conj)
+ L6 Dispersal (Tloc)
+ L6 Haste (Ch)
+ L6 Invisibility (Hex)
+ L7 Spellforged Servitor (Conj/Sum)
 
 Book of Unlife
 --------------
- L3 Recall
- L4 Animate Dead
- L4 Control Undead
- L5 Twisted Resurrection
- L6 Death Channel
- L6 Simulacrum
+ L3 Recall (Sum/Tloc)
+ L4 Animate Dead (Nec)
+ L4 Control Undead (Nec)
+ L5 Twisted Resurrection (Nec)
+ L6 Death Channel (Nec)
+ L6 Simulacrum (Ice/Nec)
 
 Book of Enchantments
 --------------------
- L3 Tukima's Dance
- L4 Cause Fear
- L5 Silence
- L6 Deflect Missiles
- L6 Haste
- L8 Discord
+ L3 Tukima's Dance (Hex)
+ L4 Cause Fear (Hex)
+ L5 Silence (Hex/Air)
+ L6 Deflect Missiles (Ch/Air)
+ L6 Haste (Ch)
+ L8 Discord (Hex)
 
 Book of Maledictions
 --------------------
- L1 Corona
- L2 Sure Blade
- L2 Ensorcelled Hibernation
- L3 Confuse
- L3 Dazzling Spray
- L4 Enslavement
+ L1 Corona (Hex)
+ L2 Sure Blade (Hex/Ch)
+ L2 Ensorcelled Hibernation (Hex/Ice)
+ L3 Confuse (Hex)
+ L3 Dazzling Spray (Conj/Hex)
+ L4 Enslavement (Hex)
 
 Book of Control
 ---------------
- L4 Control Teleport
- L4 Control Undead
- L4 Enslavement
- L5 Metabolic Englaciation
- L6 Mass Confusion
+ L4 Control Teleport (Ch/Tloc)
+ L4 Control Undead (Nec)
+ L4 Enslavement (Hex)
+ L5 Metabolic Englaciation (Hex/Ice)
+ L6 Mass Confusion (Hex)
 
 Book of Summonings
 ------------------
- L3 Abjuration
- L3 Recall
- L5 Shadow Creatures
- L5 Summon Demon
- L5 Summon Forest
- L6 Monstrous Menagerie
+ L3 Abjuration (Sum)
+ L3 Recall (Sum/Tloc)
+ L5 Shadow Creatures (Sum)
+ L5 Summon Demon (Sum)
+ L5 Summon Forest (Sum/Tloc)
+ L6 Monstrous Menagerie (Sum)
 
 Book of Hinderance
 ------------------
- L2 Confusing Touch
- L3 Confuse
- L4 Petrify
- L4 Leda's Liquefaction
- L5 Metabolic Englaciation
- L5 Summon Mana Viper
+ L2 Confusing Touch (Hex)
+ L3 Confuse (Hex)
+ L4 Petrify (Tmut/Ea)
+ L4 Leda's Liquefaction (Ea/Hex)
+ L5 Metabolic Englaciation (Hex/Ice)
+ L5 Summon Mana Viper (Sum/Hex)
 
 Book of Debilitation
 --------------------
- L1 Corona
- L2 Slow
- L3 Inner Flame
- L4 Enslavement
- L4 Cause Fear
- L4 Leda's Liquefaction
+ L1 Corona (Hex)
+ L2 Slow (Hex)
+ L3 Inner Flame (Hex/Fire)
+ L4 Enslavement (Hex)
+ L4 Cause Fear (Hex)
+ L4 Leda's Liquefaction (Ea/Hex)
 
 Book of Fire
 ------------
- L5 Ignite Poison
- L5 Fireball
- L6 Bolt of Fire
- L7 Delayed Fireball
- L7 Ring of Flames
+ L5 Ignite Poison (Fire/Tmut)
+ L5 Fireball (Conj/Fire)
+ L6 Bolt of Fire (Conj/Fire)
+ L7 Delayed Fireball (Fire/Conj)
+ L7 Ring of Flames (Ch/Fire)
 
 Book of the Warp
 ----------------
- L4 Control Teleport
- L5 Phase Shift
- L5 Warp Weapon
- L6 Dispersal
- L7 Controlled Blink
- L8 Disjunction
+ L4 Control Teleport (Ch/Tloc)
+ L5 Phase Shift (Tloc)
+ L5 Warp Weapon (Ch/Tloc)
+ L6 Dispersal (Tloc)
+ L7 Controlled Blink (Tloc)
+ L8 Disjunction (Tloc)
 
 Book of Beasts
 --------------
- L1 Summon Butterflies
- L3 Call Canine Familiar
- L4 Summon Ice Beast
- L5 Summon Mana Viper
- L6 Monstrous Menagerie
- L7 Summon Hydra
+ L1 Summon Butterflies (Sum)
+ L3 Call Canine Familiar (Sum)
+ L4 Summon Ice Beast (Ice/Sum)
+ L5 Summon Mana Viper (Sum/Hex)
+ L6 Monstrous Menagerie (Sum)
+ L7 Summon Hydra (Sum)
 
 Book of Geomancy
 ----------------
- L1 Sandblast
- L2 Stoneskin
- L3 Passwall
- L3 Stone Arrow
- L4 Petrify
- L5 Lee's Rapid Deconstruction
+ L1 Sandblast (Ea)
+ L2 Stoneskin (Ea/Tmut)
+ L3 Passwall (Tmut/Ea)
+ L3 Stone Arrow (Conj/Ea)
+ L4 Petrify (Tmut/Ea)
+ L5 Lee's Rapid Deconstruction (Ea)
 
 Book of Conjurations
 --------------------
- L1 Magic Dart
- L2 Searing Ray
- L3 Dazzling Spray
- L4 Fulminant Prism
- L4 Iskenderun's Mystic Blast
- L5 Iskenderun's Battlesphere
+ L1 Magic Dart (Conj)
+ L2 Searing Ray (Conj)
+ L3 Dazzling Spray (Conj/Hex)
+ L4 Fulminant Prism (Conj/Hex)
+ L4 Iskenderun's Mystic Blast (Conj)
+ L5 Iskenderun's Battlesphere (Conj/Ch)
 
 Grand Grimoire
 --------------
- L6 Aura of Abjuration
- L6 Forceful Dismissal
- L7 Summon Greater Demon
- L7 Malign Gateway
- L8 Summon Horrible Things
+ L6 Aura of Abjuration (Sum)
+ L6 Forceful Dismissal (Sum)
+ L7 Summon Greater Demon (Sum)
+ L7 Malign Gateway (Sum/Tloc)
+ L8 Summon Horrible Things (Sum)
 
 Book of Alchemy
 ---------------
- L2 Sublimation of Blood
- L4 Alistair's Intoxication
- L4 Condensation Shield
- L4 Petrify
- L5 Ignite Poison
+ L2 Sublimation of Blood (Nec)
+ L4 Alistair's Intoxication (Tmut/Pois)
+ L4 Condensation Shield (Ice)
+ L4 Petrify (Tmut/Ea)
+ L5 Ignite Poison (Fire/Tmut)
 
 Book of Death
 -------------
- L2 Corpse Rot
- L2 Sublimation of Blood
- L5 Agony
- L5 Dispel Undead
- L5 Excruciating Wounds
- L5 Bolt of Draining
+ L2 Corpse Rot (Nec)
+ L2 Sublimation of Blood (Nec)
+ L5 Agony (Nec)
+ L5 Dispel Undead (Nec)
+ L5 Excruciating Wounds (Ch/Nec)
+ L5 Bolt of Draining (Conj/Nec)
 
 Book of Burglary
 ----------------
- L2 Swiftness
- L3 Passwall
- L4 Passage of Golubria
- L5 Lee's Rapid Deconstruction
- L6 Invisibility
- L7 Darkness
+ L2 Swiftness (Ch/Air)
+ L3 Passwall (Tmut/Ea)
+ L4 Passage of Golubria (Tloc)
+ L5 Lee's Rapid Deconstruction (Ea)
+ L6 Invisibility (Hex)
+ L7 Darkness (Hex)
 
 Book of Ice
 -----------
- L5 Metabolic Englaciation
- L6 Ozocubu's Refrigeration
- L6 Bolt of Cold
- L6 Freezing Cloud
- L6 Simulacrum
+ L5 Metabolic Englaciation (Hex/Ice)
+ L6 Ozocubu's Refrigeration (Ice)
+ L6 Bolt of Cold (Conj/Ice)
+ L6 Freezing Cloud (Conj/Ice/Air)
+ L6 Simulacrum (Ice/Nec)
 
 Book of Callings
 ----------------
- L1 Summon Small Mammal
- L2 Call Imp
- L3 Call Canine Familiar
- L4 Summon Guardian Golem
- L4 Summon Lightning Spire
- L4 Summon Ice Beast
+ L1 Summon Small Mammal (Sum)
+ L2 Call Imp (Sum)
+ L3 Call Canine Familiar (Sum)
+ L4 Summon Guardian Golem (Sum/Hex)
+ L4 Summon Lightning Spire (Sum/Air)
+ L4 Summon Ice Beast (Ice/Sum)
 
 Young Poisoner's Handbook
 -------------------------
- L1 Sting
- L2 Cure Poison
- L3 Mephitic Cloud
- L4 Olgreb's Toxic Radiance
- L5 Venom Bolt
+ L1 Sting (Conj/Pois)
+ L2 Cure Poison (Pois)
+ L3 Mephitic Cloud (Conj/Pois/Air)
+ L4 Olgreb's Toxic Radiance (Pois)
+ L5 Venom Bolt (Conj/Pois)
 
 Book of Battle
 --------------
- L1 Infusion
- L2 Shroud of Golubria
- L2 Song of Slaying
- L3 Spectral Weapon
- L3 Regeneration
+ L1 Infusion (Ch)
+ L2 Shroud of Golubria (Ch/Tloc)
+ L2 Song of Slaying (Ch)
+ L3 Spectral Weapon (Hex/Ch)
+ L3 Regeneration (Ch/Nec)
 
 Book of Cantrips
 ----------------
- L1 Corona
- L1 Animate Skeleton
- L1 Summon Small Mammal
- L1 Apportation
+ L1 Corona (Hex)
+ L1 Animate Skeleton (Nec)
+ L1 Summon Small Mammal (Sum)
+ L1 Apportation (Tloc)
 
 Book of Frost
 -------------
- L1 Freeze
- L2 Throw Frost
- L3 Ozocubu's Armour
- L4 Throw Icicle
- L4 Summon Ice Beast
- L4 Condensation Shield
+ L1 Freeze (Ice)
+ L2 Throw Frost (Conj/Ice)
+ L3 Ozocubu's Armour (Ch/Ice)
+ L4 Throw Icicle (Conj/Ice)
+ L4 Summon Ice Beast (Ice/Sum)
+ L4 Condensation Shield (Ice)
 
 Book of the Dragon
 ------------------
- L3 Flight
- L4 Cause Fear
- L6 Bolt of Fire
- L7 Dragon Form
- L9 Dragon's Call
+ L3 Flight (Ch/Air)
+ L4 Cause Fear (Hex)
+ L6 Bolt of Fire (Conj/Fire)
+ L7 Dragon Form (Tmut)
+ L9 Dragon's Call (Sum)
 
 Book of Battle (replacing Morphology)
 -------------------------------------
- L1 Infusion
- L2 Shroud of Golubria
- L2 Song of Slaying
- L3 Spectral Weapon
- L3 Regeneration
+ L1 Infusion (Ch)
+ L2 Shroud of Golubria (Ch/Tloc)
+ L2 Song of Slaying (Ch)
+ L3 Spectral Weapon (Hex/Ch)
+ L3 Regeneration (Ch/Nec)
 
 Book of Flames
 --------------
- L1 Flame Tongue
- L2 Throw Flame
- L3 Conjure Flame
- L3 Inner Flame
- L4 Sticky Flame
- L5 Fireball
+ L1 Flame Tongue (Conj/Fire)
+ L2 Throw Flame (Conj/Fire)
+ L3 Conjure Flame (Conj/Fire)
+ L3 Inner Flame (Hex/Fire)
+ L4 Sticky Flame (Conj/Fire)
+ L5 Fireball (Conj/Fire)
 
 Book of Spatial Translocations
 ------------------------------
- L1 Apportation
- L2 Blink
- L2 Shroud of Golubria
- L3 Portal Projectile
- L3 Teleport Other
- L4 Passage of Golubria
+ L1 Apportation (Tloc)
+ L2 Blink (Tloc)
+ L2 Shroud of Golubria (Ch/Tloc)
+ L3 Portal Projectile (Tloc)
+ L3 Teleport Other (Tloc)
+ L4 Passage of Golubria (Tloc)
 
 Book of the Tempests
 --------------------
- L3 Static Discharge
- L5 Lightning Bolt
- L5 Fireball
- L9 Tornado
- L9 Shatter
+ L3 Static Discharge (Conj/Air)
+ L5 Lightning Bolt (Conj/Air)
+ L5 Fireball (Conj/Fire)
+ L9 Tornado (Air)
+ L9 Shatter (Ea)
 
 Book of Transfigurations
 ------------------------
- L2 Stoneskin
- L4 Ice Form
- L6 Statue Form
- L7 Dragon Form
+ L2 Stoneskin (Ea/Tmut)
+ L4 Ice Form (Ice/Tmut)
+ L6 Statue Form (Tmut/Ea)
+ L7 Dragon Form (Tmut)
 
 Book of Changes
 ---------------
- L1 Beastly Appendage
- L2 Sticks to Snakes
- L3 Spider Form
- L4 Ice Form
- L5 Blade Hands
+ L1 Beastly Appendage (Tmut)
+ L2 Sticks to Snakes (Tmut)
+ L3 Spider Form (Tmut/Pois)
+ L4 Ice Form (Ice/Tmut)
+ L5 Blade Hands (Tmut)
 
 Book of Necromancy
 ------------------
- L1 Pain
- L1 Animate Skeleton
- L3 Vampiric Draining
- L3 Regeneration
- L4 Animate Dead
- L4 Control Undead
+ L1 Pain (Nec)
+ L1 Animate Skeleton (Nec)
+ L3 Vampiric Draining (Nec)
+ L3 Regeneration (Ch/Nec)
+ L4 Animate Dead (Nec)
+ L4 Control Undead (Nec)
 
 Book of Annihilations
 ---------------------
- L6 Poison Arrow
- L8 Chain Lightning
- L8 Lehudib's Crystal Spear
- L9 Glaciate
- L9 Fire Storm
+ L6 Poison Arrow (Conj/Pois)
+ L8 Chain Lightning (Air/Conj)
+ L8 Lehudib's Crystal Spear (Conj/Ea)
+ L9 Glaciate (Conj/Ice)
+ L9 Fire Storm (Conj/Fire)
 
 Book of Dreams
 --------------
- L2 Ensorcelled Hibernation
- L3 Flight
- L5 Phase Shift
- L5 Shadow Creatures
- L6 Mass Confusion
- L7 Darkness
+ L2 Ensorcelled Hibernation (Hex/Ice)
+ L3 Flight (Ch/Air)
+ L5 Phase Shift (Tloc)
+ L5 Shadow Creatures (Sum)
+ L6 Mass Confusion (Hex)
+ L7 Darkness (Hex)
 
 Book of Air
 -----------
- L1 Shock
- L2 Swiftness
- L2 Repel Missiles
- L3 Flight
- L3 Static Discharge
- L5 Lightning Bolt
+ L1 Shock (Conj/Air)
+ L2 Swiftness (Ch/Air)
+ L2 Repel Missiles (Ch/Air)
+ L3 Flight (Ch/Air)
+ L3 Static Discharge (Conj/Air)
+ L5 Lightning Bolt (Conj/Air)
 
 Book of Clouds
 --------------
- L3 Mephitic Cloud
- L3 Conjure Flame
- L6 Poisonous Cloud
- L6 Freezing Cloud
- L7 Ring of Flames
+ L3 Mephitic Cloud (Conj/Pois/Air)
+ L3 Conjure Flame (Conj/Fire)
+ L6 Poisonous Cloud (Conj/Pois/Air)
+ L6 Freezing Cloud (Conj/Ice/Air)
+ L7 Ring of Flames (Ch/Fire)
 
 Necronomicon
 ------------
- L7 Haunt
- L8 Borgnjor's Revivification
- L8 Death's Door
- L8 Necromutation
+ L7 Haunt (Sum/Nec)
+ L8 Borgnjor's Revivification (Nec)
+ L8 Death's Door (Ch/Nec)
+ L8 Necromutation (Tmut/Nec)
 
 Book of Power
 -------------
- L4 Fulminant Prism
- L4 Iskenderun's Mystic Blast
- L5 Venom Bolt
- L5 Bolt of Magma
- L6 Iron Shot
- L7 Orb of Destruction
+ L4 Fulminant Prism (Conj/Hex)
+ L4 Iskenderun's Mystic Blast (Conj)
+ L5 Venom Bolt (Conj/Pois)
+ L5 Bolt of Magma (Conj/Fire/Ea)
+ L6 Iron Shot (Conj/Ea)
+ L7 Orb of Destruction (Conj)
 
 Book of the Sky
 ---------------
- L3 Flight
- L4 Airstrike
- L5 Silence
- L6 Deflect Missiles
- L6 Conjure Ball Lightning
- L9 Tornado
+ L3 Flight (Ch/Air)
+ L4 Airstrike (Air)
+ L5 Silence (Hex/Air)
+ L6 Deflect Missiles (Ch/Air)
+ L6 Conjure Ball Lightning (Air/Conj)
+ L9 Tornado (Air)
 
 Book of Earth
 -------------
- L4 Leda's Liquefaction
- L5 Bolt of Magma
- L6 Statue Form
- L6 Iron Shot
- L9 Shatter
+ L4 Leda's Liquefaction (Ea/Hex)
+ L5 Bolt of Magma (Conj/Fire/Ea)
+ L6 Statue Form (Tmut/Ea)
+ L6 Iron Shot (Conj/Ea)
+ L9 Shatter (Ea)
 
 Book of Party Tricks
 --------------------
- L1 Summon Butterflies
- L1 Apportation
- L2 Blink
- L3 Tukima's Dance
- L4 Alistair's Intoxication
+ L1 Summon Butterflies (Sum)
+ L1 Apportation (Tloc)
+ L2 Blink (Tloc)
+ L3 Tukima's Dance (Hex)
+ L4 Alistair's Intoxication (Tmut/Pois)
 
 Book of Envenomations
 ---------------------
- L3 Spider Form
- L4 Alistair's Intoxication
- L4 Olgreb's Toxic Radiance
- L6 Poisonous Cloud
+ L3 Spider Form (Tmut/Pois)
+ L4 Alistair's Intoxication (Tmut/Pois)
+ L4 Olgreb's Toxic Radiance (Pois)
+ L6 Poisonous Cloud (Conj/Pois/Air)
 
 Book of Minor Magic
 -------------------
- L1 Magic Dart
- L2 Blink
- L2 Call Imp
- L2 Repel Missiles
- L2 Slow
- L3 Conjure Flame
- L3 Mephitic Cloud
+ L1 Magic Dart (Conj)
+ L2 Blink (Tloc)
+ L2 Call Imp (Sum)
+ L2 Repel Missiles (Ch/Air)
+ L2 Slow (Hex)
+ L3 Conjure Flame (Conj/Fire)
+ L3 Mephitic Cloud (Conj/Pois/Air)

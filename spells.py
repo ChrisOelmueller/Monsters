@@ -20,6 +20,7 @@ book_data_path = os.path.join(os.path.expanduser('~'),
                               "crawl/crawl-ref/source/book-data.h")
 # Constants
 SCHOOL_ABBREVIATIONS = {
+    'NONE': '-',
     'CONJURATION': 'Conj',
     'HEXES': 'Hex',
     'CHARMS': 'Ch',
@@ -161,7 +162,7 @@ class Spell(object):
         if isinstance(schools, tuple):
             self.schools   = tuple(s[6:] for s in schools)
         elif schools == 0:
-            self.schools   = ('NO_SCHOOL', )
+            self.schools   = ('NONE', )
         else:
             self.schools   = (schools[6:], )
         self.level         = level
