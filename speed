@@ -3,6 +3,7 @@ Monsters by move speed (player: usually 10)
 -------------------------------------------
    30  bat
    30  battlesphere
+   30  death scarab
    30  fire bat
    30  grand avatar
    30  orb of destruction
@@ -15,6 +16,7 @@ Monsters by move speed (player: usually 10)
    25  harpy
    25  thrashing horror
    20  ball lightning
+   20  caustic shrike
    20  Executioner
    20  Gloorx Vloq
    20  Ignacio
@@ -23,7 +25,6 @@ Monsters by move speed (player: usually 10)
    19  vampire mosquito
    18  Agnes
    18  anaconda
-   18  bennu
    18  black mamba
    18  tentacle segment
    17  tentacle
@@ -36,6 +37,7 @@ Monsters by move speed (player: usually 10)
  16.6  spriggan druid
  16.6  spriggan rider
  16.6  the Enchantress
+   16  bennu
    16  electric golem
    16  ice statue
    16  spatial maelstrom
@@ -96,8 +98,6 @@ Monsters by move speed (player: usually 10)
    13  Killer Klown
    13  lost soul
    13  Mnoleg
-   13  Mnoleg's tentacle
-   13  Mnoleg's tentacle segment
    13  Psyche
    13  quasit
    13  snaplasher vine
@@ -147,6 +147,7 @@ Monsters by move speed (player: usually 10)
    10  ancient lich
    10  ancient zyme
    10  Antaeus
+   10  anubis guard
    10  apis
    10  apocalypse crab
    10  Asmodeus
@@ -237,7 +238,6 @@ Monsters by move speed (player: usually 10)
    10  Eustachio
    10  Fannar
    10  faun
-   10  feature mimic
    10  fire crab
    10  fire dragon
    10  fire giant
@@ -297,15 +297,11 @@ Monsters by move speed (player: usually 10)
    10  iguana
    10  Ijyb
    10  Ilsuiw
-   10  inept feature mimic
-   10  inept item mimic
    10  infernal demonspawn
    10  insubstantial wisp
    10  ironbrand convoker
    10  ironheart preserver
-   10  iron devil
    10  the iron giant
-   10  item mimic
    10  jelly
    10  Jessica
    10  Jorgrun
@@ -333,9 +329,9 @@ Monsters by move speed (player: usually 10)
    10  Maurice
    10  merfolk
    10  merfolk aquamancer
+   10  merfolk avatar
    10  merfolk impaler
    10  merfolk javelineer
-   10  mermaid
    10  minotaur
    10  molten gargoyle
    10  monstrous demonspawn
@@ -349,6 +345,7 @@ Monsters by move speed (player: usually 10)
    10  Nergalle
    10  Nikola
    10  Norris
+   10  obsidian statue
    10  octopode
    10  octopode crusher
    10  ogre
@@ -385,14 +382,13 @@ Monsters by move speed (player: usually 10)
    10  raiju
    10  rakshasa
    10  rat
-   10  ravenous feature mimic
-   10  ravenous item mimic
    10  reaper
    10  red devil
    10  red draconian
    10  revenant
    10  Roxanne
    10  Rupert
+   10  rust devil
    10  Saint Roka
    10  satyr
    10  scorpion
@@ -414,7 +410,6 @@ Monsters by move speed (player: usually 10)
    10  sheep
    10  Sigmund
    10  silent spectre
-   10  silver statue
    10  siren
    10  skeletal warrior
    10  sky beast
@@ -485,6 +480,7 @@ Monsters by move speed (player: usually 10)
     8  ooze
     8  salamander firebrand
     8  shambling mangrove
+    8  ushabti
  7.14  curse toe
  7.14  greater naga
  7.14  naga

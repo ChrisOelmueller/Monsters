@@ -1,3 +1,4 @@
+
 Dragons and not-dragons by HD
 -----------------------------
 1000  test spawner
@@ -57,6 +58,7 @@ Dragons and not-dragons by HD
 18  very ugly thing
 17  Arachne
 17  Asmodeus
+17  caustic shrike
 17  Mnoleg
 17  shadow dragon
 17  tengu reaver
@@ -82,8 +84,6 @@ Dragons and not-dragons by HD
 16  iron troll
 16  Kirke
 16  kraken
-16  Mnoleg's tentacle
-16  Mnoleg's tentacle segment
 16  octopode crusher
 16  Polyphemus
 16  quicksilver dragon
@@ -237,6 +237,7 @@ Dragons and not-dragons by HD
 10  naga warrior
 10  necromancer
 10  Nergalle
+10  obsidian statue
 10  ogre mage
 10  oklob plant
 10  orange crystal statue
@@ -248,7 +249,6 @@ Dragons and not-dragons by HD
 10  shadow wraith
 10  shining eye
 10  shock serpent
-10  silver statue
 10  skeletal warrior
 10  snapping turtle
 10  spatial maelstrom
@@ -261,6 +261,7 @@ Dragons and not-dragons by HD
 10  water nymph
 10  wizard
 10  wretched star
+ 9  anubis guard
  9  boulder beetle
  9  cherub
  9  cyclops
@@ -293,6 +294,7 @@ Dragons and not-dragons by HD
  8  boring beetle
  8  burning bush
  8  chimera
+ 8  death scarab
  8  diamond obelisk
  8  draconian
  8  dryad
@@ -302,13 +304,13 @@ Dragons and not-dragons by HD
  8  fungus
  8  guardian serpent
  8  ice statue
- 8  iron devil
  8  jumping spider
  8  komodo dragon
  8  naga ritualist
  8  octopode
  8  orange demon
  8  red wasp
+ 8  rust devil
  8  salamander
  8  silent spectre
  8  Snorg
@@ -354,6 +356,7 @@ Dragons and not-dragons by HD
  7  tormentor
  7  troll
  7  unseen horror
+ 7  ushabti
  7  yak
  6  small abomination
  6  air elemental

@@ -31,7 +31,6 @@ Monsters by AC
   18  the iron giant
   18  soul eater
   16  grey draconian
-  16  iron devil
   16  the Serpent of Hell
   16  the Serpent of Hell
   16  snapping turtle
@@ -60,8 +59,6 @@ Monsters by AC
   13  eldritch tentacle segment
   13  hellephant
   13  lightning spire
-  13  Mnoleg's tentacle
-  13  Mnoleg's tentacle segment
   13  Nellie
   13  Orb Guardian
   13  shambling mangrove
@@ -74,9 +71,9 @@ Monsters by AC
   12  freezing wraith
   12  ice devil
   12  ice statue
+  12  obsidian statue
   12  orange crystal statue
   12  phantasmal warrior
-  12  silver statue
   12  statue
   12  stone giant
   12  tormentor
@@ -89,6 +86,7 @@ Monsters by AC
   10  briar patch
   10  burning bush
   10  catoblepas
+  10  caustic shrike
   10  cherub
   10  daeva
   10  dancing weapon
@@ -126,6 +124,7 @@ Monsters by AC
   10  profane servitor
   10  queen bee
   10  quicksilver dragon
+  10  rust devil
   10  seraph
   10  simulacrum
   10  large simulacrum
@@ -152,6 +151,7 @@ Monsters by AC
    9  pale draconian
    9  red draconian
    9  thorn hunter
+   9  ushabti
    9  white draconian
    9  yellow draconian
    8  Aizul
@@ -174,6 +174,7 @@ Monsters by AC
    8  torpor snail
    8  large zombie
    7  chaos spawn
+   7  death scarab
    7  komodo dragon
    7  orange rat
    7  polar bear
@@ -208,13 +209,11 @@ Monsters by AC
    6  Vashnia
    6  very ugly thing
    5  alligator
-   5  Asterion
    5  azure jelly
    5  balrug
    5  cyclops
    5  deathcap
    5  electric golem
-   5  feature mimic
    5  giant leech
    5  green death
    5  green rat
@@ -222,10 +221,7 @@ Monsters by AC
    5  ice beast
    5  iguana
    5  Ilsuiw
-   5  inept feature mimic
-   5  inept item mimic
    5  insubstantial wisp
-   5  item mimic
    5  tentacle
    5  tentacle segment
    5  manticore
@@ -233,8 +229,6 @@ Monsters by AC
    5  mottled dragon
    5  orc sorcerer
    5  quasit
-   5  ravenous feature mimic
-   5  ravenous item mimic
    5  salamander
    5  salamander firebrand
    5  salamander mystic
@@ -253,14 +247,16 @@ Monsters by AC
    5  yaktaur captain
    5  yellow wasp
    4  anaconda
+   4  Asterion
    4  black mamba
    4  centaur warrior
    4  crocodile
    4  fire elemental
    4  ghoul
    4  griffon
+   4  hell beast
    4  merfolk
-   4  mermaid
+   4  merfolk avatar
    4  neqoxec
    4  Nessos
    4  Pikel
@@ -277,6 +273,7 @@ Monsters by AC
    4  worker ant
    4  yak
    4  yaktaur
+   3  anubis guard
    3  Arachne
    3  basilisk
    3  big kobold
@@ -476,7 +473,6 @@ Monsters by AC
    0  golden eye
    0  Harold
    0  Hellbinder
-   0  hell beast
    0  hell knight
    0  hungry ghost
    0  hydra
