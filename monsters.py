@@ -264,7 +264,6 @@ class Monster(object):
         ev,
         spellbook,
         corpse_type,
-        zombie_type,
         shout_type,
         intelligence,
         habitat,
@@ -342,7 +341,6 @@ class Monster(object):
         self.ev           = int(ev)
         self.spellbook    = spellbook
         self.corpse_type  = corpse_type
-        self.zombie_type  = zombie_type
         self.shout_type   = shout_type
         self.intelligence = intelligence
         self.habitat      = habitat
