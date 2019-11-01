@@ -251,7 +251,6 @@ class Monster(object):
         name,
         flags,
         resistances,
-        mass,
         xp_modifier,
         genus,
         species,
@@ -266,11 +265,9 @@ class Monster(object):
         shout_type,
         intelligence,
         habitat,
-        flight_class,
         speed,
         energy,
         item_use,
-        eats,
         size,
         shape=None,
         *args, **kwargs):
@@ -294,7 +291,6 @@ class Monster(object):
 
         self.resists = Resistance(self.resistances)
 
-        self.mass        = int(mass)
         self.xp_modifier = int(xp_modifier)
         self.genus       = genus
         self.species     = species
@@ -343,7 +339,6 @@ class Monster(object):
         self.shout_type   = shout_type
         self.intelligence = intelligence
         self.habitat      = habitat
-        self.flight_class = flight_class
         self.speed        = int(speed)
 
         self.energy       = Energy()
@@ -359,7 +354,6 @@ class Monster(object):
             self.energy = Energy(*e_int)
 
         self.item_use     = item_use
-        self.eats         = eats
         self.size         = size
         self.shape        = shape
 
