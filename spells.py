@@ -37,7 +37,7 @@ SCHOOL_ABBREVIATIONS = {
 
 def read_spl_data(h=spl_data_path, debug=False):
     """Read spl-data.h"""
-    data = unicode(open(h).read())
+    data = str(open(h).read())
 
     data = re.sub("(?ms).*static const struct spell_desc spelldata.. =",
                   "", data)
@@ -79,7 +79,7 @@ def read_spl_data(h=spl_data_path, debug=False):
 
 def read_book_data(h=book_data_path, debug=True):
     """Read spl-data.h"""
-    data = unicode(open(h).read())
+    data = str(open(h).read())
 
     data = re.sub("(?ms).*static spell_type spellbook_template_array.."
                         ".SPELLBOOK_SIZE. =",
@@ -185,7 +185,7 @@ class Spell(object):
 
 
 def title(heading, x='-'):
-    print '\n' + heading + '\n' + x * len(heading)
+    print('\n' + heading + '\n' + x * len(heading))
 
 
 def main():
@@ -208,28 +208,28 @@ def main():
 
     def print_spellbooks():
         for thing in (all_rods, all_books):
-            for (name, spells) in thing.iteritems():
+            for (name, spells) in thing.items():
                 if not spells:
                     continue
                 title(name)
                 for s in spells:
-                    print '',
-                    print all_spells[s]
+                    print('', end=' ')
+                    print(all_spells[s])
 
     def print_schools(monster):
-        book_items = set(s for b in all_books.values() for s in b)
+        book_items = set(s for b in list(all_books.values()) for s in b)
         title('Spells by spell school, [M]: monster-only', '=')
-        for school, spells in school_spells.items():
+        for school, spells in list(school_spells.items()):
             title(school)
             for s in sorted(spells, key=attrgetter('level'), reverse=True):
                 if s.id not in book_items:
                     if monster:
-                        print '[M]',
+                        print('[M]', end=' ')
                     else:
                         continue
                 else:
-                    print '   ',
-                print s
+                    print('   ', end=' ')
+                print(s)
 
     fnmap = {
         'allspells': lambda: print_schools(True),
@@ -240,7 +240,7 @@ def main():
     #   'schools': print_schools,
     }
 
-    for (abbr, fn) in fnmap.iteritems():
+    for (abbr, fn) in fnmap.items():
         if abbr.startswith(sys.argv[1]):
             fn()
 

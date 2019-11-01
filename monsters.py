@@ -21,7 +21,7 @@ BINARY_RESISTS = set(('curare', 'drown', 'hellfire', 'sticky'))
 
 def read_mon_data(h=mon_data_path, debug=False):
     """Read mon-data.h"""
-    data = unicode(open(h).read())
+    data = str(open(h).read())
 
 # Join preprocessor lines so they are stripped together later
     data = re.sub(r"\\"+r"\n", "", data)
@@ -335,7 +335,7 @@ class Monster(object):
                 at_flavor = ''
             self.attacks.append((int(damage), at_type[3:], at_flavor))
 
-        self.hp_dice      = map(int, hp_dice)
+        self.hp_dice      = list(map(int, hp_dice))
         self.hp           = HP(self.hp_dice)
         self.ac           = int(ac)
         self.ev           = int(ev)
@@ -393,7 +393,7 @@ class Monster(object):
 
 
 def title(heading, x='-'):
-    print '\n' + heading + '\n' + x * len(heading)
+    print(('\n' + heading + '\n' + x * len(heading)))
 
 
 def main():
@@ -405,7 +405,7 @@ def main():
     for m in olddata:
         mons = Monster(*m)
         old_monsters[mons.id] = mons
-    monsters = sorted(all_monsters.itervalues(), key=attrgetter('id'))
+    monsters = sorted(iter(list(all_monsters.values())), key=attrgetter('id'))
 
     def print_attacks():
         title('Monster attacks')
@@ -418,7 +418,7 @@ def main():
                         af = 'hold' if dam == 0 else 'constrict'
                     s += '(%s)' % af.replace('_', ' ')
                 s += ','
-            print " %-22.22s  %s" % (m, s.strip(','))
+            print((" %-22.22s  %s" % (m, s.strip(','))))
 
     def print_hp():
         title('Monsters by Average HP, [*]: fixed')
@@ -429,41 +429,41 @@ def main():
             else:
                 dot = '   '
                 mhp = m.hp
-            print "%s%4d  %-22.22s  %s" % (dot, m.hp.avg, m, mhp)
+            print(("%s%4d  %-22.22s  %s" % (dot, m.hp.avg, m, mhp)))
 
     def print_dragons():
         title('Dragons by HD')
         for m in sorted(monsters, key=attrgetter('hd'), reverse=True):
             if 'DRAGON' not in m.genus or 'M_CANT_SPAWN' in m.flags:
                 continue
-            print "%2d  %s" % (m.hd, m)
+            print(("%2d  %s" % (m.hd, m)))
         title('Draconians by HD')
         for m in sorted(monsters, key=attrgetter('hd'), reverse=True):
             if 'DRACONIAN' not in m.genus or 'M_CANT_SPAWN' in m.flags:
                 continue
-            print "%2d  %s" % (m.hd, m)
+            print(("%2d  %s" % (m.hd, m)))
 
     def print_hd():
         title('Dragons and not-dragons by HD')
         for m in sorted(monsters, key=attrgetter('hd'), reverse=True):
             if 'M_CANT_SPAWN' in m.flags:
                 continue
-            print "%2d  %s" % (m.hd, m)
+            print(("%2d  %s" % (m.hd, m)))
 
     def print_ac():
         title('Monsters by AC')
         for m in sorted(monsters, key=attrgetter('ac'), reverse=True):
-            print "%4d  %s" % (m.ac, m)
+            print(("%4d  %s" % (m.ac, m)))
 
     def print_defenses():
         title('Monsters by AC and EV')
         for m in sorted(monsters, key=lambda m: m.ac + m.ev, reverse=True):
-            print "%3d|%3d  %s" % (m.ac, m.ev, m)
+            print(("%3d|%3d  %s" % (m.ac, m.ev, m)))
 
     def print_resists():
         title('Monster resistances (not nearly complete!)')
         for m in sorted(monsters, key=attrgetter('id')):
-            print " %-22.22s %s" % (m, m.resists)
+            print((" %-22.22s %s" % (m, m.resists)))
 
     def print_mr(diff=False):
         title('Monsters by MR, [*]: immune')
@@ -482,14 +482,14 @@ def main():
                     old_mr = '[*]'
                 else:
                     old_mr = '%3d' % old_mr
-                print "  %s  %s  %s" % (mr, old_mr, m)
+                print(("  %s  %s  %s" % (mr, old_mr, m)))
             else:
-                print "  %s  %s" % (mr, m)
+                print(("  %s  %s" % (mr, m)))
 
     def print_speed():
         title('Monsters by move speed (player: usually 10)')
         for m in sorted(monsters, key = lambda m: m.energy.move, reverse=True):
-            print "% 5.4s  %s" % (m.energy.move, m)
+            print(("% 5.4s  %s" % (m.energy.move, m)))
 
     def print_everything():
         print_mr()
@@ -514,7 +514,7 @@ def main():
         'speed': print_speed,
     }
 
-    for (abbr, fn) in fnmap.iteritems():
+    for (abbr, fn) in list(fnmap.items()):
         if abbr.startswith(sys.argv[1]):
             fn()
 

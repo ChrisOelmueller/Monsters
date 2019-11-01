@@ -126,7 +126,7 @@ for m in mondata:
         flags = (flags,)
     attr['unique'] = ('M_UNIQUE' in flags)
 
-    for k, v in attr.items():
+    for k, v in list(attr.items()):
         if k == 'name' or k == 'unique':
             continue
         if data[k].get(v) is None:
@@ -138,12 +138,12 @@ for m in mondata:
 nodes = ""
 connections = ""
 
-print "digraph Crawl {"
-for type, dict in data.items():
+print("digraph Crawl {")
+for type, dict in list(data.items()):
     if type != 'id':
         a = 1
     else:
-        for key, monsters in dict.items():
+        for key, monsters in list(dict.items()):
             for monster in monsters:
                 if monster['genus'] == monster['species'] and monster['species'] == monster['id']:
                     nodes += "\n" + 'monster%s [label="%s", shape="box", style="filled", fillcolor="%s", fontcolor="%s", fontsize="%s"];' % (monster['id'], monster['name'], viz['genus'][0], viz['genus'][1], viz['genus'][2])
@@ -156,7 +156,7 @@ for type, dict in data.items():
                     else:
                         nodes += "\n" + 'monster%s [label="%s", shape="box", style="filled", fillcolor="%s", fontcolor="%s", fontsize="%s"];' % (monster['id'], monster['name'], viz['id'][0], viz['id'][1], viz['id'][2])
                     connections += "\n" + 'monster%s -> monster%s [arrowhead="none"];' % (monster['species'], monster['id'])
-print nodes
-print connections
-print "overlap=prism;"
-print "}"
+print(nodes)
+print(connections)
+print("overlap=prism;")
+print("}")
