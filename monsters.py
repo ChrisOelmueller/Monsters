@@ -228,7 +228,9 @@ class HP(object):
         hp will be around 135 each time.
         '''
         self.hp_dice = hp_dice
-        (self.hd, self.min_hp, self.rand_hp, self.add_hp) = hp_dice
+        self.min_hp = 0
+        self.rand_hp = 0
+        self.add_hp = 0
         self.min = self.add_hp + self.hd * self.min_hp
         self.max = self.add_hp + self.hd * (self.min_hp + self.rand_hp)
         self.avg = self.add_hp + self.hd * (self.min_hp + int(self.rand_hp / 2.))
@@ -257,7 +259,8 @@ class Monster(object):
         holiness,
         mr_modifier,
         attacks,
-        hp_dice,
+        hd,
+        hp,
         ac,
         ev,
         spellbook,
@@ -270,6 +273,8 @@ class Monster(object):
         item_use,
         size,
         shape=None,
+        tile=None,
+        corpse=None,
         *args, **kwargs):
 
         self.id          = id
@@ -330,8 +335,9 @@ class Monster(object):
                 at_flavor = ''
             self.attacks.append((int(damage), at_type[3:], at_flavor))
 
-        self.hp_dice      = list(map(int, hp_dice))
-        self.hp           = HP(self.hp_dice)
+        self.hp_dice      = int(hd)
+        self.hd           = int(hd)
+        self.hp           = int(hp)
         self.ac           = int(ac)
         self.ev           = int(ev)
         self.spellbook    = spellbook
@@ -340,6 +346,8 @@ class Monster(object):
         self.intelligence = intelligence
         self.habitat      = habitat
         self.speed        = int(speed)
+        self.tile         = tile
+        self.corpse       = corpse
 
         self.energy       = Energy()
         if energy == 'DEFAULT_ENERGY':
@@ -356,10 +364,6 @@ class Monster(object):
         self.item_use     = item_use
         self.size         = size
         self.shape        = shape
-
-    @property
-    def hd(self):
-        return int(self.hp_dice[0])
 
     @property
     def mr(self):
