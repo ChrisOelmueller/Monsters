@@ -405,7 +405,7 @@ def main():
     for m in olddata:
         mons = Monster(*m)
         old_monsters[mons.id] = mons
-    monsters = sorted(iter(list(all_monsters.values())), key=attrgetter('id'))
+    monsters = sorted(all_monsters.values(), key=attrgetter('id'))
 
     def print_attacks():
         title('Monster attacks')
@@ -514,7 +514,7 @@ def main():
         'speed': print_speed,
     }
 
-    for (abbr, fn) in list(fnmap.items()):
+    for (abbr, fn) in fnmap.items():
         if abbr.startswith(sys.argv[1]):
             fn()
 
