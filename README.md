@@ -11,7 +11,7 @@ yak (Y) | Spd: 10 | HD: 7 | HP: 26-52 | AC/EV: 4/7 | Dam: 18
 
 Example question to ask Monsters: "Which monsters have more than 20 AC?"
 
-`python2 ./monsters.py ac`
+`python ./monsters.py ac`
 
 results in a huge list starting like this:
 
@@ -42,11 +42,18 @@ As of now, the following arguments to `monsters.py` are supported:
  - [`defenses` (AC + EV)](defenses)
  - [`attacks`](attacks)
  - [`dragons` (dragons + draconians by HD)](dragons)
+ - [`hd`](hd)
  - [`hp`](hp)
  - [`mr`](mr)
  - [`resists`](resists)
  - [`speed` (movement speed)](speed)
 
-Additionally, `everything` prints most of the above if you simply want to
-discover new things or forgot what to look for. To find out what is skipped,
-refer to [monsters.py:print_everything](monsters.py#L458).
+Additionally, `everything` prints all of the above if you simply want to
+discover new things or forgot what to look for.
+
+To regenerate the list of local output for every function defined above,
+simply run `monsters.py` without any command-line arguments. It will
+produce one output file named `ac`, one named `defenses` and so on.
+
+Still to be done: guess file location of mon-data.h and allow passing its
+path as command-line argument. But for that, a proper parser has to happen!
