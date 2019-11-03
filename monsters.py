@@ -8,7 +8,7 @@ import os.path
 import sys
 import re
 
-from operator import attrgetter
+from operator import attrgetter, itemgetter
 
 
 mon_data_path = os.path.join(os.path.expanduser('~'),
@@ -386,8 +386,11 @@ class Monster(object):
         return self.name
 
 
-def title(heading, x='-'):
-    print(('\n' + heading + '\n' + x * len(heading)))
+def title(heading, f, x='-'):
+    if f is None:
+        f = sys.stdout
+    print(('\n' + heading + '\n' + x * len(heading)), file=f)
+    return f
 
 
 def main():
@@ -401,8 +404,8 @@ def main():
         old_monsters[mons.id] = mons
     monsters = sorted(all_monsters.values(), key=attrgetter('id'))
 
-    def print_attacks():
-        title('Monster attacks')
+    def print_attacks(f=None):
+        f = title('Monster attacks', f)
         for m in sorted(monsters, key=attrgetter('id')):
             s = ''
             for (dam, at, af) in m.attacks:
@@ -412,10 +415,12 @@ def main():
                         af = 'hold' if dam == 0 else 'constrict'
                     s += '(%s)' % af.replace('_', ' ')
                 s += ','
-            print((" %-22.22s  %s" % (m, s.strip(','))))
+            print((" %-22.22s  %s" % (m, s.strip(','))), file=f)
 
-    def print_hp():
-        title('Monsters by Average HP. 95%=>(90%..[avg]..110%)  5%=>(67%..[avg]..133%) ')
+    def print_hp(f=None):
+        f = title('Monsters by Average HP. '
+                '95%=>(90%..[avg]..110%)'
+                '5%=>(67%..[avg]..133%) ', f)
         for m in sorted(monsters, key=attrgetter('hp.avg'), reverse=True):
             if m.hp.fixed:
                 dot = '[*]'
@@ -423,44 +428,44 @@ def main():
             else:
                 dot = '   '
                 mhp = m.hp
-            print(("%s%4d  %-22.22s  %s" % (dot, m.hp.avg, m, mhp)))
+            print(("%s%4d  %-22.22s  %s" % (dot, m.hp.avg, m, mhp)), file=f)
 
-    def print_dragons():
-        title('Dragons by HD')
+    def print_dragons(f=None):
+        f = title('Dragons by HD', f)
         for m in sorted(monsters, key=attrgetter('hd'), reverse=True):
             if 'DRAGON' not in m.genus or 'M_CANT_SPAWN' in m.flags:
                 continue
-            print(("%2d  %s" % (m.hd, m)))
-        title('Draconians by HD')
+            print(("%2d  %s" % (m.hd, m)), file=f)
+        f = title('Draconians by HD', f)
         for m in sorted(monsters, key=attrgetter('hd'), reverse=True):
             if 'DRACONIAN' not in m.genus or 'M_CANT_SPAWN' in m.flags:
                 continue
-            print(("%2d  %s" % (m.hd, m)))
+            print(("%2d  %s" % (m.hd, m)), file=f)
 
-    def print_hd():
-        title('Dragons and not-dragons by HD')
+    def print_hd(f=None):
+        f = title('Dragons and not-dragons by HD', f)
         for m in sorted(monsters, key=attrgetter('hd'), reverse=True):
             if 'M_CANT_SPAWN' in m.flags:
                 continue
-            print(("%2d  %s" % (m.hd, m)))
+            print(("%2d  %s" % (m.hd, m)), file=f)
 
-    def print_ac():
-        title('Monsters by AC')
+    def print_ac(f=None):
+        f = title('Monsters by AC', f)
         for m in sorted(monsters, key=attrgetter('ac'), reverse=True):
-            print(("%4d  %s" % (m.ac, m)))
+            print(("%4d  %s" % (m.ac, m)), file=f)
 
-    def print_defenses():
-        title('Monsters by AC and EV')
+    def print_defenses(f=None):
+        f = title('Monsters by AC and EV', f)
         for m in sorted(monsters, key=lambda m: m.ac + m.ev, reverse=True):
-            print(("%3d|%3d  %s" % (m.ac, m.ev, m)))
+            print(("%3d|%3d  %s" % (m.ac, m.ev, m)), file=f)
 
-    def print_resists():
-        title('Monster resistances (not nearly complete!)')
+    def print_resists(f=None):
+        f = title('Monster resistances (not nearly complete!)', f)
         for m in sorted(monsters, key=attrgetter('id')):
-            print((" %-22.22s %s" % (m, m.resists)))
+            print((" %-22.22s %s" % (m, m.resists)), file=f)
 
-    def print_mr(diff=False):
-        title('Monsters by MR, [*]: immune')
+    def print_mr(f=None, diff=False):
+        f = title('Monsters by MR, [*]: immune', f)
         for m in sorted(monsters, key = attrgetter('mr'), reverse=True):
             if diff:
                 try:
@@ -476,31 +481,20 @@ def main():
                     old_mr = '[*]'
                 else:
                     old_mr = '%3d' % old_mr
-                print(("  %s  %s  %s" % (mr, old_mr, m)))
+                print(("  %s  %s  %s" % (mr, old_mr, m)), file=f)
             else:
-                print(("  %s  %s" % (mr, m)))
+                print(("  %s  %s" % (mr, m)), file=f)
 
-    def print_speed():
-        title('Monsters by move speed (player: usually 10)')
+    def print_speed(f=None):
+        f = title('Monsters by move speed (player: usually 10)', f)
         for m in sorted(monsters, key = lambda m: m.energy.move, reverse=True):
-            print(("% 5.4s  %s" % (m.energy.move, m)))
-
-    def print_everything():
-        print_mr()
-        print_hp()
-        print_attacks()
-        print_resists()
-        print_ac()
-        # defenses
-        # dragons
-        print_speed()
+            print(("% 5.4s  %s" % (m.energy.move, m)), file=f)
 
     fnmap = {
         'ac': print_ac,
         'defenses': print_defenses,
         'attacks': print_attacks,
         'dragons': print_dragons,
-        'everything': print_everything,
         'hd': print_hd,
         'hp': print_hp,
         'mr': print_mr,
@@ -508,9 +502,24 @@ def main():
         'speed': print_speed,
     }
 
-    for (abbr, fn) in fnmap.items():
-        if abbr.startswith(sys.argv[1]):
-            fn()
+    done = False
+    write = True
+    if len(sys.argv) > 1:
+        if sys.argv[1].startswith('eve'):
+            # Legacy compat: 'everything' used to be manually defined
+            write = False
+        else:
+            # Provided string argument to run a specific mode
+            for (abbr, fn) in fnmap.items():
+                if abbr.startswith(sys.argv[1]):
+                    done = True
+                    fn()
+
+    if not done:
+        # Run everything
+        for (abbr, fn) in sorted(fnmap.items(), key=itemgetter(0)):
+            with open(abbr, 'w') as f:
+                fn(f if write else None)
 
 
 if __name__ == '__main__':
