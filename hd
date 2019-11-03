@@ -2,6 +2,7 @@
 Dragons and not-dragons by HD
 -----------------------------
 1000  test spawner
+1000  test statue
 30  the Lernaean hydra
 30  orb of fire
 27  ancient lich
@@ -9,82 +10,86 @@ Dragons and not-dragons by HD
 23  tentacled monstrosity
 22  Antaeus
 22  Boris
-22  the iron giant
 22  Margery
-22  starspawn tentacle
-22  starspawn tentacle segment
 22  Tiamat
+22  Tzitzimitl
 21  Cerebov
 21  Frederick
-21  the royal jelly
+21  the Royal Jelly
+21  shard shrike
+20  Bai Suzhen
+20  Bai Suzhen
 20  bone dragon
 20  bush
 20  Cloud Mage
+20  doom hound
 20  Gastronok
 20  Hellbinder
 20  hellephant
+20  juggernaut
 20  Killer Klown
 20  lich
 20  Nellie
-20  Norris
-20  the Serpent of Hell
-20  the Serpent of Hell
-20  the Serpent of Hell
-20  the Serpent of Hell
 20  Sojobo
 20  titan
+20  Xtahua
 19  Hell Sentinel
 19  Lom Lobon
 19  Mennas
 19  pandemonium lord
-19  Xtahua
 18  acid blob
 18  Brimstone Fiend
+18  caustic shrike
 18  Chuck
+18  elemental wellspring
 18  Ereshkigal
 18  golden dragon
+18  halazid warlock
 18  Ice Fiend
 18  Ignacio
 18  iron dragon
+18  iron giant
 18  Jory
 18  Khufu
 18  Mara
+18  moon troll
 18  Nikola
 18  pearl dragon
 18  profane servitor
 18  revenant
 18  Saint Roka
-18  Shadow Fiend
 18  very ugly thing
 17  Arachne
 17  Asmodeus
-17  caustic shrike
 17  Mnoleg
+17  the Serpent of Hell
+17  the Serpent of Hell
+17  the Serpent of Hell
+17  the Serpent of Hell
 17  shadow dragon
 17  tengu reaver
-17  Wiglaf
 16  alligator snapping turtle
 16  apis
 16  crystal guardian
 16  deep elf blademaster
 16  Dispater
+16  Dissolution
 16  draconian annihilator
-16  draconian caller
 16  draconian knight
 16  draconian monk
 16  draconian scorcher
 16  draconian shifter
-16  draconian zealot
+16  draconian stormcaller
 16  eldritch tentacle
 16  eldritch tentacle segment
 16  fire giant
 16  frost giant
 16  Gloorx Vloq
 16  Ilsuiw
+16  imperial myrmidon
 16  iron troll
 16  Kirke
 16  kraken
-16  octopode crusher
 16  Polyphemus
 16  quicksilver dragon
 16  Rupert
@@ -97,7 +102,6 @@ Dragons and not-dragons by HD
 15  azure jelly
 15  black sun
 15  blood saint
-15  chaos champion
 15  corrupter
 15  dancing weapon
 15  deep elf annihilator
@@ -105,16 +109,15 @@ Dragons and not-dragons by HD
 15  deep elf master archer
 15  dire elephant
 15  electric golem
-15  elemental wellspring
 15  Geryon
 15  greater mummy
-15  greater naga
 15  iron golem
 15  Jorgrun
+15  mutant beast
+15  nagaraja
 15  ophan
 15  Orb Guardian
 15  orc warlord
-15  salamander firebrand
 15  spriggan defender
 15  the Enchantress
 15  thorn hunter
@@ -127,7 +130,9 @@ Dragons and not-dragons by HD
 14  catoblepas
 14  curse toe
 14  daeva
+14  death cob
 14  death yak
+14  deep elf elementalist
 14  deep elf sorcerer
 14  Donald
 14  emperor scorpion
@@ -135,9 +140,10 @@ Dragons and not-dragons by HD
 14  ghoul
 14  green draconian
 14  grey draconian
+14  ironheart preserver
 14  lorocyproca
 14  merfolk aquamancer
-14  mottled draconian
+14  minotaur
 14  Murray
 14  pale draconian
 14  purple draconian
@@ -154,44 +160,42 @@ Dragons and not-dragons by HD
 13  deathcap
 13  drowned soul
 13  eidolon
+13  entropy weaver
 13  ghost moth
 13  green death
 13  hydra
 13  Louise
-13  Maud
 13  merfolk avatar
 13  merfolk javelineer
-13  minotaur
 13  queen ant
 13  shambling mangrove
 13  vault guard
 13  war gargoyle
 12  alligator
 12  angel
-12  ball lightning
 12  blizzard demon
 12  deep elf demonologist
 12  deep troll earth mage
 12  deep troll shaman
-12  Dissolution
 12  ettin
 12  Executioner
 12  fire dragon
-12  giant leech
 12  great orb of eyes
-12  griffon
 12  ice dragon
-12  ironheart preserver
 12  iron elemental
 12  tentacle
 12  tentacle segment
 12  merfolk impaler
+12  peacekeeper
 12  satyr
+12  servant of whispers
 12  snaplasher vine
 12  snaplasher vine segment
+12  spark wasp
 12  spriggan berserker
 12  starcursed mass
 12  twister
+12  tyrant leech
 12  ugly thing
 11  large abomination
 11  Agnes
@@ -202,29 +206,29 @@ Dragons and not-dragons by HD
 11  deep elf knight
 11  flayed ghost
 11  hell hog
-11  hill giant
 11  holy swine
-11  ice devil
 11  orc high priest
 11  rakshasa
 11  slime creature
 11  soul eater
 11  spriggan druid
 11  spriggan rider
-11  unborn
+11  starspawn tentacle
+11  starspawn tentacle segment
 11  vampire knight
 11  wolf spider
 10  briar patch
 10  centaur warrior
-10  death cob
 10  death knight
+10  deep elf archer
 10  deep troll
+10  demonic plant
 10  eye of devastation
 10  Fannar
 10  faun
 10  fire vortex
 10  gelid demonspawn
-10  giant orange brain
+10  glowing orange brain
 10  glowing shapeshifter
 10  hell knight
 10  infernal demonspawn
@@ -242,7 +246,6 @@ Dragons and not-dragons by HD
 10  oklob plant
 10  orange crystal statue
 10  plant
-10  putrid demonspawn
 10  salamander mystic
 10  sea snake
 10  shadow demon
@@ -257,43 +260,44 @@ Dragons and not-dragons by HD
 10  tengu warrior
 10  torpor snail
 10  torturous demonspawn
+10  two-headed ogre
 10  vampire mage
 10  water nymph
+10  withered plant
 10  wizard
 10  wretched star
- 9  anubis guard
- 9  boulder beetle
  9  cherub
  9  cyclops
  9  death drake
- 9  deep elf conjurer
- 9  deep elf summoner
+ 9  deep elf mage
  9  demonic crawler
+ 9  dream sheep
  9  elephant
  9  Erica
+ 9  floating eye
  9  ghost crab
  9  Harold
  9  ironbrand convoker
  9  lindwurm
  9  mana viper
  9  manticore
+ 9  merfolk siren
  9  moth of wrath
  9  naga sharpshooter
  9  Nessos
  9  orc knight
  9  orc sorcerer
  9  phantasmal warrior
+ 9  ragged hierophant
  9  redback
- 9  siren
+ 9  sixfirhy
  9  swamp dragon
  9  thrashing horror
  9  toenail golem
  9  Urug
  8  ancient zyme
  8  apocalypse crab
- 8  boring beetle
  8  burning bush
- 8  chimera
  8  death scarab
  8  diamond obelisk
  8  draconian
@@ -303,32 +307,31 @@ Dragons and not-dragons by HD
  8  freezing wraith
  8  fungus
  8  guardian serpent
+ 8  hippogriff
+ 8  ice devil
  8  ice statue
+ 8  insubstantial wisp
  8  jumping spider
  8  komodo dragon
  8  naga ritualist
  8  octopode
  8  orange demon
- 8  red wasp
  8  rust devil
  8  salamander
+ 8  saltling
  8  silent spectre
  8  Snorg
  8  spectral thing
  8  spellforged servitor
  8  statue
  8  tarantella
- 8  trapdoor spider
  8  vault sentinel
  8  vine stalker
  8  wandering mushroom
  8  wind drake
  8  worldbinder
  8  yaktaur
- 7  baby alligator
  7  black mamba
- 7  blue devil
- 7  deep elf priest
  7  efreet
  7  eye of draining
  7  flying skull
@@ -337,8 +340,8 @@ Dragons and not-dragons by HD
  7  hellion
  7  hellwing
  7  hell beast
- 7  hippogriff
  7  hungry ghost
+ 7  meliai
  7  molten gargoyle
  7  naga mage
  7  orb spider
@@ -348,7 +351,6 @@ Dragons and not-dragons by HD
  7  raiju
  7  red devil
  7  shapeshifter
- 7  sixfirhy
  7  smoke demon
  7  spiny frog
  7  spriggan
@@ -365,40 +367,35 @@ Dragons and not-dragons by HD
  6  blink frog
  6  bog body
  6  chaos spawn
- 6  deep elf fighter
- 6  deep elf mage
  6  demonspawn
  6  earth elemental
  6  Erolcha
- 6  fire drake
  6  fire elemental
  6  formicid
  6  gargoyle
  6  golden eye
  6  Grinder
  6  hog
+ 6  hornet
  6  human
- 6  hyperactive ballistomycete
- 6  insubstantial wisp
  6  Joseph
  6  kobold demonologist
  6  neqoxec
  6  Pikel
  6  Prince Ribbit
- 6  raven
+ 6  rime drake
  6  shadow
  6  soldier ant
  6  Sonja
  6  spatial vortex
- 6  two-headed ogre
  6  vampire
  6  water elemental
  6  wraith
  6  ynoxinul
  6  large zombie
+ 5  acid dragon
  5  battlesphere
  5  big kobold
- 5  brain worm
  5  crocodile
  5  deep dwarf
  5  demigod
@@ -406,13 +403,10 @@ Dragons and not-dragons by HD
  5  felid
  5  fire bat
  5  fulminant prism
- 5  goliath beetle
- 5  grand avatar
  5  guardian golem
  5  hell hound
  5  ice beast
  5  Maurice
- 5  mottled dragon
  5  naga
  5  necrophage
  5  ogre
@@ -423,20 +417,18 @@ Dragons and not-dragons by HD
  5  sky beast
  5  slave
  5  spectral weapon
- 5  spider
  5  tengu
  5  vampire mosquito
  5  warg
  5  water moccasin
- 5  worm
  5  wyvern
  4  ballistomycete
  4  boggart
+ 4  bullfrog
  4  centaur
  4  Duvessa
  4  Edmund
  4  Eustachio
- 4  giant frog
  4  gnoll sergeant
  4  Grum
  4  oklob sapling
@@ -448,17 +440,19 @@ Dragons and not-dragons by HD
  4  steam dragon
  4  swamp drake
  4  wolf
- 4  yellow wasp
+ 4  worm
+ 3  barachi
  3  block of ice
  3  Blork the orc
  3  Crazy Yiuf
  3  crimson imp
  3  Dowan
  3  electric eel
- 3  giant eyeball
  3  gnoll shaman
  3  halfling
+ 3  hell rat
  3  hound
+ 3  howler monkey
  3  iguana
  3  Ijyb
  3  iron imp
@@ -470,39 +464,43 @@ Dragons and not-dragons by HD
  3  mummy
  3  Natasha
  3  ooze
- 3  orange rat
  3  orc priest
  3  orc wizard
  3  quasit
- 3  sheep
  3  Sigmund
  3  vampire bat
  3  wight
  3  worker ant
  2  adder
- 2  giant mite
  2  gnoll
- 2  green rat
+ 2  river rat
+ 2  Robin
  2  shadow imp
  2  simulacrum
  2  small simulacrum
  2  Terence
  2  white imp
+ 1  ancestor
+ 1  battlemage
+ 1  hexer
+ 1  knight
+ 1  ballistomycete spore
+ 1  ball lightning
  1  ball python
  1  bat
  1  butterfly
  1  crawling corpse
+ 1  dart slug
+ 1  frilled lizard
  1  ghost
  1  giant cockroach
- 1  giant gecko
- 1  giant newt
- 1  giant spore
  1  goblin
  1  hobgoblin
  1  jackal
  1  Jessica
  1  kobold
  1  lava orc
+ 1  leopard gecko
  1  lurking horror
  1  macabre mass
  1  orc

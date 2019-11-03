@@ -6,19 +6,21 @@ Monsters by MR, [*]: immune
   [*]  Antaeus
   [*]  Asmodeus
   [*]  ballistomycete
+  [*]  ballistomycete spore
   [*]  ball lightning
   [*]  battlesphere
   [*]  block of ice
   [*]  Boris
   [*]  briar patch
   [*]  Brimstone Fiend
-  [*]  burning bush
   [*]  bush
+  [*]  Cerebov
   [*]  crawling corpse
   [*]  crystal guardian
   [*]  curse skull
   [*]  curse toe
   [*]  dancing weapon
+  [*]  demonic plant
   [*]  diamond obelisk
   [*]  Dispater
   [*]  earth elemental
@@ -27,27 +29,18 @@ Monsters by MR, [*]: immune
   [*]  electric golem
   [*]  elemental wellspring
   [*]  Ereshkigal
-  [*]  eye of devastation
-  [*]  eye of draining
   [*]  fire elemental
   [*]  fire vortex
   [*]  fulminant prism
   [*]  fungus
   [*]  Gloorx Vloq
-  [*]  golden eye
-  [*]  grand avatar
-  [*]  greater mummy
-  [*]  greater naga
-  [*]  great orb of eyes
   [*]  guardian golem
   [*]  Hell Sentinel
-  [*]  hyperactive ballistomycete
   [*]  Ice Fiend
   [*]  ice statue
   [*]  insubstantial wisp
   [*]  iron elemental
   [*]  iron golem
-  [*]  Khufu
   [*]  tentacle
   [*]  tentacle segment
   [*]  lich
@@ -55,26 +48,18 @@ Monsters by MR, [*]: immune
   [*]  Lom Lobon
   [*]  lost soul
   [*]  macabre mass
-  [*]  mana viper
-  [*]  Mennas
   [*]  Mnoleg
-  [*]  mummy priest
   [*]  Murray
   [*]  obsidian statue
-  [*]  ophan
   [*]  orange crystal statue
   [*]  orb of destruction
   [*]  orb of fire
+  [*]  peacekeeper
   [*]  pillar of salt
   [*]  plant
-  [*]  profane servitor
-  [*]  reaper
   [*]  revenant
   [*]  Roxanne
-  [*]  seraph
-  [*]  Shadow Fiend
-  [*]  shambling mangrove
-  [*]  shining eye
+  [*]  saltling
   [*]  spatial maelstrom
   [*]  spatial vortex
   [*]  spectral thing
@@ -84,17 +69,17 @@ Monsters by MR, [*]: immune
   [*]  starspawn tentacle segment
   [*]  statue
   [*]  test spawner
-  [*]  the Enchantress
-  [*]  thorn hunter
   [*]  toadstool
   [*]  toenail golem
   [*]  training dummy
   [*]  twister
+  [*]  Tzitzimitl
   [*]  ushabti
   [*]  water elemental
+  [*]  withered plant
   [*]  wretched star
   180  golden dragon
-  180  the royal jelly
+  180  the Royal Jelly
   180  the Serpent of Hell
   180  the Serpent of Hell
   180  the Serpent of Hell
@@ -104,14 +89,18 @@ Monsters by MR, [*]: immune
   160  acid blob
   160  balrug
   160  cacodemon
-  160  Cerebov
+  160  greater mummy
   160  green death
   160  Ignacio
   160  iron dragon
   160  Jory
+  160  Khufu
   160  Killer Klown
+  160  Mennas
   160  pearl dragon
+  160  seraph
   160  tentacled monstrosity
+  160  the Enchantress
   140  bennu
   140  blizzard demon
   140  daeva
@@ -123,8 +112,11 @@ Monsters by MR, [*]: immune
   140  lorocyproca
   140  Mara
   140  Margery
+  140  moon troll
+  140  nagaraja
   140  Nellie
-  140  Norris
+  140  ophan
+  140  profane servitor
   140  purple draconian
   140  quicksilver dragon
   140  rakshasa
@@ -133,7 +125,6 @@ Monsters by MR, [*]: immune
   140  spriggan air mage
   140  spriggan defender
   140  Tiamat
-  126  hell lord
   126  pandemonium lord
   120  Aizul
   120  ancient champion
@@ -142,25 +133,29 @@ Monsters by MR, [*]: immune
   120  deep elf annihilator
   120  deep elf blademaster
   120  deep elf death mage
+  120  deep elf elementalist
   120  deep elf sorcerer
   120  Dissolution
   120  Geryon
-  120  the iron giant
+  120  great orb of eyes
+  120  iron giant
   120  Jorgrun
+  120  juggernaut
   120  the Lernaean hydra
   120  merfolk avatar
+  120  mummy priest
   120  Nikola
   120  Orb Guardian
   120  shadow dragon
   120  spriggan berserker
   120  tentacled starspawn
-  120  unborn
   120  Vashnia
-  120  Wiglaf
   100  large abomination
   100  Agnes
   100  apis
   100  Asterion
+  100  Bai Suzhen
+  100  Bai Suzhen
   100  bone dragon
   100  catoblepas
   100  cherub
@@ -172,30 +167,37 @@ Monsters by MR, [*]: immune
   100  demonic crawler
   100  dire elephant
   100  Donald
+  100  eye of devastation
   100  Frances
   100  ghost moth
-  100  giant orange brain
+  100  glowing orange brain
+  100  halazid warlock
   100  Hellbinder
   100  iron troll
   100  Kirke
+  100  mana viper
+  100  minotaur
+  100  reaper
   100  Rupert
   100  shadow demon
   100  shadow wraith
+  100  shambling mangrove
+  100  shining eye
   100  skeletal warrior
   100  spriggan druid
   100  spriggan rider
   100  starcursed mass
   100  storm dragon
+  100  thorn hunter
   100  war gargoyle
   100  water nymph
    80  azure jelly
    80  caustic shrike
    80  deathcap
    80  death knight
-   80  deep elf conjurer
+   80  deep elf archer
    80  deep elf high priest
    80  deep elf knight
-   80  deep elf summoner
    80  dryad
    80  elephant slug
    80  Fannar
@@ -207,14 +209,13 @@ Monsters by MR, [*]: immune
    80  ice devil
    80  jiangshi
    80  Louise
-   80  Maud
    80  merfolk aquamancer
    80  naga sharpshooter
    80  naga warrior
    80  ogre mage
    80  phantasmal warrior
    80  Saint Roka
-   80  salamander firebrand
+   80  shard shrike
    80  stone giant
    80  sun demon
    80  vampire knight
@@ -225,34 +226,35 @@ Monsters by MR, [*]: immune
    60  Arachne
    60  black sun
    60  blood saint
-   60  boggart
-   60  chaos champion
    60  chaos spawn
    60  corrupter
    60  death scarab
-   60  deep elf priest
    60  drowned soul
    60  elephant
    60  emperor scorpion
+   60  entropy weaver
    60  Erica
    60  Erolcha
+   60  eye of draining
    60  fire dragon
    60  flayed ghost
+   60  golden eye
    60  guardian serpent
    60  Harold
    60  hellion
    60  hellwing
    60  hydra
+   60  imperial myrmidon
    60  Josephine
    60  kraken
    60  merfolk javelineer
-   60  minotaur
+   60  merfolk siren
    60  molten gargoyle
+   60  mutant beast
    60  naga mage
    60  naga ritualist
    60  necromancer
    60  Nergalle
-   60  octopode crusher
    60  orange demon
    60  orc high priest
    60  orc warlord
@@ -261,7 +263,7 @@ Monsters by MR, [*]: immune
    60  red devil
    60  rust devil
    60  salamander mystic
-   60  siren
+   60  servant of whispers
    60  sixfirhy
    60  smoke demon
    60  Snorg
@@ -280,32 +282,28 @@ Monsters by MR, [*]: immune
    40  small abomination
    40  alligator
    40  anaconda
-   40  anubis guard
    40  Azrael
    40  black draconian
    40  blink frog
-   40  blue devil
+   40  boggart
    40  bog body
-   40  boring beetle
-   40  boulder beetle
+   40  burning bush
    40  centaur warrior
    40  crimson imp
    40  cyclops
    40  death cob
    40  death drake
    40  deep dwarf
-   40  deep elf fighter
    40  deep elf mage
    40  deep troll
    40  deep troll earth mage
    40  deep troll shaman
    40  draconian annihilator
-   40  draconian caller
    40  draconian knight
    40  draconian monk
    40  draconian scorcher
    40  draconian shifter
-   40  draconian zealot
+   40  draconian stormcaller
    40  Duvessa
    40  elf
    40  ettin
@@ -317,14 +315,11 @@ Monsters by MR, [*]: immune
    40  gargoyle
    40  gelid demonspawn
    40  ghost crab
-   40  giant leech
    40  green draconian
    40  grey draconian
-   40  griffon
    40  guardian mummy
    40  hell hog
    40  hell knight
-   40  hill giant
    40  holy swine
    40  hungry ghost
    40  ice dragon
@@ -340,7 +335,6 @@ Monsters by MR, [*]: immune
    40  merfolk impaler
    40  monstrous demonspawn
    40  moth of wrath
-   40  mottled draconian
    40  naga
    40  necrophage
    40  neqoxec
@@ -351,9 +345,8 @@ Monsters by MR, [*]: immune
    40  pale draconian
    40  phantom
    40  Prince Ribbit
-   40  putrid demonspawn
+   40  ragged hierophant
    40  red draconian
-   40  red wasp
    40  salamander
    40  satyr
    40  sea snake
@@ -365,11 +358,13 @@ Monsters by MR, [*]: immune
    40  snaplasher vine
    40  snaplasher vine segment
    40  snapping turtle
+   40  spark wasp
    40  swamp dragon
    40  tengu warrior
    40  torpor snail
    40  torturous demonspawn
    40  two-headed ogre
+   40  tyrant leech
    40  ugly thing
    40  Urug
    40  vampire
@@ -383,50 +378,49 @@ Monsters by MR, [*]: immune
    40  yaktaur
    40  yellow draconian
    40  ynoxinul
-   32  chimera
+   30  dream sheep
+   30  hornet
    26  player ghost
    26  player illusion
-   20  baby alligator
+   25  hippogriff
+   20  acid dragon
    20  basilisk
    20  big kobold
    20  black bear
    20  black mamba
    20  Blork the orc
-   20  brain worm
+   20  bullfrog
    20  centaur
    20  crocodile
    20  demigod
    20  demonspawn
+   20  doom hound
    20  Dowan
    20  dwarf
    20  Edmund
    20  efreet
    20  Eustachio
-   20  fire drake
    20  flying skull
-   20  giant frog
    20  gnoll sergeant
    20  gnoll shaman
-   20  goliath beetle
    20  Grinder
    20  harpy
    20  hell beast
    20  hell hound
-   20  hippogriff
+   20  hell rat
    20  hog
    20  human
    20  ice beast
    20  jumping spider
    20  Maurice
+   20  meliai
    20  Menkaure
-   20  mottled dragon
    20  mummy
    20  Natasha
    20  Nessos
    20  ogre
    20  oklob sapling
    20  ooze
-   20  orange rat
    20  orc priest
    20  orc warrior
    20  orc wizard
@@ -436,8 +430,8 @@ Monsters by MR, [*]: immune
    20  Psyche
    20  queen bee
    20  raiju
-   20  raven
    20  redback
+   20  rime drake
    20  scorpion
    20  sky beast
    20  slave
@@ -448,7 +442,7 @@ Monsters by MR, [*]: immune
    20  tarantella
    20  tengu
    20  tengu conjurer
-   20  trapdoor spider
+   20  test statue
    20  troll
    20  unseen horror
    20  vampire mosquito
@@ -458,19 +452,19 @@ Monsters by MR, [*]: immune
    20  wolf spider
    20  wyvern
    20  yak
-   20  yellow wasp
    10  adder
+   10  barachi
    10  butterfly
    10  Crazy Yiuf
    10  draconian
    10  electric eel
    10  fire bat
-   10  giant eyeball
+   10  floating eye
    10  gnoll
-   10  green rat
    10  Grum
    10  halfling
    10  hound
+   10  howler monkey
    10  iguana
    10  Ijyb
    10  iron imp
@@ -482,11 +476,11 @@ Monsters by MR, [*]: immune
    10  octopode
    10  Purgy
    10  quasit
+   10  river rat
+   10  Robin
    10  shadow imp
-   10  sheep
    10  Sigmund
    10  Sonja
-   10  spider
    10  swamp worm
    10  Terence
    10  ufetubus
@@ -495,26 +489,29 @@ Monsters by MR, [*]: immune
    10  worker ant
    10  worm
     8  large zombie
+    6  ancestor
+    6  battlemage
+    6  hexer
+    6  knight
     6  large simulacrum
+    4  shadow
     2  simulacrum
     2  small simulacrum
     1  zombie
     1  small zombie
     0  ball python
     0  bat
+    0  dart slug
+    0  frilled lizard
     0  ghost
     0  giant cockroach
-    0  giant gecko
-    0  giant mite
-    0  giant newt
-    0  giant spore
     0  goblin
     0  hobgoblin
     0  jackal
     0  kobold
     0  lava orc
+    0  leopard gecko
     0  orc
-    0  shadow
     0  quokka
     0  rat
     0  sensed monster

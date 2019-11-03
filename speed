@@ -5,8 +5,8 @@ Monsters by move speed (player: usually 10)
    30  battlesphere
    30  death scarab
    30  fire bat
-   30  grand avatar
    30  orb of destruction
+   30  shard shrike
    30  spectral weapon
    30  unseen horror
    30  vampire bat
@@ -21,7 +21,7 @@ Monsters by move speed (player: usually 10)
    20  Gloorx Vloq
    20  Ignacio
    20  killer bee
-   20  raven
+   20  meliai
    19  vampire mosquito
    18  Agnes
    18  anaconda
@@ -39,12 +39,12 @@ Monsters by move speed (player: usually 10)
  16.6  the Enchantress
    16  bennu
    16  electric golem
-   16  ice statue
    16  spatial maelstrom
    16  spriggan defender
    15  Aizul
    15  angel
    15  Arachne
+   15  ballistomycete spore
    15  centaur
    15  centaur warrior
    15  curse skull
@@ -52,27 +52,27 @@ Monsters by move speed (player: usually 10)
    15  deep elf blademaster
    15  fire vortex
    15  flying skull
-   15  giant spore
    15  guardian serpent
+   15  hell beast
    15  hell hound
+   15  hornet
    15  hound
    15  jumping spider
    15  Mennas
    15  Nessos
    15  orb of fire
+   15  peacekeeper
    15  profane servitor
    15  quicksilver dragon
    15  redback
-   15  red wasp
+   15  seraph
    15  shock serpent
+   15  spark wasp
    15  spatial vortex
-   15  spider
    15  tarantella
-   15  trapdoor spider
    15  ufetubus
    15  wolf spider
    15  wyvern
-   15  yellow wasp
    14  Ereshkigal
    14  hell hog
    14  holy swine
@@ -80,9 +80,7 @@ Monsters by move speed (player: usually 10)
    14  kraken
    14  mana viper
    14  Orb Guardian
-   14  the royal jelly
-   14  salamander
-   14  salamander mystic
+   14  the Royal Jelly
    14  the Serpent of Hell
    14  the Serpent of Hell
    14  the Serpent of Hell
@@ -92,6 +90,7 @@ Monsters by move speed (player: usually 10)
    14  worldbinder
    13  death drake
    13  demonic crawler
+   13  doom hound
    13  fire elemental
    13  golden eye
    13  hog
@@ -114,20 +113,24 @@ Monsters by move speed (player: usually 10)
    12  drowned soul
    12  eldritch tentacle
    12  eldritch tentacle segment
-   12  fire drake
+   12  entropy weaver
    12  ghost moth
    12  giant cockroach
-   12  giant gecko
    12  hellion
+   12  hell rat
+   12  howler monkey
+   12  imperial myrmidon
+   12  leopard gecko
    12  lurking horror
+   12  moon troll
    12  moth of wrath
-   12  orange rat
    12  pearl dragon
    12  porcupine
    12  quokka
+   12  rime drake
+   12  saltling
    12  storm dragon
    12  sun demon
-   12  swamp worm
    12  wind drake
    12  worker ant
  11.1  Sojobo
@@ -140,20 +143,26 @@ Monsters by move speed (player: usually 10)
    11  sphinx
    10  large abomination
    10  small abomination
+   10  acid dragon
    10  adder
    10  alligator
    10  alligator snapping turtle
+   10  ancestor
+   10  battlemage
+   10  hexer
+   10  knight
    10  ancient champion
    10  ancient lich
    10  ancient zyme
    10  Antaeus
-   10  anubis guard
    10  apis
    10  apocalypse crab
    10  Asmodeus
    10  Asterion
    10  Azrael
-   10  baby alligator
+   10  Bai Suzhen
+   10  Bai Suzhen
+   10  ballistomycete
    10  ball python
    10  basilisk
    10  big kobold
@@ -165,19 +174,17 @@ Monsters by move speed (player: usually 10)
    10  block of ice
    10  blood saint
    10  Blork the orc
-   10  blue devil
    10  bog body
    10  bone dragon
    10  Boris
-   10  brain worm
    10  Brimstone Fiend
+   10  bullfrog
    10  burning bush
    10  cacodemon
+   10  catoblepas
    10  Cerebov
-   10  chaos champion
    10  chaos spawn
    10  cherub
-   10  chimera
    10  Chuck
    10  Cloud Mage
    10  corrupter
@@ -191,17 +198,15 @@ Monsters by move speed (player: usually 10)
    10  death yak
    10  deep dwarf
    10  deep elf annihilator
-   10  deep elf conjurer
+   10  deep elf archer
    10  deep elf death mage
    10  deep elf demonologist
-   10  deep elf fighter
+   10  deep elf elementalist
    10  deep elf high priest
    10  deep elf knight
    10  deep elf mage
    10  deep elf master archer
-   10  deep elf priest
    10  deep elf sorcerer
-   10  deep elf summoner
    10  deep troll
    10  deep troll earth mage
    10  deep troll shaman
@@ -215,12 +220,12 @@ Monsters by move speed (player: usually 10)
    10  Dowan
    10  draconian
    10  draconian annihilator
-   10  draconian caller
    10  draconian knight
    10  draconian monk
    10  draconian scorcher
    10  draconian shifter
-   10  draconian zealot
+   10  draconian stormcaller
+   10  dream sheep
    10  dryad
    10  Duvessa
    10  dwarf
@@ -242,10 +247,12 @@ Monsters by move speed (player: usually 10)
    10  fire dragon
    10  fire giant
    10  flayed ghost
+   10  floating eye
    10  formicid
    10  Frances
    10  Frederick
    10  freezing wraith
+   10  frilled lizard
    10  frost giant
    10  fulminant prism
    10  gargoyle
@@ -254,11 +261,7 @@ Monsters by move speed (player: usually 10)
    10  ghost
    10  ghost crab
    10  ghoul
-   10  giant frog
-   10  giant leech
-   10  giant mite
-   10  giant newt
-   10  giant orange brain
+   10  glowing orange brain
    10  glowing shapeshifter
    10  gnoll
    10  gnoll sergeant
@@ -269,22 +272,18 @@ Monsters by move speed (player: usually 10)
    10  great orb of eyes
    10  green death
    10  green draconian
-   10  green rat
    10  grey draconian
-   10  griffon
    10  Grinder
    10  Grum
    10  guardian golem
+   10  halazid warlock
    10  halfling
    10  Harold
    10  Hellbinder
    10  hellephant
    10  hellwing
-   10  hell beast
    10  hell knight
-   10  hell lord
    10  Hell Sentinel
-   10  hill giant
    10  hippogriff
    10  hobgoblin
    10  human
@@ -294,6 +293,7 @@ Monsters by move speed (player: usually 10)
    10  ice devil
    10  ice dragon
    10  Ice Fiend
+   10  ice statue
    10  iguana
    10  Ijyb
    10  Ilsuiw
@@ -301,13 +301,14 @@ Monsters by move speed (player: usually 10)
    10  insubstantial wisp
    10  ironbrand convoker
    10  ironheart preserver
-   10  the iron giant
+   10  iron giant
    10  jelly
    10  Jessica
    10  Jorgrun
    10  Jory
    10  Joseph
    10  Josephine
+   10  juggernaut
    10  Khufu
    10  Kirke
    10  kobold
@@ -325,35 +326,34 @@ Monsters by move speed (player: usually 10)
    10  manticore
    10  Mara
    10  Margery
-   10  Maud
    10  Maurice
    10  merfolk
    10  merfolk aquamancer
    10  merfolk avatar
    10  merfolk impaler
    10  merfolk javelineer
+   10  merfolk siren
    10  minotaur
    10  molten gargoyle
    10  monstrous demonspawn
-   10  mottled draconian
-   10  mottled dragon
    10  Murray
+   10  mutant beast
    10  necromancer
    10  necrophage
    10  Nellie
    10  neqoxec
    10  Nergalle
    10  Nikola
-   10  Norris
    10  obsidian statue
    10  octopode
-   10  octopode crusher
    10  ogre
    10  ogre mage
    10  oklob plant
    10  oklob sapling
+   10  ooze
    10  ophan
    10  orange demon
+   10  orange crystal statue
    10  orb spider
    10  orc
    10  orc high priest
@@ -377,8 +377,9 @@ Monsters by move speed (player: usually 10)
    10  Prince Ribbit
    10  Purgy
    10  purple draconian
-   10  putrid demonspawn
+   10  queen ant
    10  queen bee
+   10  ragged hierophant
    10  raiju
    10  rakshasa
    10  rat
@@ -386,10 +387,14 @@ Monsters by move speed (player: usually 10)
    10  red devil
    10  red draconian
    10  revenant
+   10  river rat
+   10  Robin
    10  Roxanne
    10  Rupert
    10  rust devil
    10  Saint Roka
+   10  salamander
+   10  salamander mystic
    10  satyr
    10  scorpion
    10  sea snake
@@ -399,18 +404,15 @@ Monsters by move speed (player: usually 10)
    10  nasty sensed monster
    10  tough sensed monster
    10  trivial sensed monster
-   10  seraph
+   10  servant of whispers
    10  shadow
    10  shadow demon
    10  shadow dragon
-   10  Shadow Fiend
    10  shadow imp
    10  shadow wraith
    10  shapeshifter
-   10  sheep
    10  Sigmund
    10  silent spectre
-   10  siren
    10  skeletal warrior
    10  sky beast
    10  slave
@@ -435,6 +437,7 @@ Monsters by move speed (player: usually 10)
    10  tentacled starspawn
    10  Terence
    10  test spawner
+   10  test statue
    10  thorn hunter
    10  Tiamat
    10  titan
@@ -444,7 +447,8 @@ Monsters by move speed (player: usually 10)
    10  troll
    10  twister
    10  two-headed ogre
-   10  unborn
+   10  tyrant leech
+   10  Tzitzimitl
    10  Urug
    10  vampire
    10  vampire knight
@@ -461,7 +465,6 @@ Monsters by move speed (player: usually 10)
    10  white draconian
    10  white imp
    10  wight
-   10  Wiglaf
    10  wizard
    10  wraith
    10  Xtahua
@@ -470,46 +473,41 @@ Monsters by move speed (player: usually 10)
    10  yaktaur captain
    10  yellow draconian
    10  ynoxinul
-    8  catoblepas
+ 8.33  swamp worm
+    8  barachi
     8  crawling corpse
     8  guardian mummy
     8  iron dragon
     8  iron imp
     8  Menkaure
     8  mummy priest
-    8  ooze
-    8  salamander firebrand
     8  shambling mangrove
     8  ushabti
  7.14  curse toe
- 7.14  greater naga
  7.14  naga
+ 7.14  nagaraja
  7.14  naga mage
  7.14  naga ritualist
  7.14  naga sharpshooter
  7.14  naga warrior
  7.14  Vashnia
     7  cyclops
+    7  dart slug
     7  eye of devastation
     7  iron golem
     7  iron troll
-    7  queen ant
     7  shining eye
     7  simulacrum
     7  large simulacrum
     7  small simulacrum
     7  spectral thing
     7  torpor snail
-    6  boring beetle
-    6  boulder beetle
     6  earth elemental
     6  iron elemental
     6  mummy
-    6  orange crystal statue
     6  worm
     5  eye of draining
     5  Gastronok
-    5  goliath beetle
     5  macabre mass
     5  skeleton
     5  large skeleton
@@ -518,11 +516,10 @@ Monsters by move speed (player: usually 10)
     5  large zombie
     5  small zombie
     4  elephant slug
-    3  giant eyeball
-    0  ballistomycete
     0  briar patch
     0  bush
+    0  demonic plant
     0  fungus
-    0  hyperactive ballistomycete
     0  plant
     0  toadstool
+    0  withered plant

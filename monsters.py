@@ -17,7 +17,7 @@ mon_data_path = os.path.join(os.path.expanduser('~'),
 MAG_IMMUNE = 270
 BINARY_RESISTS = set(('curare', 'drown', 'hellfire', 'sticky'))
 
-def read_mon_data(h=mon_data_path, debug=False):
+def read_mon_data(h=mon_data_path, debug=True):
     """Read mon-data.h"""
     data = str(open(h).read())
 

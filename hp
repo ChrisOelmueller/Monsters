@@ -1,528 +1,516 @@
 
-Monsters by Average HP, [*]: fixed
-----------------------------------
-[*]1000000  test spawner            
-[*]10000  diamond obelisk         
-[*]10000  twister                 
-[*]1000  orb of destruction      
-[*] 700  Antaeus                 
-[*] 650  Cerebov                 
-[*] 450  Asmodeus                
-[*] 450  Dispater                
-[*] 380  Tiamat                  
-[*] 360  Lom Lobon               
-[*] 350  Ereshkigal              
-[*] 350  Gloorx Vloq             
-[*] 350  Mnoleg                  
-[*] 320  the Serpent of Hell     
-[*] 320  the Serpent of Hell     
-[*] 320  the Serpent of Hell     
-[*] 320  the Serpent of Hell     
-[*] 300  Geryon                  
-[*] 250  Ignacio                 
-[*] 240  Khufu                   
-[*] 240  Nellie                  
-[*] 230  the royal jelly         
-[*] 220  the iron giant          
-[*] 214  Norris                  
-    208  kraken                  (160..[208]..256)   16d10[+6]  +0
-[*] 200  Arachne                 
-[*] 200  Saint Roka              
-    200  seraph                  (150..[200]..275)   25d6 [+5]  +0
-    190  greater mummy           (175..[190]..220)   15d5 [+3]+100
-[*] 190  Nikola                  
-    180  bone dragon             (120..[180]..240)   20d6 [+6]  +0
-[*] 180  Dissolution             
-[*] 180  Jory                    
-[*] 180  Roxanne                 
-    176  hell lord               (100..[176]..252)   19d0 [+8]+100
-    176  pandemonium lord        (100..[176]..252)   19d0 [+8]+100
-[*] 164  Margery                 
-    160  hellephant              (100..[160]..240)   20d5 [+7]  +0
-[*] 160  Murray                  
-[*] 160  Vashnia                 
-[*] 159  Frederick               
-[*] 154  Boris                   
-[*] 150  Cloud Mage              
-[*] 150  Gastronok               
-[*] 150  Hellbinder              
-[*] 150  Ilsuiw                  
-[*] 150  the Lernaean hydra      
-[*] 150  Mennas                  
-[*] 150  orb of fire             
-[*] 150  Polyphemus              
-[*] 150  Sojobo                  
-    144  alligator snapping tur  (112..[144]..176)   16d7 [+4]  +0
-    144  profane servitor        (108..[144]..198)   18d6 [+5]  +0
-    144  starcursed mass         (108..[144]..192)   12d9 [+7]  +0
-[*] 142  Aizul                   
-    140  ghoul                   (112..[140]..182)   14d8 [+5]  +0
-    140  Killer Klown            (100..[140]..200)   20d5 [+5]  +0
-[*] 140  Mara                    
-[*] 140  Wiglaf                  
-    135  electric golem          (105..[135]..165)   15d7 [+4]  +0
-    135  iron golem              (105..[135]..165)   15d7 [+4]  +0
-    133  Hell Sentinel           ( 95..[133]..190)   19d5 [+5]  +0
-[*] 133  Xtahua                  
-[*] 130  Asterion                
-[*] 123  Rupert                  
-[*] 121  Frances                 
-[*] 120  Chuck                   
-    120  elephant slug           (100..[120]..160)   20d5 [+3]  +0
-[*] 120  Jorgrun                 
-    119  shadow dragon           ( 85..[119]..170)   17d5 [+5]  +0
-[*] 118  Maud                    
-    115  tentacled monstrosity   ( 69..[115]..184)   23d3 [+5]  +0
-    112  apis                    ( 80..[112]..160)   16d5 [+5]  +0
-    112  daeva                   ( 84..[112]..154)   14d6 [+5]  +0
-    112  draconian knight        ( 96..[112]..128)   16d6 [+2]  +0
-    112  draconian monk          ( 96..[112]..144)   16d6 [+3]  +0
-    112  eldritch tentacle       ( 80..[112]..160)   16d5 [+5]  +0
-    112  eldritch tentacle segm  ( 80..[112]..160)   16d5 [+5]  +0
-    112  emperor scorpion        ( 84..[112]..154)   14d6 [+5]  +0
-    112  octopode crusher        ( 80..[112]..144)   16d5 [+4]  +0
-[*] 110  Kirke                   
-    108  ancient lich            ( 54..[108]..162)   27d2 [+4]  +0
-    108  golden dragon           ( 72..[108]..144)   18d4 [+4]  +0
-    108  iron dragon             ( 90..[108]..144)   18d5 [+3]  +0
-    108  iron elemental          ( 72..[108]..144)   12d6 [+6]  +0
-    108  pearl dragon            ( 72..[108]..162)   18d4 [+5]  +0
-[*] 106  Louise                  
-    105  dire elephant           ( 75..[105]..150)   15d5 [+5]  +0
-    105  orc warlord             ( 60..[105]..165)   15d4 [+7]  +0
-    102  caustic shrike          ( 68..[102]..153)   17d4 [+5]  +0
-[*] 100  Agnes                   
-    100  bush                    ( 60..[100]..160)   20d3 [+5]  +0
-[*] 100  curse toe               
-    100  monstrous demonspawn    ( 90..[100]..110)   10d9 [+2]  +0
-    100  naga warrior            ( 90..[100]..110)   10d9 [+2]  +0
-[*] 100  the Enchantress         
-    100  titan                   ( 60..[100]..160)   20d3 [+5]  +0
-     98  black draconian         ( 70..[ 98]..126)   14d5 [+4]  +0
-     98  green draconian         ( 70..[ 98]..126)   14d5 [+4]  +0
-     98  grey draconian          ( 70..[ 98]..126)   14d5 [+4]  +0
-     98  mottled draconian       ( 70..[ 98]..126)   14d5 [+4]  +0
-     98  pale draconian          ( 70..[ 98]..126)   14d5 [+4]  +0
-     98  purple draconian        ( 70..[ 98]..126)   14d5 [+4]  +0
-     98  red draconian           ( 70..[ 98]..126)   14d5 [+4]  +0
-     98  storm dragon            ( 70..[ 98]..140)   14d5 [+5]  +0
-     98  white draconian         ( 70..[ 98]..126)   14d5 [+4]  +0
-     98  yellow draconian        ( 70..[ 98]..126)   14d5 [+4]  +0
-     96  angel                   ( 72..[ 96]..132)   12d6 [+5]  +0
-     96  deep elf blademaster    ( 80..[ 96]..128)   16d5 [+3]  +0
-     96  draconian shifter       ( 64..[ 96]..128)   16d4 [+4]  +0
-     96  fire giant              ( 48..[ 96]..144)   16d3 [+6]  +0
-     96  frost giant             ( 64..[ 96]..144)   16d4 [+5]  +0
-[*]  96  Snorg                   
-     91  cacodemon               ( 65..[ 91]..130)   13d5 [+5]  +0
-     91  shambling mangrove      ( 65..[ 91]..117)   13d5 [+4]  +0
-     90  acid blob               ( 54..[ 90]..144)   18d3 [+5]  +0
-     90  Brimstone Fiend         ( 54..[ 90]..144)   18d3 [+5]  +0
-     90  Ice Fiend               ( 54..[ 90]..144)   18d3 [+5]  +0
-     90  ophan                   ( 60..[ 90]..135)   15d4 [+5]  +0
-     90  salamander firebrand    ( 60..[ 90]..135)   15d4 [+5]  +0
-     90  Shadow Fiend            ( 54..[ 90]..144)   18d3 [+5]  +0
-     90  thorn hunter            ( 60..[ 90]..135)   15d4 [+5]  +0
-     90  very ugly thing         ( 54..[ 90]..144)   18d3 [+5]  +0
-[*]  88  Azrael                  
-     85  tengu reaver            ( 51..[ 85]..119)   17d3 [+4]  +0
-[*]  84  Donald                  
-     84  fire dragon             ( 60..[ 84]..120)   12d5 [+5]  +0
-     84  hell beast              ( 63..[ 84]..105)    7d9 [+6]  +0
-     84  ice dragon              ( 60..[ 84]..120)   12d5 [+5]  +0
-     80  death knight            ( 50..[ 80]..110)   10d5 [+6]  +0
-     80  draconian annihilator   ( 64..[ 80].. 96)   16d4 [+2]  +0
-     80  draconian caller        ( 64..[ 80]..112)   16d4 [+3]  +0
-     80  draconian scorcher      ( 64..[ 80].. 96)   16d4 [+2]  +0
-     80  draconian zealot        ( 64..[ 80].. 96)   16d4 [+2]  +0
-[*]  80  Fannar                  
-     80  iron troll              ( 48..[ 80]..128)   16d3 [+5]  +0
-     80  lich                    ( 40..[ 80]..120)   20d2 [+4]  +0
-     80  quicksilver dragon      ( 48..[ 80]..128)   16d3 [+5]  +0
-[*]  80  spellforged servitor    
-     80  sphinx                  ( 48..[ 80]..128)   16d3 [+5]  +0
-     80  stone giant             ( 48..[ 80]..128)   16d3 [+5]  +0
-     80  tentacled starspawn     ( 48..[ 80]..128)   16d3 [+5]  +0
-     80  vault warden            ( 48..[ 80]..128)   16d3 [+5]  +0
-     78  merfolk avatar          ( 65..[ 78]..104)   13d5 [+3]  +0
-     78  merfolk javelineer      ( 65..[ 78].. 91)   13d5 [+2]  +0
-     77  unborn                  ( 55..[ 77].. 99)   11d5 [+4]  +0
-[*]  76  Harold                  
-     75  azure jelly             ( 45..[ 75]..120)   15d3 [+5]  +0
-     75  deep elf master archer  ( 60..[ 75].. 90)   15d4 [+2]  +0
-     75  elemental wellspring    ( 60..[ 75].. 90)   15d4 [+2]  +0
-     75  greater naga            ( 45..[ 75]..120)   15d3 [+5]  +0
-     75  Orb Guardian            ( 45..[ 75]..120)   15d3 [+5]  +0
-     72  alligator               ( 36..[ 72]..108)   12d3 [+6]  +0
-     72  boulder beetle          ( 54..[ 72].. 99)    9d6 [+5]  +0
-     72  cherub                  ( 54..[ 72].. 99)    9d6 [+5]  +0
-     72  death drake             ( 45..[ 72]..108)    9d5 [+7]  +0
-     72  ironheart preserver     ( 48..[ 72]..108)   12d4 [+5]  +0
-     72  merfolk impaler         ( 60..[ 72].. 96)   12d5 [+3]  +0
-     72  naga sharpshooter       ( 54..[ 72].. 90)    9d6 [+4]  +0
-[*]  72  Nessos                  
-     72  revenant                ( 54..[ 72]..108)   18d3 [+3]  +0
-     70  ancient champion        ( 56..[ 70].. 84)   14d4 [+2]  +0
-     70  balrug                  ( 42..[ 70]..112)   14d3 [+5]  +0
-     70  bennu                   ( 42..[ 70]..112)   14d3 [+5]  +0
-     70  catoblepas              ( 42..[ 70]..112)   14d3 [+5]  +0
-     70  death yak               ( 42..[ 70]..112)   14d3 [+5]  +0
-[*]  70  ice statue              
-     70  lorocyproca             ( 42..[ 70]..112)   14d3 [+5]  +0
-[*]  70  obsidian statue         
-[*]  70  orange crystal statue   
-     70  reaper                  ( 42..[ 70]..112)   14d3 [+5]  +0
-     70  spatial maelstrom       ( 60..[ 70].. 90)   10d6 [+3]  +0
-[*]  70  statue                  
-[*]  70  wretched star           
-     70  yaktaur captain         ( 42..[ 70]..112)   14d3 [+5]  +0
-[*]  69  Josephine               
-[*]  66  Joseph                  
-     66  rakshasa                ( 33..[ 66].. 99)   11d3 [+6]  +0
-[*]  66  Urug                    
-     66  vampire knight          ( 33..[ 66]..110)   11d3 [+7]  +0
-     65  eidolon                 ( 39..[ 65]..104)   13d3 [+5]  +0
-     65  ghost moth              ( 39..[ 65]..104)   13d3 [+5]  +0
-     65  green death             ( 39..[ 65]..104)   13d3 [+5]  +0
-     65  hydra                   ( 39..[ 65]..104)   13d3 [+5]  +0
-     65  minotaur                ( 39..[ 65]..104)   13d3 [+5]  +0
-     65  queen ant               ( 39..[ 65]..104)   13d3 [+5]  +0
-     65  vault guard             ( 39..[ 65]..104)   13d3 [+5]  +0
-     64  crystal guardian        ( 48..[ 64].. 80)   16d3 [+2]  +0
-     64  draconian               ( 48..[ 64].. 80)    8d6 [+4]  +0
-[*]  64  Erica                   
-     64  salamander              ( 40..[ 64].. 88)    8d5 [+6]  +0
-     63  elephant                ( 45..[ 63].. 90)    9d5 [+5]  +0
-     63  orc knight              ( 36..[ 63].. 99)    9d4 [+7]  +0
-     63  swamp dragon            ( 45..[ 63].. 90)    9d5 [+5]  +0
-     60  blizzard demon          ( 36..[ 60].. 96)   12d3 [+5]  +0
-     60  death cob               ( 40..[ 60].. 90)   10d4 [+5]  +0
-     60  deep elf annihilator    ( 45..[ 60].. 90)   15d3 [+3]  +0
-     60  deep elf death mage     ( 45..[ 60].. 90)   15d3 [+3]  +0
-     60  ettin                   ( 36..[ 60].. 96)   12d3 [+5]  +0
-     60  Executioner             ( 36..[ 60].. 96)   12d3 [+5]  +0
-     60  giant leech             ( 36..[ 60].. 84)   12d3 [+4]  +0
-     60  great orb of eyes       ( 36..[ 60].. 96)   12d3 [+5]  +0
-     60  griffon                 ( 36..[ 60].. 96)   12d3 [+5]  +0
-     60  hell knight             ( 40..[ 60].. 90)   10d4 [+5]  +0
-     60  hyperactive ballistomy  ( 30..[ 60].. 90)    6d5 [+10]  +0
-     60  jiangshi                ( 40..[ 60].. 90)   10d4 [+5]  +0
-[*]  60  Maurice                 
-     60  mummy priest            ( 50..[ 60].. 80)   10d5 [+3]  +0
-[*]  60  Nergalle                
-     60  salamander mystic       ( 40..[ 60].. 90)   10d4 [+5]  +0
-     60  satyr                   ( 36..[ 60].. 96)   12d3 [+5]  +0
-     60  sea snake               ( 40..[ 60].. 90)   10d4 [+5]  +0
-     60  skeletal warrior        ( 50..[ 60].. 80)   10d5 [+3]  +0
-     60  snapping turtle         ( 30..[ 60].. 90)   10d3 [+6]  +0
-     60  spriggan defender       ( 45..[ 60].. 90)   15d3 [+3]  +0
-     60  tengu warrior           ( 40..[ 60].. 80)   10d4 [+4]  +0
-     60  torpor snail            ( 50..[ 60].. 70)   10d5 [+2]  +0
-     60  ugly thing              ( 36..[ 60].. 96)   12d3 [+5]  +0
-     56  deep elf sorcerer       ( 42..[ 56].. 84)   14d3 [+3]  +0
-     56  merfolk aquamancer      ( 42..[ 56].. 84)   14d3 [+3]  +0
-     56  naga ritualist          ( 40..[ 56].. 80)    8d5 [+5]  +0
-     56  octopode                ( 32..[ 56].. 80)    8d4 [+6]  +0
-     56  wind drake              ( 40..[ 56].. 80)    8d5 [+5]  +0
-     55  anaconda                ( 33..[ 55].. 88)   11d3 [+5]  +0
-[*]  55  curse skull             
-     55  flayed ghost            ( 33..[ 55].. 88)   11d3 [+5]  +0
-     55  hell hog                ( 33..[ 55].. 88)   11d3 [+5]  +0
-     55  hill giant              ( 33..[ 55].. 88)   11d3 [+5]  +0
-     55  holy swine              ( 33..[ 55].. 88)   11d3 [+5]  +0
-     55  ice devil               ( 33..[ 55].. 88)   11d3 [+5]  +0
-     55  orc high priest         ( 33..[ 55].. 77)   11d3 [+4]  +0
-     55  slime creature          ( 33..[ 55].. 88)   11d3 [+5]  +0
-     55  soul eater              ( 33..[ 55].. 88)   11d3 [+5]  +0
-     55  spriggan rider          ( 44..[ 55].. 77)   11d4 [+3]  +0
-     55  wolf spider             ( 33..[ 55].. 77)   11d3 [+4]  +0
-     54  demonic crawler         ( 36..[ 54].. 81)    9d4 [+5]  +0
-[*]  54  Erolcha                 
-     54  ghost crab              ( 36..[ 54].. 81)    9d4 [+5]  +0
-     54  spatial vortex          ( 36..[ 54].. 72)    6d6 [+6]  +0
-     54  toenail golem           ( 45..[ 54].. 72)    9d5 [+3]  +0
-     52  deathcap                ( 26..[ 52].. 78)   13d2 [+4]  +0
-     52  war gargoyle            ( 26..[ 52].. 78)   13d2 [+4]  +0
-     50  centaur warrior         ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  deep troll              ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  eye of devastation      ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  faun                    ( 30..[ 50].. 70)   10d3 [+4]  +0
-     50  gelid demonspawn        ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  giant orange brain      ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  glowing shapeshifter    ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  goliath beetle          ( 35..[ 50].. 65)    5d7 [+6]  +0
-[*]  50  grand avatar            
-     50  infernal demonspawn     ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  merfolk                 ( 40..[ 50].. 70)   10d4 [+3]  +0
-     50  ogre mage               ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  oklob plant             ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  plant                   ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  putrid demonspawn       ( 30..[ 50].. 70)   10d3 [+4]  +0
-     50  shadow demon            ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  shadow wraith           ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  shining eye             ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  shock serpent           ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  sun demon               ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  torturous demonspawn    ( 30..[ 50].. 70)   10d3 [+4]  +0
-     50  vampire mage            ( 30..[ 50].. 80)   10d3 [+5]  +0
-     50  water nymph             ( 30..[ 50].. 70)   10d3 [+4]  +0
-     48  ancient zyme            ( 32..[ 48].. 72)    8d4 [+5]  +0
-     48  apocalypse crab         ( 32..[ 48].. 72)    8d4 [+5]  +0
-     48  deep elf demonologist   ( 36..[ 48].. 72)   12d3 [+3]  +0
-     48  deep troll earth mage   ( 24..[ 48].. 72)   12d2 [+4]  +0
-     48  deep troll shaman       ( 24..[ 48].. 72)   12d2 [+4]  +0
-     48  dryad                   ( 32..[ 48].. 72)    8d4 [+5]  +0
-     48  fire crab               ( 32..[ 48].. 72)    8d4 [+5]  +0
-     48  tentacle                ( 36..[ 48].. 60)   12d3 [+2]  +0
-     48  tentacle segment        ( 36..[ 48].. 60)   12d3 [+2]  +0
-     48  orange demon            ( 32..[ 48].. 72)    8d4 [+5]  +0
-     48  spriggan berserker      ( 36..[ 48].. 72)   12d3 [+3]  +0
-     48  vault sentinel          ( 32..[ 48].. 72)    8d4 [+5]  +0
-     45  anubis guard            ( 27..[ 45].. 72)    9d3 [+5]  +0
-     45  cyclops                 ( 27..[ 45].. 72)    9d3 [+5]  +0
-     45  deep elf summoner       ( 36..[ 45].. 63)    9d4 [+3]  +0
-     45  ironbrand convoker      ( 27..[ 45].. 72)    9d3 [+5]  +0
-     45  lindwurm                ( 27..[ 45].. 72)    9d3 [+5]  +0
-     45  mana viper              ( 27..[ 45].. 72)    9d3 [+5]  +0
-     45  manticore               ( 27..[ 45].. 72)    9d3 [+5]  +0
-     45  moth of wrath           ( 27..[ 45].. 72)    9d3 [+5]  +0
-     45  phantasmal warrior      ( 27..[ 45].. 72)    9d3 [+5]  +0
-     45  thrashing horror        ( 27..[ 45].. 72)    9d3 [+5]  +0
-     44  large abomination       ( 22..[ 44].. 77)   11d2 [+5]  +0
-     44  death ooze              ( 33..[ 44].. 66)   11d3 [+3]  +0
-     44  deep elf high priest    ( 33..[ 44].. 66)   11d3 [+3]  +0
-     44  deep elf knight         ( 33..[ 44].. 66)   11d3 [+3]  +0
-[*]  44  Edmund                  
-     44  spriggan druid          ( 33..[ 44].. 55)   11d3 [+2]  +0
-     42  earth elemental         ( 30..[ 42].. 60)    6d5 [+5]  +0
-     42  formicid                ( 24..[ 42].. 60)    6d4 [+6]  +0
-     42  guardian mummy          ( 35..[ 42].. 56)    7d5 [+3]  +0
-     42  hellwing                ( 28..[ 42].. 63)    7d4 [+5]  +0
-     42  orb spider              ( 28..[ 42].. 56)    7d4 [+4]  +0
-     42  polar bear              ( 35..[ 42].. 56)    7d5 [+3]  +0
-     42  spriggan air mage       ( 28..[ 42].. 70)   14d2 [+3]  +0
-     42  ushabti                 ( 35..[ 42].. 56)    7d5 [+3]  +0
-     42  water elemental         ( 30..[ 42].. 54)    6d5 [+4]  +0
-     40  boring beetle           ( 24..[ 40].. 64)    8d3 [+5]  +0
-     40  burning bush            ( 24..[ 40].. 64)    8d3 [+5]  +0
-     40  chimera                 ( 24..[ 40].. 64)    8d3 [+5]  +0
-[*]  40  Eustachio               
-     40  freezing wraith         ( 24..[ 40].. 64)    8d3 [+5]  +0
-     40  fungus                  ( 24..[ 40].. 64)    8d3 [+5]  +0
-[*]  40  Grinder                 
-[*]  40  Grum                    
-     40  guardian golem          ( 30..[ 40].. 50)    5d6 [+4]  +0
-     40  guardian serpent        ( 24..[ 40].. 64)    8d3 [+5]  +0
-     40  komodo dragon           ( 24..[ 40].. 64)    8d3 [+5]  +0
-     40  necromancer             ( 20..[ 40].. 60)   10d2 [+4]  +0
-[*]  40  Pikel                   
-[*]  40  Prince Ribbit           
-     40  red wasp                ( 24..[ 40].. 64)    8d3 [+5]  +0
-     40  rust devil              ( 24..[ 40].. 64)    8d3 [+5]  +0
-     40  silent spectre          ( 24..[ 40].. 64)    8d3 [+5]  +0
-     40  spectral thing          ( 24..[ 40].. 64)    8d3 [+5]  +0
-     40  trapdoor spider         ( 24..[ 40].. 56)    8d3 [+4]  +0
-     40  wandering mushroom      ( 24..[ 40].. 64)    8d3 [+5]  +0
-     40  wizard                  ( 20..[ 40].. 60)   10d2 [+4]  +0
-     40  worldbinder             ( 24..[ 40].. 56)    8d3 [+4]  +0
-     40  yaktaur                 ( 24..[ 40].. 64)    8d3 [+5]  +0
-[*]  39  Psyche                  
-     36  basilisk                ( 24..[ 36].. 48)    6d4 [+4]  +0
-     36  bog body                ( 30..[ 36].. 48)    6d5 [+3]  +0
-     36  deep elf conjurer       ( 27..[ 36].. 54)    9d3 [+3]  +0
-     36  kobold demonologist     ( 24..[ 36].. 54)    6d4 [+5]  +0
-     36  siren                   ( 27..[ 36].. 54)    9d3 [+3]  +0
-     36  snaplasher vine segmen  ( 24..[ 36].. 48)   12d2 [+2]  +0
-     35  baby alligator          ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  black mamba             ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  blue devil              ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  demigod                 ( 25..[ 35].. 50)    5d5 [+5]  +0
-[*]  35  Duvessa                 
-     35  efreet                  ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  eye of draining         ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  harpy                   ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  hellion                 ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  hippogriff              ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  hungry ghost            ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  naga mage               ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  phantom                 ( 21..[ 35].. 56)    7d3 [+5]  +0
-[*]  35  Purgy                   
-     35  queen bee               ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  raiju                   ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  shapeshifter            ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  sixfirhy                ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  smoke demon             ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  spiny frog              ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  tormentor               ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  troll                   ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  unseen horror           ( 21..[ 35].. 56)    7d3 [+5]  +0
-     35  yak                     ( 21..[ 35].. 56)    7d3 [+5]  +0
-[*]  32  Blork the orc           
-     32  elf                     ( 24..[ 32].. 48)    8d3 [+3]  +0
-     32  jumping spider          ( 16..[ 32].. 48)    8d2 [+4]  +0
-     32  vine stalker            ( 24..[ 32].. 48)    8d3 [+3]  +0
-     30  air elemental           ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  blink frog              ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  chaos spawn             ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  demonspawn              ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  fire drake              ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  fire elemental          ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  fire vortex             ( 20..[ 30].. 40)   10d2 [+2]  +0
-     30  hog                     ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  human                   ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  neqoxec                 ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  raven                   ( 24..[ 30].. 42)    6d4 [+3]  +0
-[*]  30  Sigmund                 
-     30  soldier ant             ( 18..[ 30].. 48)    6d3 [+5]  +0
-[*]  30  Sonja                   
-     30  swamp worm              ( 20..[ 30].. 50)   10d2 [+3]  +0
-     30  two-headed ogre         ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  vampire                 ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  warg                    ( 20..[ 30].. 45)    5d4 [+5]  +0
-     30  warmonger               ( 15..[ 30].. 45)   15d1 [+2]  +0
-     30  wraith                  ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  ynoxinul                ( 18..[ 30].. 48)    6d3 [+5]  +0
-     30  large zombie            ( 18..[ 30].. 48)    6d3 [+5]  +0
-     28  deep elf priest         ( 21..[ 28].. 42)    7d3 [+3]  +0
-[*]  28  Ijyb                    
-     28  molten gargoyle         ( 21..[ 28].. 42)    7d3 [+3]  +0
-     28  orc warrior             ( 16..[ 28].. 40)    4d4 [+6]  +0
-     28  red devil               ( 21..[ 28].. 42)    7d3 [+3]  +0
-     28  steam dragon            ( 20..[ 28].. 40)    4d5 [+5]  +0
-     28  swamp drake             ( 20..[ 28].. 40)    4d5 [+5]  +0
-     28  tengu conjurer          ( 21..[ 28].. 42)    7d3 [+3]  +0
-     27  orc sorcerer            ( 18..[ 27].. 45)    9d2 [+3]  +0
-     27  redback                 ( 18..[ 27].. 36)    9d2 [+2]  +0
-     26  block of ice            ( 20..[ 26].. 35)    3d0 [+5] +20
-     25  big kobold              ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  crocodile               ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  deep dwarf              ( 15..[ 25].. 40)    5d3 [+5]  +0
-[*]  25  Dowan                   
-     25  dwarf                   ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  hell hound              ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  ice beast               ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  mottled dragon          ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  naga                    ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  necrophage              ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  ogre                    ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  large simulacrum        ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  sky beast               ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  slave                   ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  vampire mosquito        ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  water moccasin          ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  worm                    ( 15..[ 25].. 40)    5d3 [+5]  +0
-     25  wyvern                  ( 15..[ 25].. 40)    5d3 [+5]  +0
-     24  small abomination       ( 12..[ 24].. 42)    6d2 [+5]  +0
-     24  ballistomycete          ( 20..[ 24].. 32)    4d5 [+3]  +0
-     24  black bear              ( 18..[ 24].. 36)    6d3 [+3]  +0
-     24  death scarab            ( 16..[ 24].. 40)    8d2 [+3]  +0
-     24  deep elf fighter        ( 18..[ 24].. 36)    6d3 [+3]  +0
-     24  deep elf mage           ( 18..[ 24].. 36)    6d3 [+3]  +0
-     24  gargoyle                ( 18..[ 24].. 36)    6d3 [+3]  +0
-     24  gnoll sergeant          ( 16..[ 24].. 36)    4d4 [+5]  +0
-[*]  24  Menkaure                
-     24  shadow                  ( 12..[ 24].. 36)    6d2 [+4]  +0
-     24  snaplasher vine         ( 12..[ 24].. 36)   12d1 [+2]  +0
-     24  tarantella              ( 16..[ 24].. 40)    8d2 [+3]  +0
-     21  flying skull            ( 14..[ 21].. 28)    7d2 [+2]  +0
-     21  spriggan                ( 14..[ 21].. 35)    7d2 [+3]  +0
-     20  boggart                 ( 12..[ 20].. 28)    4d3 [+4]  +0
-     20  brain worm              ( 15..[ 20].. 30)    5d3 [+3]  +0
-     20  centaur                 ( 12..[ 20].. 32)    4d3 [+5]  +0
-[*]  20  Crazy Yiuf              
-     20  fire bat                ( 15..[ 20].. 30)    5d3 [+3]  +0
-     20  giant frog              ( 12..[ 20].. 32)    4d3 [+5]  +0
-[*]  20  lightning spire         
-     20  lost soul               ( 10..[ 20].. 40)   10d1 [+3]  +0
-     20  oklob sapling           ( 12..[ 20].. 32)    4d3 [+5]  +0
-     20  spider                  ( 15..[ 20].. 30)    5d3 [+3]  +0
-     20  tengu                   ( 15..[ 20].. 30)    5d3 [+3]  +0
-[*]  20  Terence                 
-     20  wolf                    ( 12..[ 20].. 32)    4d3 [+5]  +0
-     20  yellow wasp             ( 12..[ 20].. 32)    4d3 [+5]  +0
-     18  gnoll shaman            ( 12..[ 18].. 27)    3d4 [+5]  +0
-     18  mummy                   ( 15..[ 18].. 24)    3d5 [+3]  +0
-     16  porcupine               (  8..[ 16].. 24)    4d2 [+4]  +0
-     16  scorpion                ( 12..[ 16].. 24)    4d3 [+3]  +0
-     15  battlesphere            ( 10..[ 15].. 20)    5d2 [+2]  +0
-[*]  15  dancing weapon          
-     15  electric eel            (  9..[ 15].. 24)    3d3 [+5]  +0
-     15  felid                   ( 10..[ 15].. 25)    5d2 [+3]  +0
-     15  fulminant prism         ( 10..[ 15].. 20)    5d2 [+2]  +0
-     15  giant eyeball           (  9..[ 15].. 24)    3d3 [+5]  +0
-     15  hound                   (  9..[ 15].. 24)    3d3 [+5]  +0
-     15  iguana                  (  9..[ 15].. 24)    3d3 [+5]  +0
-     15  iron imp                (  9..[ 15].. 24)    3d3 [+5]  +0
-     15  jelly                   ( 12..[ 15].. 21)    3d4 [+3]  +0
-     15  killer bee              (  9..[ 15].. 24)    3d3 [+5]  +0
-     15  lava snake              (  9..[ 15].. 24)    3d3 [+5]  +0
-[*]  15  Natasha                 
-     15  ooze                    (  9..[ 15].. 24)    3d3 [+5]  +0
-     15  orange rat              (  9..[ 15].. 24)    3d3 [+5]  +0
-     15  orc priest              (  9..[ 15].. 21)    3d3 [+4]  +0
-     15  orc wizard              (  9..[ 15].. 21)    3d3 [+4]  +0
-     15  quasit                  (  6..[ 15].. 24)    3d2 [+6]  +0
-     15  sheep                   (  9..[ 15].. 24)    3d3 [+5]  +0
-[*]  15  spectral weapon         
-     15  wight                   (  9..[ 15].. 24)    3d3 [+5]  +0
-     15  worker ant              (  9..[ 15].. 24)    3d3 [+5]  +0
-     13  drowned soul            ( 13..[ 13].. 26)   13d1 [+1]  +0
-     12  crimson imp             (  9..[ 12].. 18)    3d3 [+3]  +0
-     12  gnoll                   (  8..[ 12].. 18)    2d4 [+5]  +0
-     12  golden eye              (  6..[ 12].. 18)    6d1 [+2]  +0
-     12  insubstantial wisp      (  6..[ 12].. 18)    6d1 [+2]  +0
-     12  player ghost            (  8..[ 12].. 20)    4d2 [+3]  +0
-     12  player illusion         (  8..[ 12].. 20)    4d2 [+3]  +0
-     10  adder                   (  6..[ 10].. 16)    2d3 [+5]  +0
-     10  briar patch             ( 10..[ 10].. 20)   10d1 [+1]  +0
-     10  giant mite              (  6..[ 10].. 16)    2d3 [+5]  +0
-     10  green rat               (  6..[ 10].. 16)    2d3 [+5]  +0
-[*]  10  Jessica                 
-     10  shadow imp              (  6..[ 10].. 16)    2d3 [+5]  +0
-     10  simulacrum              (  6..[ 10].. 16)    2d3 [+5]  +0
-     10  small simulacrum        (  6..[ 10].. 16)    2d3 [+5]  +0
-     10  starspawn tentacle      ( 10..[ 10].. 32)   22d0 [+1] +10
-     10  starspawn tentacle seg  ( 10..[ 10].. 32)   22d0 [+1] +10
-     10  white imp               (  6..[ 10].. 16)    2d3 [+5]  +0
-      9  halfling                (  6..[  9].. 15)    3d2 [+3]  +0
-      9  vampire bat             (  6..[  9].. 15)    3d2 [+3]  +0
-      7  lava orc                (  4..[  7].. 10)    1d4 [+6]  +0
-      7  orc                     (  4..[  7].. 10)    1d4 [+6]  +0
-      7  ufetubus                (  4..[  7].. 10)    1d4 [+6]  +0
-      7  zombie                  (  5..[  7].. 10)    1d5 [+5]  +0
-      7  small zombie            (  5..[  7].. 10)    1d5 [+5]  +0
-[*]   6  training dummy          
-      5  giant cockroach         (  3..[  5]..  7)    1d3 [+4]  +0
-      5  giant gecko             (  3..[  5]..  8)    1d3 [+5]  +0
-      5  hobgoblin               (  4..[  5]..  7)    1d4 [+3]  +0
-      5  jackal                  (  3..[  5]..  8)    1d3 [+5]  +0
-      5  quokka                  (  3..[  5]..  8)    1d3 [+5]  +0
-      4  goblin                  (  2..[  4]..  6)    1d2 [+4]  +0
-      3  ball python             (  2..[  3]..  5)    1d2 [+3]  +0
-      3  bat                     (  2..[  3]..  5)    1d2 [+3]  +0
-      3  kobold                  (  2..[  3]..  5)    1d2 [+3]  +0
-      3  macabre mass            (  2..[  3]..  4)    1d2 [+2]  +0
-      3  toadstool               (  2..[  3]..  4)    1d2 [+2]  +0
-      2  giant newt              (  1..[  2]..  3)    1d1 [+2]  +0
-      2  rat                     (  1..[  2]..  4)    1d1 [+3]  +0
-[*]   1  ball lightning          
-[*]   1  butterfly               
-[*]   1  crawling corpse         
-[*]   1  ghost                   
-[*]   1  giant spore             
-[*]   1  lurking horror          
-[*]   1  pillar of salt          
-[*]   1  shadow                  
-[*]   1  sensed monster          
-[*]   1  easy sensed monster     
-[*]   1  friendly sensed monste  
-[*]   1  nasty sensed monster    
-[*]   1  tough sensed monster    
-[*]   1  trivial sensed monster  
-[*]   0  black sun               
-[*]   0  blood saint             
-      0  chaos champion          (  0..[  0].. 15)   15d0 [+1]  +0
-      0  corrupter               (  0..[  0].. 15)   15d0 [+1]  +0
-[*]   0  skeleton                
-[*]   0  large skeleton          
-[*]   0  small skeleton          
+Monsters by Average HP.       95%: [90%..110%] 5%: [67%..133%]
+--------------------------------------------------------------
+   12000    twister                [10800.13200]     [8040.15960]
+    9600    diamond obelisk        [8640.10560]     [6432.12768]
+    5000    orb of destruction     [4500.5500]     [3350.6650]
+     682    Antaeus                [613...750]     [456...907]
+     651    Cerebov                [585...716]     [436...865]
+     450    Asmodeus               [405...495]     [301...598]
+     448    Dispater               [403...492]     [300...595]
+     389    Lom Lobon              [350...427]     [260...517]
+     385    Tiamat                 [346...423]     [257...512]
+     352    Gloorx Vloq            [316...387]     [235...468]
+     351    Ereshkigal             [315...386]     [235...466]
+     348    Mnoleg                 [313...382]     [233...462]
+     323    the Serpent of Hell    [290...355]     [216...429]
+     323    the Serpent of Hell    [290...355]     [216...429]
+     300    Geryon                 [270...330]     [201...399]
+     280    the Serpent of Hell    [252...308]     [187...372]
+     280    the Serpent of Hell    [252...308]     [187...372]
+     252    Ignacio                [226...277]     [168...335]
+     243    Khufu                  [218...267]     [162...323]
+     240    Nellie                 [216...264]     [160...319]
+     231    the Royal Jelly        [207...254]     [154...307]
+     212    seraph                 [190...233]     [142...281]
+     208    kraken                 [187...228]     [139...276]
+     204    Arachne                [183...224]     [136...271]
+     198    Saint Roka             [178...217]     [132...263]
+     195    greater mummy          [175...214]     [130...259]
+     189    Nikola                 [170...207]     [126...251]
+     185    Bai Suzhen             [166...203]     [123...246]
+     185    Bai Suzhen             [166...203]     [123...246]
+     182    Roxanne                [163...200]     [121...242]
+     180    bone dragon            [162...198]     [120...239]
+     180    iron giant             [162...198]     [120...239]
+     180    Jory                   [162...198]     [120...239]
+     176    Dissolution            [158...193]     [117...234]
+     171    pandemonium lord       [153...188]     [114...227]
+     170    hellephant             [153...187]     [113...226]
+     170    juggernaut             [153...187]     [113...226]
+     165    Margery                [148...181]     [110...219]
+     161    Murray                 [144...177]     [107...214]
+     160    Vashnia                [144...176]     [107...212]
+     157    Frederick              [141...172]     [105...208]
+     154    Boris                  [138...169]     [103...204]
+     153    profane servitor       [137...168]     [102...203]
+     152    Ilsuiw                 [136...167]     [101...202]
+     152    Mennas                 [136...167]     [101...202]
+     152    Polyphemus             [136...167]     [101...202]
+     150    Cloud Mage             [135...165]     [100...199]
+     150    Gastronok              [135...165]     [100...199]
+     150    Hellbinder             [135...165]     [100...199]
+     150    Killer Klown           [135...165]     [100...199]
+     150    the Lernaean hydra     [135...165]     [100...199]
+     150    orb of fire            [135...165]     [100...199]
+     150    Sojobo                 [135...165]     [100...199]
+     150    starcursed mass        [135...165]     [100...199]
+     147    ghoul                  [132...161]     [98....195]
+     144  alligator snapping turtle[129...158]     [96....191]
+     144    Mara                   [129...158]     [96....191]
+     142    Hell Sentinel          [127...156]     [95....188]
+     140    Aizul                  [126...154]     [93....186]
+     135    electric golem         [121...148]     [90....179]
+     135    iron golem             [121...148]     [90....179]
+     133    Frances                [119...146]     [89....176]
+     133    Xtahua                 [119...146]     [89....176]
+     130    elephant slug          [117...143]     [87....172]
+     127    Asterion               [114...139]     [85....168]
+     127    shadow dragon          [114...139]     [85....168]
+     126    tentacled monstrosity  [113...138]     [84....167]
+     120    apis                   [108...132]     [80....159]
+     120    draconian monk         [108...132]     [80....159]
+     120    eldritch tentacle      [108...132]     [80....159]
+     120  eldritch tentacle segment[108...132]     [80....159]
+     120    Jorgrun                [108...132]     [80....159]
+     120    ragged hierophant      [108...132]     [80....159]
+     120    Rupert                 [108...132]     [80....159]
+     119    daeva                  [107...130]     [79....158]
+     119    emperor scorpion       [107...130]     [79....158]
+     117    Chuck                  [105...128]     [78....155]
+     117    iron dragon            [105...128]     [78....155]
+     117    pearl dragon           [105...128]     [78....155]
+     112    dire elephant          [100...123]     [75....148]
+     112    draconian knight       [100...123]     [75....148]
+     112    ironheart preserver    [100...123]     [75....148]
+     112    Kirke                  [100...123]     [75....148]
+     112    orc warlord            [100...123]     [75....148]
+     110    bush                   [99....121]     [73....146]
+     110    doom hound             [99....121]     [73....146]
+     110    titan                  [99....121]     [73....146]
+     108    ancient lich           [97....118]     [72....143]
+     108    caustic shrike         [97....118]     [72....143]
+     108    golden dragon          [97....118]     [72....143]
+     108    iron elemental         [97....118]     [72....143]
+     105    shard shrike           [94....115]     [70....139]
+     105    storm dragon           [94....115]     [70....139]
+     105    Tzitzimitl             [94....115]     [70....139]
+     104    deep elf blademaster   [93....114]     [69....138]
+     104    frost giant            [93....114]     [69....138]
+     104    Louise                 [93....114]     [69....138]
+     102    angel                  [91....112]     [68....135]
+     100    monstrous demonspawn   [90....110]     [67....133]
+     100    naga warrior           [90....110]     [67....133]
+      99    acid blob              [89....108]     [66....131]
+      99    Agnes                  [89....108]     [66....131]
+      99    Brimstone Fiend        [89....108]     [66....131]
+      99    Ice Fiend              [89....108]     [66....131]
+      99    moon troll             [89....108]     [66....131]
+      99    very ugly thing        [89....108]     [66....131]
+      98    black draconian        [88....107]     [65....130]
+      98    curse toe              [88....107]     [65....130]
+      98    green draconian        [88....107]     [65....130]
+      98    grey draconian         [88....107]     [65....130]
+      98    pale draconian         [88....107]     [65....130]
+      98    purple draconian       [88....107]     [65....130]
+      98    red draconian          [88....107]     [65....130]
+      98    white draconian        [88....107]     [65....130]
+      98    yellow draconian       [88....107]     [65....130]
+      97    cacodemon              [87....106]     [64....129]
+      97    ophan                  [87....106]     [64....129]
+      97    the Enchantress        [87....106]     [64....129]
+      97    thorn hunter           [87....106]     [64....129]
+      96    draconian shifter      [86....105]     [64....127]
+      96    fire giant             [86....105]     [64....127]
+      96    Snorg                  [86....105]     [64....127]
+      91    death cob              [81....100]     [60....121]
+      91    shambling mangrove     [81....100]     [60....121]
+      90    fire dragon            [81.....99]     [60....119]
+      90    ice dragon             [81.....99]     [60....119]
+      88    Azrael                 [79.....96]     [58....117]
+      88    draconian stormcaller  [79.....96]     [58....117]
+      88    iron troll             [79.....96]     [58....117]
+      88    quicksilver dragon     [79.....96]     [58....117]
+      88    sphinx                 [79.....96]     [58....117]
+      88    stone giant            [79.....96]     [58....117]
+      88    tentacled starspawn    [79.....96]     [58....117]
+      88    vault warden           [79.....96]     [58....117]
+      85    tengu reaver           [76.....93]     [56....113]
+      84    Donald                 [75.....92]     [56....111]
+      84    hell beast             [75.....92]     [56....111]
+      84    merfolk avatar         [75.....92]     [56....111]
+      82    azure jelly            [73.....90]     [54....109]
+      82    mutant beast           [73.....90]     [54....109]
+      82    nagaraja               [73.....90]     [54....109]
+      82    Orb Guardian           [73.....90]     [54....109]
+      81    revenant               [72.....89]     [54....107]
+      80    death knight           [72.....88]     [53....106]
+      80    draconian annihilator  [72.....88]     [53....106]
+      80    draconian scorcher     [72.....88]     [53....106]
+      80    Fannar                 [72.....88]     [53....106]
+      80    lich                   [72.....88]     [53....106]
+      80    servant of whispers    [72.....88]     [53....106]
+      80    spellforged servitor   [72.....88]     [53....106]
+      78    merfolk impaler        [70.....85]     [52....103]
+      78    merfolk javelineer     [70.....85]     [52....103]
+      78    minotaur               [70.....85]     [52....103]
+      77    balrug                 [69.....84]     [51....102]
+      77    bennu                  [69.....84]     [51....102]
+      77    catoblepas             [69.....84]     [51....102]
+      77    death yak              [69.....84]     [51....102]
+      77    lorocyproca            [69.....84]     [51....102]
+      77    reaper                 [69.....84]     [51....102]
+      77    yaktaur captain        [69.....84]     [51....102]
+      76    cherub                 [68.....83]     [50....101]
+      76    death drake            [68.....83]     [50....101]
+      76    Harold                 [68.....83]     [50....101]
+      75    deep elf master archer [67.....82]     [50.....99]
+      75    halazid warlock        [67.....82]     [50.....99]
+      75    imperial myrmidon      [67.....82]     [50.....99]
+      75    spatial maelstrom      [67.....82]     [50.....99]
+      72    alligator              [64.....79]     [48.....95]
+      72    ice statue             [64.....79]     [48.....95]
+      72    naga sharpshooter      [64.....79]     [48.....95]
+      72    Nessos                 [64.....79]     [48.....95]
+      72    statue                 [64.....79]     [48.....95]
+      71    eidolon                [63.....78]     [47.....94]
+      71    entropy weaver         [63.....78]     [47.....94]
+      71    ghost moth             [63.....78]     [47.....94]
+      71    green death            [63.....78]     [47.....94]
+      71    hydra                  [63.....78]     [47.....94]
+      71    queen ant              [63.....78]     [47.....94]
+      71    vampire knight         [63.....78]     [47.....94]
+      71    vault guard            [63.....78]     [47.....94]
+      70    ancient champion       [63.....77]     [46.....93]
+      70    Josephine              [63.....77]     [46.....93]
+      70    obsidian statue        [63.....77]     [46.....93]
+      70    orange crystal statue  [63.....77]     [46.....93]
+      70    wretched star          [63.....77]     [46.....93]
+      67    deep elf annihilator   [60.....73]     [44.....89]
+      67    deep elf death mage    [60.....73]     [44.....89]
+      67    elephant               [60.....73]     [44.....89]
+      67    orc knight             [60.....73]     [44.....89]
+      67    spriggan defender      [60.....73]     [44.....89]
+      67    swamp dragon           [60.....73]     [44.....89]
+      67    Urug                   [60.....73]     [44.....89]
+      66    blizzard demon         [59.....72]     [44.....87]
+      66    ettin                  [59.....72]     [44.....87]
+      66    Executioner            [59.....72]     [44.....87]
+      66    great orb of eyes      [59.....72]     [44.....87]
+      66    Joseph                 [59.....72]     [44.....87]
+      66    rakshasa               [59.....72]     [44.....87]
+      66    satyr                  [59.....72]     [44.....87]
+      66    spark wasp             [59.....72]     [44.....87]
+      66    ugly thing             [59.....72]     [44.....87]
+      65    hell knight            [58.....71]     [43.....86]
+      65    jiangshi               [58.....71]     [43.....86]
+      65    mummy priest           [58.....71]     [43.....86]
+      65    salamander mystic      [58.....71]     [43.....86]
+      65    sea snake              [58.....71]     [43.....86]
+      65    skeletal warrior       [58.....71]     [43.....86]
+      64    crystal guardian       [57.....70]     [42.....85]
+      64    draconian              [57.....70]     [42.....85]
+      64    salamander             [57.....70]     [42.....85]
+      63    deep elf elementalist  [56.....69]     [42.....83]
+      63    deep elf sorcerer      [56.....69]     [42.....83]
+      63    Erica                  [56.....69]     [42.....83]
+      63    merfolk aquamancer     [56.....69]     [42.....83]
+      62    elemental wellspring   [55.....68]     [41.....82]
+      60    anaconda               [54.....66]     [40.....79]
+      60    flayed ghost           [54.....66]     [40.....79]
+      60    holy swine             [54.....66]     [40.....79]
+      60    Maurice                [54.....66]     [40.....79]
+      60    naga ritualist         [54.....66]     [40.....79]
+      60    Nergalle               [54.....66]     [40.....79]
+      60    slime creature         [54.....66]     [40.....79]
+      60    snapping turtle        [54.....66]     [40.....79]
+      60    soul eater             [54.....66]     [40.....79]
+      60    spriggan rider         [54.....66]     [40.....79]
+      60    tengu warrior          [54.....66]     [40.....79]
+      60    torpor snail           [54.....66]     [40.....79]
+      60    tyrant leech           [54.....66]     [40.....79]
+      60    warmonger              [54.....66]     [40.....79]
+      60    wind drake             [54.....66]     [40.....79]
+      59    hell hog               [53.....64]     [39.....78]
+      58    demonic crawler        [52.....63]     [38.....77]
+      58    ghost crab             [52.....63]     [38.....77]
+      58    toenail golem          [52.....63]     [38.....77]
+      56    octopode               [50.....61]     [37.....74]
+      55    centaur warrior        [49.....60]     [36.....73]
+      55    deep troll             [49.....60]     [36.....73]
+      55    demonic plant          [49.....60]     [36.....73]
+      55    eye of devastation     [49.....60]     [36.....73]
+      55    gelid demonspawn       [49.....60]     [36.....73]
+      55    glowing orange brain   [49.....60]     [36.....73]
+      55    glowing shapeshifter   [49.....60]     [36.....73]
+      55    infernal demonspawn    [49.....60]     [36.....73]
+      55    merfolk                [49.....60]     [36.....73]
+      55    ogre mage              [49.....60]     [36.....73]
+      55    oklob plant            [49.....60]     [36.....73]
+      55    orc high priest        [49.....60]     [36.....73]
+      55    plant                  [49.....60]     [36.....73]
+      55    shadow demon           [49.....60]     [36.....73]
+      55    shadow wraith          [49.....60]     [36.....73]
+      55    shining eye            [49.....60]     [36.....73]
+      55    shock serpent          [49.....60]     [36.....73]
+      55    sun demon              [49.....60]     [36.....73]
+      55    torturous demonspawn   [49.....60]     [36.....73]
+      55    two-headed ogre        [49.....60]     [36.....73]
+      55    vampire mage           [49.....60]     [36.....73]
+      55    withered plant         [49.....60]     [36.....73]
+      55    wolf spider            [49.....60]     [36.....73]
+      54    deep elf demonologist  [48.....59]     [36.....71]
+      54    Erolcha                [48.....59]     [36.....71]
+      54    spatial vortex         [48.....59]     [36.....71]
+      54    spriggan berserker     [48.....59]     [36.....71]
+      52    ancient zyme           [46.....57]     [34.....69]
+      52    apocalypse crab        [46.....57]     [34.....69]
+      52    curse skull            [46.....57]     [34.....69]
+      52    deathcap               [46.....57]     [34.....69]
+      52    dryad                  [46.....57]     [34.....69]
+      52    fire crab              [46.....57]     [34.....69]
+      52    orange demon           [46.....57]     [34.....69]
+      52    vault sentinel         [46.....57]     [34.....69]
+      52    war gargoyle           [46.....57]     [34.....69]
+      50    deep elf archer        [45.....55]     [33.....66]
+      50    faun                   [45.....55]     [33.....66]
+      49    large abomination      [44.....53]     [32.....65]
+      49    cyclops                [44.....53]     [32.....65]
+      49    death ooze             [44.....53]     [32.....65]
+      49    deep elf high priest   [44.....53]     [32.....65]
+      49    deep elf knight        [44.....53]     [32.....65]
+      49    ironbrand convoker     [44.....53]     [32.....65]
+      49    lindwurm               [44.....53]     [32.....65]
+      49    mana viper             [44.....53]     [32.....65]
+      49    manticore              [44.....53]     [32.....65]
+      49    moth of wrath          [44.....53]     [32.....65]
+      49    phantasmal warrior     [44.....53]     [32.....65]
+      49    spriggan air mage      [44.....53]     [32.....65]
+      49    thrashing horror       [44.....53]     [32.....65]
+      48    deep troll earth mage  [43.....52]     [32.....63]
+      48    deep troll shaman      [43.....52]     [32.....63]
+      48    tentacle               [43.....52]     [32.....63]
+      48    tentacle segment       [43.....52]     [32.....63]
+      45    earth elemental        [40.....49]     [30.....59]
+      45    guardian mummy         [40.....49]     [30.....59]
+      45    hellwing               [40.....49]     [30.....59]
+      45    peacekeeper            [40.....49]     [30.....59]
+      45    polar bear             [40.....49]     [30.....59]
+      45    ushabti                [40.....49]     [30.....59]
+      44    burning bush           [39.....48]     [29.....58]
+      44    Edmund                 [39.....48]     [29.....58]
+      44    freezing wraith        [39.....48]     [29.....58]
+      44    fungus                 [39.....48]     [29.....58]
+      44    guardian serpent       [39.....48]     [29.....58]
+      44    ice devil              [39.....48]     [29.....58]
+      44    komodo dragon          [39.....48]     [29.....58]
+      44    rust devil             [39.....48]     [29.....58]
+      44    silent spectre         [39.....48]     [29.....58]
+      44    spectral thing         [39.....48]     [29.....58]
+      44    spriggan druid         [39.....48]     [29.....58]
+      44    wandering mushroom     [39.....48]     [29.....58]
+      44    yaktaur                [39.....48]     [29.....58]
+      43    hippogriff             [38.....47]     [28.....57]
+      42    formicid               [37.....46]     [28.....55]
+      42    orb spider             [37.....46]     [28.....55]
+      42    water elemental        [37.....46]     [28.....55]
+      40    deep elf mage          [36.....44]     [26.....53]
+      40    Eustachio              [36.....44]     [26.....53]
+      40    Grum                   [36.....44]     [26.....53]
+      40    guardian golem         [36.....44]     [26.....53]
+      40    merfolk siren          [36.....44]     [26.....53]
+      40    necromancer            [36.....44]     [26.....53]
+      40    Psyche                 [36.....44]     [26.....53]
+      40    water nymph            [36.....44]     [26.....53]
+      40    wizard                 [36.....44]     [26.....53]
+      40    worldbinder            [36.....44]     [26.....53]
+      39    bog body               [35.....42]     [26.....51]
+      39    Grinder                [35.....42]     [26.....51]
+      39    kobold demonologist    [35.....42]     [26.....51]
+      39    Pikel                  [35.....42]     [26.....51]
+      39    Prince Ribbit          [35.....42]     [26.....51]
+      38    black mamba            [34.....41]     [25.....50]
+      38    efreet                 [34.....41]     [25.....50]
+      38    eye of draining        [34.....41]     [25.....50]
+      38    harpy                  [34.....41]     [25.....50]
+      38    hellion                [34.....41]     [25.....50]
+      38    hungry ghost           [34.....41]     [25.....50]
+      38    naga mage              [34.....41]     [25.....50]
+      38    phantom                [34.....41]     [25.....50]
+      38    queen bee              [34.....41]     [25.....50]
+      38    raiju                  [34.....41]     [25.....50]
+      38    shapeshifter           [34.....41]     [25.....50]
+      38    sixfirhy               [34.....41]     [25.....50]
+      38    smoke demon            [34.....41]     [25.....50]
+      38    spiny frog             [34.....41]     [25.....50]
+      38    tormentor              [34.....41]     [25.....50]
+      38    troll                  [34.....41]     [25.....50]
+      38    unseen horror          [34.....41]     [25.....50]
+      38    yak                    [34.....41]     [25.....50]
+      37    black sun              [33.....40]     [24.....49]
+      37    corrupter              [33.....40]     [24.....49]
+      37    demigod                [33.....40]     [24.....49]
+      36    basilisk               [32.....39]     [24.....47]
+      36    Duvessa                [32.....39]     [24.....47]
+      36    elf                    [32.....39]     [24.....47]
+      36    snaplasher vine segment[32.....39]     [24.....47]
+      36    vine stalker           [32.....39]     [24.....47]
+      35    Purgy                  [31.....38]     [23.....46]
+      35    swamp worm             [31.....38]     [23.....46]
+      33    air elemental          [29.....36]     [22.....43]
+      33    blink frog             [29.....36]     [22.....43]
+      33    chaos spawn            [29.....36]     [22.....43]
+      33    demonspawn             [29.....36]     [22.....43]
+      33    fire elemental         [29.....36]     [22.....43]
+      33    hog                    [29.....36]     [22.....43]
+      33    hornet                 [29.....36]     [22.....43]
+      33    human                  [29.....36]     [22.....43]
+      33    neqoxec                [29.....36]     [22.....43]
+      33    rime drake             [29.....36]     [22.....43]
+      33    soldier ant            [29.....36]     [22.....43]
+      33    vampire                [29.....36]     [22.....43]
+      33    wraith                 [29.....36]     [22.....43]
+      33    ynoxinul               [29.....36]     [22.....43]
+      33    large zombie           [29.....36]     [22.....43]
+      32    blood saint            [28.....35]     [21.....42]
+      32    death scarab           [28.....35]     [21.....42]
+      32    jumping spider         [28.....35]     [21.....42]
+      32    warg                   [28.....35]     [21.....42]
+      31    Blork the orc          [27.....34]     [20.....41]
+      31    molten gargoyle        [27.....34]     [20.....41]
+      31    orc sorcerer           [27.....34]     [20.....41]
+      31    red devil              [27.....34]     [20.....41]
+      31    tengu conjurer         [27.....34]     [20.....41]
+      30    fire vortex            [27.....33]     [20.....39]
+      30    Sigmund                [27.....33]     [20.....39]
+      30    Sonja                  [27.....33]     [20.....39]
+      30    steam dragon           [27.....33]     [20.....39]
+      30    swamp drake            [27.....33]     [20.....39]
+      28    block of ice           [25.....30]     [18.....37]
+      28    orc warrior            [25.....30]     [18.....37]
+      28    tarantella             [25.....30]     [18.....37]
+      27    small abomination      [24.....29]     [18.....35]
+      27    acid dragon            [24.....29]     [18.....35]
+      27    big kobold             [24.....29]     [18.....35]
+      27    black bear             [24.....29]     [18.....35]
+      27    crocodile              [24.....29]     [18.....35]
+      27    deep dwarf             [24.....29]     [18.....35]
+      27    dwarf                  [24.....29]     [18.....35]
+      27    gargoyle               [24.....29]     [18.....35]
+      27    hell hound             [24.....29]     [18.....35]
+      27    ice beast              [24.....29]     [18.....35]
+      27    naga                   [24.....29]     [18.....35]
+      27    necrophage             [24.....29]     [18.....35]
+      27    ogre                   [24.....29]     [18.....35]
+      27    redback                [24.....29]     [18.....35]
+      27    saltling               [24.....29]     [18.....35]
+      27    large simulacrum       [24.....29]     [18.....35]
+      27    sky beast              [24.....29]     [18.....35]
+      27    slave                  [24.....29]     [18.....35]
+      27    vampire mosquito       [24.....29]     [18.....35]
+      27    water moccasin         [24.....29]     [18.....35]
+      27    wyvern                 [24.....29]     [18.....35]
+      26    ballistomycete         [23.....28]     [17.....34]
+      26    gnoll sergeant         [23.....28]     [17.....34]
+      25    lost soul              [22.....27]     [16.....33]
+      24    Dowan                  [21.....26]     [16.....31]
+      24    Ijyb                   [21.....26]     [16.....31]
+      24    meliai                 [21.....26]     [16.....31]
+      24    Menkaure               [21.....26]     [16.....31]
+      24    shadow                 [21.....26]     [16.....31]
+      24    snaplasher vine        [21.....26]     [16.....31]
+      24    spriggan               [21.....26]     [16.....31]
+      22    bullfrog               [19.....24]     [14.....29]
+      22    centaur                [19.....24]     [14.....29]
+      22    dream sheep            [19.....24]     [14.....29]
+      22    fire bat               [19.....24]     [14.....29]
+      22    oklob sapling          [19.....24]     [14.....29]
+      22    starspawn tentacle     [19.....24]     [14.....29]
+      22 starspawn tentacle segment[19.....24]     [14.....29]
+      22    tengu                  [19.....24]     [14.....29]
+      22    wolf                   [19.....24]     [14.....29]
+      21    flying skull           [18.....23]     [14.....27]
+      21    lightning spire        [18.....23]     [14.....27]
+      20    boggart                [18.....22]     [13.....26]
+      20    insubstantial wisp     [18.....22]     [13.....26]
+      20    Terence                [18.....22]     [13.....26]
+      19    Crazy Yiuf             [17.....20]     [12.....25]
+      19    drowned soul           [17.....20]     [12.....25]
+      19    gnoll shaman           [17.....20]     [12.....25]
+      19    mummy                  [17.....20]     [12.....25]
+      18    barachi                [16.....19]     [12.....23]
+      18    howler monkey          [16.....19]     [12.....23]
+      18    scorpion               [16.....19]     [12.....23]
+      18    worm                   [16.....19]     [12.....23]
+      17    felid                  [15.....18]     [11.....22]
+      16    electric eel           [14.....17]     [10.....21]
+      16    floating eye           [14.....17]     [10.....21]
+      16    hell rat               [14.....17]     [10.....21]
+      16    hound                  [14.....17]     [10.....21]
+      16    iguana                 [14.....17]     [10.....21]
+      16    iron imp               [14.....17]     [10.....21]
+      16    jelly                  [14.....17]     [10.....21]
+      16    killer bee             [14.....17]     [10.....21]
+      16    lava snake             [14.....17]     [10.....21]
+      16    porcupine              [14.....17]     [10.....21]
+      16    Robin                  [14.....17]     [10.....21]
+      16    wight                  [14.....17]     [10.....21]
+      16    worker ant             [14.....17]     [10.....21]
+      15    battlesphere           [13.....16]     [10.....19]
+      15    briar patch            [13.....16]     [10.....19]
+      15    dancing weapon         [13.....16]     [10.....19]
+      15    fulminant prism        [13.....16]     [10.....19]
+      15    Natasha                [13.....16]     [10.....19]
+      15    orc priest             [13.....16]     [10.....19]
+      15    orc wizard             [13.....16]     [10.....19]
+      15    quasit                 [13.....16]     [10.....19]
+      15    spectral weapon        [13.....16]     [10.....19]
+      14    player ghost           [12.....15]     [9......18]
+      14    player illusion        [12.....15]     [9......18]
+      13    crimson imp            [11.....14]     [8......17]
+      13    gnoll                  [11.....14]     [8......17]
+      12    golden eye             [10.....13]     [8......15]
+      12    ooze                   [10.....13]     [8......15]
+      11    adder                  [9......12]     [7......14]
+      11    river rat              [9......12]     [7......14]
+      11    shadow imp             [9......12]     [7......14]
+      11    simulacrum             [9......12]     [7......14]
+      11    small simulacrum       [9......12]     [7......14]
+      11    white imp              [9......12]     [7......14]
+      10    dart slug              [9......11]     [6......13]
+      10    halfling               [9......11]     [6......13]
+      10    vampire bat            [9......11]     [6......13]
+       9    Jessica                [8.......9]     [6......11]
+       7    lava orc               [6.......7]     [4.......9]
+       7    orc                    [6.......7]     [4.......9]
+       7    ufetubus               [6.......7]     [4.......9]
+       7    zombie                 [6.......7]     [4.......9]
+       7    small zombie           [6.......7]     [4.......9]
+       6    training dummy         [5.......6]     [4.......7]
+       5    giant cockroach        [4.......5]     [3.......6]
+       5    hobgoblin              [4.......5]     [3.......6]
+       5    jackal                 [4.......5]     [3.......6]
+       5    leopard gecko          [4.......5]     [3.......6]
+       5    quokka                 [4.......5]     [3.......6]
+       4    goblin                 [3.......4]     [2.......5]
+       3    ball python            [2.......3]     [2.......3]
+       3    bat                    [2.......3]     [2.......3]
+       3    kobold                 [2.......3]     [2.......3]
+       3    macabre mass           [2.......3]     [2.......3]
+       3    toadstool              [2.......3]     [2.......3]
+       2    frilled lizard         [1.......2]     [1.......2]
+       2    rat                    [1.......2]     [1.......2]
+       1    ballistomycete spore   [0.......1]     [0.......1]
+       1    ball lightning         [0.......1]     [0.......1]
+       1    butterfly              [0.......1]     [0.......1]
+       1    crawling corpse        [0.......1]     [0.......1]
+       1    ghost                  [0.......1]     [0.......1]
+       1    lurking horror         [0.......1]     [0.......1]
+       1    pillar of salt         [0.......1]     [0.......1]
+       1    shadow                 [0.......1]     [0.......1]
+       1    sensed monster         [0.......1]     [0.......1]
+       1    easy sensed monster    [0.......1]     [0.......1]
+       1    friendly sensed monster[0.......1]     [0.......1]
+       1    nasty sensed monster   [0.......1]     [0.......1]
+       1    tough sensed monster   [0.......1]     [0.......1]
+       1    trivial sensed monster [0.......1]     [0.......1]
