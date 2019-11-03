@@ -220,29 +220,27 @@ class Energy(object):
 
 
 class HP(object):
-    def __init__(self, hp_dice):
+    def __init__(self, hd, avg_hpx10):
         '''
-        example: the Iron Golem, hpdice={15,7,4,0}
-            15*7 < hp < 15*(7+4),
-            105 < hp < 165
-        hp will be around 135 each time.
+            Monsters' hp will vary between +-33% of that value; 95% of the
+            time within +-10%.
         '''
-        self.hp_dice = hp_dice
-        self.min_hp = 0
-        self.rand_hp = 0
-        self.add_hp = 0
-        self.min = self.add_hp + self.hd * self.min_hp
-        self.max = self.add_hp + self.hd * (self.min_hp + self.rand_hp)
-        self.avg = self.add_hp + self.hd * (self.min_hp + int(self.rand_hp / 2.))
+        self.hd = hd
+        self.avg = int(avg_hpx10 / 10)
+        self.min = int(self.avg * 0.67)
+        self.min10 = int(self.avg * 0.90)
+        self.max = int(self.avg * 1.33)
+        self.max10 = int(self.avg * 1.1)
+
 
     @property
     def fixed(self):
         return self.min == self.max
 
     def __repr__(self):
-        return "(%3s..[%3s]..%3s)   %2dd%-2d[%+d]%+4d" % (
-                self.min, self.avg, self.max,
-                self.hd, self.min_hp, self.rand_hp, self.add_hp)
+        return "(%3s..[%3s]..%3s)   (%3s..[%3s]..%3s)" % (
+                self.min10, self.avg, self.max10,
+                self.min, self.avg, self.max)
 
 
 class Monster(object):
@@ -260,7 +258,7 @@ class Monster(object):
         mr_modifier,
         attacks,
         hd,
-        hp,
+        avg_hpx10,
         ac,
         ev,
         spellbook,
@@ -335,9 +333,8 @@ class Monster(object):
                 at_flavor = ''
             self.attacks.append((int(damage), at_type[3:], at_flavor))
 
-        self.hp_dice      = int(hd)
         self.hd           = int(hd)
-        self.hp           = int(hp)
+        self.hp           = HP(int(hd), float(avg_hpx10))
         self.ac           = int(ac)
         self.ev           = int(ev)
         self.spellbook    = spellbook
@@ -418,7 +415,7 @@ def main():
             print((" %-22.22s  %s" % (m, s.strip(','))))
 
     def print_hp():
-        title('Monsters by Average HP, [*]: fixed')
+        title('Monsters by Average HP. 95%=>(90%..[avg]..110%)  5%=>(67%..[avg]..133%) ')
         for m in sorted(monsters, key=attrgetter('hp.avg'), reverse=True):
             if m.hp.fixed:
                 dot = '[*]'
