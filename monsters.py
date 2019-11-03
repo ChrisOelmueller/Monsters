@@ -31,8 +31,7 @@ def read_mon_data(h=mon_data_path, debug=False):
                   "(", data)
 #
     data = re.sub("AXED_MON(.*)", "", data)
-    data = re.sub(r"DUMMY\(.*\)", "", data) #help
-#TODO Convert dummies into actual monsters for newlife
+    data = re.sub(r"(?ms)DUMMY\(.*?\)", "", data)
 
 # Strip out block comments
     data = re.sub("(?ms)\/\*.*?\*\/", "", data)
