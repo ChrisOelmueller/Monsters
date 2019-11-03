@@ -234,9 +234,8 @@ class HP(object):
         return self.min == self.max
 
     def __repr__(self):
-        return "(%3s..[%3s]..%3s)   (%3s..[%3s]..%3s)" % (
-                self.min10, self.avg, self.max10,
-                self.min, self.avg, self.max)
+        return "[{:.<4d}.{:.>4}]     [{:.<4d}.{:.>4}]"\
+               .format(self.min10, self.max10, self.min, self.max)
 
 
 class Monster(object):
@@ -411,16 +410,25 @@ def main():
 
     def print_hp(f=None):
         f = title('Monsters by Average HP. '
-                '95%=>(90%..[avg]..110%)'
-                '5%=>(67%..[avg]..133%) ', f)
+                  '      95%: [90%..110%] 5%: [67%..133%]', f)
         for m in sorted(monsters, key=attrgetter('hp.avg'), reverse=True):
+            # Skip some silly things
+            if m.hp.max <= 0:
+                # templates etc
+                continue
+            if m.hp.avg >= 1000000:
+                # test spawner, test statue
+                continue
+
             if m.hp.fixed:
                 dot = '[*]'
                 mhp = ''
             else:
                 dot = '   '
                 mhp = m.hp
-            print(("%s%4d  %-22.22s  %s" % (dot, m.hp.avg, m, mhp)), file=f)
+            mname = "%-23.26s" % m
+            mname = "{:>27}".format(mname)
+            print(("%s%5d%s%-15s" % (dot, m.hp.avg, mname, mhp)), file=f)
 
     def print_dragons(f=None):
         f = title('Dragons by HD', f)
