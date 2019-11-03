@@ -13,8 +13,6 @@ from operator import attrgetter, itemgetter
 
 mon_data_path = os.path.join(os.path.expanduser('~'),
                              "crawl/crawl-ref/source/mon-data.h")
-old_data_path = os.path.join(os.path.expanduser('~'),
-                             "crawl/crawl-ref/source/old-mon-data.h")
 # Constants
 MAG_IMMUNE = 270
 BINARY_RESISTS = set(('curare', 'drown', 'hellfire', 'sticky'))
@@ -83,8 +81,6 @@ def read_mon_data(h=mon_data_path, debug=False):
     return eval(data)
 
 mondata = read_mon_data()
-olddata = mondata
-#olddata = read_mon_data(old_data_path)
 
 
 class Resistance(object):
@@ -395,13 +391,9 @@ def title(heading, f, x='-'):
 
 def main():
     all_monsters = {}
-    old_monsters = {}
     for m in mondata:
         mons = Monster(*m)
         all_monsters[mons.id] = mons
-    for m in olddata:
-        mons = Monster(*m)
-        old_monsters[mons.id] = mons
     monsters = sorted(all_monsters.values(), key=attrgetter('id'))
 
     def print_attacks(f=None):
@@ -464,26 +456,14 @@ def main():
         for m in sorted(monsters, key=attrgetter('id')):
             print((" %-22.22s %s" % (m, m.resists)), file=f)
 
-    def print_mr(f=None, diff=False):
+    def print_mr(f=None):
         f = title('Monsters by MR, [*]: immune', f)
         for m in sorted(monsters, key = attrgetter('mr'), reverse=True):
-            if diff:
-                try:
-                    old_mr = old_monsters[m.id].mr
-                except KeyError:
-                    continue  # Monster removed since
             if m.mr_immune:
                 mr = '[*]'
             else:
                 mr = '%3d' % m.mr
-            if diff:
-                if old_mr == MAG_IMMUNE:
-                    old_mr = '[*]'
-                else:
-                    old_mr = '%3d' % old_mr
-                print(("  %s  %s  %s" % (mr, old_mr, m)), file=f)
-            else:
-                print(("  %s  %s" % (mr, m)), file=f)
+            print(("  %s  %s" % (mr, m)), file=f)
 
     def print_speed(f=None):
         f = title('Monsters by move speed (player: usually 10)', f)
